@@ -1,0 +1,4 @@
+The purpose of the "Hello, World!" program is to
+	see whether your coding environment is working and usable
+	get a grasp of how to make computers run your codes
+	see the basic syntax of the language you're coding in

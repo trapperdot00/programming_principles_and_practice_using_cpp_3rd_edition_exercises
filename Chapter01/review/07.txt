@@ -1,0 +1,2 @@
+the purpose of the "#include" directive is to load a header file into our code
+by copying its contents to the given directive's location

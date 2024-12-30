@@ -1,0 +1,3 @@
+the difference between a source file and an object file is that
+source files can easily be understood by humans
+but object files are designed in a way that computers can understand its contents efficiently

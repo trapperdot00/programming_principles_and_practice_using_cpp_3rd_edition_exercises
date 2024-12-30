@@ -1,0 +1,2 @@
+the compiler's purpose is to generate object files from our source files through translation
+and to notice errors and indicate them to us, if there's any (only code without errors can be translated)

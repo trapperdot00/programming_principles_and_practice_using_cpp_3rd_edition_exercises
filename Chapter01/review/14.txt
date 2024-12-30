@@ -1,0 +1,3 @@
+a comment is text in the source code that is ignored by the compiler
+it is a way of communication between programmers to describe the
+design choices for the code, that code can not communicate alone

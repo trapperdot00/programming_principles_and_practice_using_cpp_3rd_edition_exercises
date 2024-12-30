@@ -1,0 +1,34 @@
+//				character sequence to start a single line comment
+executable		code that has been compiled and now is in runnable format
+main()			the necessary function of any C++ program
+				the operating system calls this function
+				its return value indicates the success of the program: nonzero is failure, zero is success
+<<				the operator used to print characters to the console
+function		a callable named sequence of instructions
+				four parts: return type, name, parameter list, function body
+object code		the compiler generates this from source code files,
+				this is understandable by computers
+C++				programming language that supports object oriented programming, functional programming,
+				metaprogramming. it is a compiled language
+header file		file that you can put code into that can be #included in other source files, which means it is copied
+output			output of a code can be the characters printed to the terminal, or files
+comment			text ignored by the compiler that can help programmers understand the logic of the code
+IDE				integrated development environment: makes coding more comfortable and faster by
+				color coding keywords, simplifying compilation and the ability to debug
+program			a program is a set of instructions to the computer in a format that is understandable by the computer
+compiler		the program that generates object code files from source files
+import			the keyword used to load a specific named module into our program, and make it accessible to us
+source code		the human-readable code, without comments
+compile-time	compile-time errors are noticed by the compiler, and it is easier to debug than link-time errors
+error			when something acts not according to plan
+library			the standard library (STL) is a collection of codes that we can use in our programs freely
+statement		a statement is a code part that is equal to one sentence, it is terminated by a semicolon
+cout			the object that we can use to write characters to the terminal
+linker			the program that links multiple object code files and makes an executable from them
+module			a C++ language feature that replaces the #include directives and header files,
+				allows us to load facilities from other source files
+#include		a C++ language feature to copy and paste a header or source file into our source or header file
+std				the standard library's namespace prefix
+command line	the terminal (CLI), a text based display
+bug				an error in a program that makes it misbehave
+debugging		the act of finding and eliminating bugs

@@ -1,0 +1,5 @@
+The four parts of a function is
+	the return type: the type of the returned value from the function, if it even has any
+	the name of the function: so that we can call that function from our codes and refer to it
+	the parenthesized parameter list: the list of parameters accepted
+	the function body: the actions that our function has to do

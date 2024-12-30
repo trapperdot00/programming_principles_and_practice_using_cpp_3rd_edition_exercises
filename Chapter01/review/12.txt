@@ -1,0 +1,5 @@
+an IDE could make coding easier by
+	color coding certain keywords in the code
+	simplifying compilation to a press of a button
+	highlighting errors in the code
+	having helpful debugging features

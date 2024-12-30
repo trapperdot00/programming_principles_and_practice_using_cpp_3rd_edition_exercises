@@ -1,0 +1,2 @@
+an executable is a file that you can run on computers
+it is hardly portable between computers

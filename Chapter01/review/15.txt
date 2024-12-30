@@ -1,0 +1,3 @@
+the purpose of a drill is to reinforce practical programming skills
+and give experience with programming tools
+it involves making small changes to existing codes, and it won't ask to invent new things
