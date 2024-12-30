@@ -1,0 +1,2 @@
+a prompt is a message encouraging the user to take action
+for example to enter text

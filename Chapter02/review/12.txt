@@ -1,0 +1,2 @@
+a variable is a named object,
+a named place in the memory that holds a value

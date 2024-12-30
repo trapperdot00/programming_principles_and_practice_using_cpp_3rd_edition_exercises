@@ -1,0 +1,5 @@
+if number is already declared, then we could use this
+code to prompt the user and store the read integer into number:
+
+std::cout << "Enter an integer: ";
+std::cin >> number;

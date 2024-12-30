@@ -1,0 +1,8 @@
+we can use these notations to initialize variables:
+	// narrow
+	int i = 5;
+	int j(5);
+
+	// don't narrow
+	int k{5};
+	int l = {5};

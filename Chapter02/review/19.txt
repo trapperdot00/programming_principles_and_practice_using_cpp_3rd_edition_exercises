@@ -1,0 +1,22 @@
+int support these operators:
+	++	increment by one
+	--	decrement by one
+	+	addition
+	+=	compound addition
+	-	subtraction
+	-=	compound subtraction
+	*	multiplication
+	*=	compound multiplication
+	/	division
+	/=	compound division
+	%	modulo
+	%=	compound modulo
+	=	assignment
+	==	equality
+	!=	inequality
+	<	less than
+	>	greater than
+	<=	less than or equal
+	>=	greater than or equal
+	<<	output operator
+	>>	input operator

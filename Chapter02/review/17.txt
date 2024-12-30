@@ -1,0 +1,2 @@
+initialization is done initially, when defining a variable, when it has no value associated with it
+assignment is changing the previous value to another one

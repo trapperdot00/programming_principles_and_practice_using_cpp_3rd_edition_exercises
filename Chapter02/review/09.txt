@@ -1,0 +1,1 @@
+an object is a place in the memory that holds a value

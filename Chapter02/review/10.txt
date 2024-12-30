@@ -1,0 +1,1 @@
+a literal is a value whose type can be easily identified by looking at it

@@ -1,0 +1,2 @@
+a conversion from double to int can be bad, because it truncates the part after the floating point to fit into the int type
+example: 3.14 -> 3; 3.99 -> 3

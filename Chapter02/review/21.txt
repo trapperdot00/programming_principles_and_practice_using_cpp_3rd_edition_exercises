@@ -1,0 +1,6 @@
+these names can cause confusion:
+	foo
+	f0o
+	f1nal
+	fInal
+	final

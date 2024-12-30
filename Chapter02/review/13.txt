@@ -1,0 +1,4 @@
+the typical size of a
+	char is 1 byte, 8 bits
+	int is 4 bytes, 32 bits
+	double is 8 bytes, 64 bits

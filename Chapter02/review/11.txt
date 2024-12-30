@@ -1,0 +1,6 @@
+there are these literals:
+	integer literal: 42, -12
+	floating-point literal: 3.14, .13
+	character literal: 'X'
+	string literal: "something"
+	boolean literal: true / false

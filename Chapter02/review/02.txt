@@ -1,0 +1,2 @@
+we use the >> operator to read into a variable
+this operator is called the input operator in this case

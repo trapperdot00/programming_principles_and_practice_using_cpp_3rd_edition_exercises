@@ -1,0 +1,3 @@
+string concatenation in C++ is done using the + and += operator between two strings
+a + b creates a new string that holds the values of a and then b
+a += b adds b's contents to a, changing only a's value

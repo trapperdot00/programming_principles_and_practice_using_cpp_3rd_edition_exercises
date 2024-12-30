@@ -1,0 +1,1 @@
+a definition is the statement that defines a variable, and usually provides an initial value for it

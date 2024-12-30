@@ -1,0 +1,2 @@
+a program is type safe when all objects are used only according to the rules for their types.
+it is important because our programs could produce weird output if it isn't fully type safe

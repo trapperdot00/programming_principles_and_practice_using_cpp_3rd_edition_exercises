@@ -1,0 +1,32 @@
+assignment		changing an object's value to another
+definition		a declaration that sets aside memory for an object
+operation		a possible operation for a type
+cin				the object used to read from the standard input into a specified object
+increment		++ operator, adds one to an int
+operator		a built-in operation's notation
+concatenation	the act of putting two strings together ("ab" + "cd" = "abcd")
+initialization	providing an initial value for an object
+type			defines a set of possible operations and values for an object
+conversion		converting an object of a type to another type, narrowing of widening can happen
+name			the name of a variable
+type safety		dictates that an object of a type can only be used according to its definition
+declaration		a statement that gives a name and a type to an object
+narrowing		a conversion that may lose information
+value			a set of bits interpreted according to a type
+decrement		-- operator, subtracts one from an int
+object			some memory that holds a value of a given type
+variable		a named object
+widening		a conversion that preserves information
+truncation		conversion from double to int, truncates the numbers after the decimal point
+int				integer, usually 4 bytes of size, can hold integers
+double			double-precision floating point number, usually 8 bytes of size
+string			a standard library type that represents a sequence of characters
+auto			a keyword that indicates that a variable gets its type from its initialized
+==				equality operator, compares the equality of two objects
+!=				inequality operator
+=				assignment operator
+++				increment operator
+<				less-than operator
+<=				less-than or equal operator
+>				greater-than operator
+>=				greater-than or equal operator

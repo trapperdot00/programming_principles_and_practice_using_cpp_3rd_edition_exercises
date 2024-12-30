@@ -1,0 +1,2 @@
+the = operator assigns to the object on the left hand side, returns the left object
+whereas the == operator checks for equality and returns bool

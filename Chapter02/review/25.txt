@@ -1,0 +1,3 @@
+a conversion is unsafe if data loss occurs, such as in 3.14 -> 3 when converting a double to int
+unsafe, when the value can't fit into the specified type, when underflow or overflow occurs
+safe if the specified type can hold a bigger range of values than our used type

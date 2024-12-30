@@ -1,0 +1,2 @@
+we can use auto to make typing longer, harder to write typenames easier and faster
+and we can use auto to deduce the type from the given initializer when defining variables

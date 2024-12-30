@@ -1,0 +1,11 @@
+This_little_pig		// legal
+This_1_is fine		// illegal: space is not allowed
+2_For_1_special		// illegal: can not start with number
+latest thing		// illegal: space is not allowed
+George@home			// illegal: special characters not allowed aside from underscores
+_this_is_ok			// should not be used: variable names starting with underscores are reserved for implementation and system entities only
+MineMineMine		// legal
+number				// legal
+correct?			// illegal: special characters not allowed
+stroustrup.com		// illegal: special characters not allowed
+$PATH				// illegal: special characters not allowed

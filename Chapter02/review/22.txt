@@ -1,0 +1,8 @@
+don't define variables with names that differ in their cases
+choose meaningful names with easily understandable meanings
+don't use acronyms or abbreviations
+use x only for local variables or parameters
+use i only for loop indexes
+don't use overly long names
+don't use fully uppercase names, as those are reserved for macros
+avoid names that are easy to mistype or misread or confuse (0 o O, i 1 I l)
