@@ -1,0 +1,2 @@
+A computation is the action of producing some output from some input
+that happens during the execution of a program

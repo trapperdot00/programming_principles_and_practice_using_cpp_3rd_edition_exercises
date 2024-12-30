@@ -1,0 +1,1 @@
+the size() member function returns the count of elements in the vector

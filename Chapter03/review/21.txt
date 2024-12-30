@@ -1,0 +1,3 @@
+you can do these to strings but not ints:
+ - concatenate +
+ - compound concatenate +=

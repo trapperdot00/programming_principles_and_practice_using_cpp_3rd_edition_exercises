@@ -1,0 +1,2 @@
+a symbolic constant is a constant value that is associated with a name (identifier)
+we use them to avoid using magic constants, to give the values meaning

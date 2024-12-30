@@ -1,0 +1,4 @@
+a magic constant is a constant literal value without a descriptive name
+for example:
+ - using 22/7 instead of pi in an expression would make the code confusing
+ - using 149898 in a computation hides our intent

@@ -1,0 +1,2 @@
+an lvalue is an expression that can appear on the left-hand side of an assignment
+it gives direct access to the object, and we may modify its value

@@ -1,0 +1,3 @@
+the for-loop should be used when a loop with a simple initializer, condition, and increment is needed,
+the control variable is always changed the same amount after each iteration
+and we don't want to use the control variable after the loop

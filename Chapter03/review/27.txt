@@ -1,0 +1,3 @@
+the vector is useful and popular because it is simple to use,
+it provides fast random access to its elements because it stores them in continuous memory,
+and it is basically an array with a dynamic size

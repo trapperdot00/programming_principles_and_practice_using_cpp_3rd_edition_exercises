@@ -1,0 +1,19 @@
+a for-loop that prints every element of a vector:
+
+std::vector<int> vec = { /* ... */ };
+
+1)	// with indexes (watch out, the elements may be modified)
+	for (std::vector<int>::size_type i = 0; i != vec.size(); ++i)
+		std::cout << vec[i] << ' ';
+
+2)	// with iterators (read only elements)
+	for (std::vector<int>::const_iterator it = vec.cbegin(); it != vec.cend(); ++it)
+		std::cout << *it << ' ';
+
+3)	// range-for-loop with const references (read only elements)
+	for (const int &i : vec)
+		std::cout << i << ' ';
+
+4) // range-for-loop with copied elements (can be expensive) (modifying only changes local copy)
+	for (int i : vec)
+		std::cout << i << ' ';

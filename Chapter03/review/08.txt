@@ -1,0 +1,6 @@
+a literal is a constant expression whose type can be easily identified from its value
+ - integer literal: 1 42 -1
+ - floating-point literal: 0.1 3.2 .1
+ - character literal: 'a' 'z' '0' ' ' '\n'
+ - string literal: "" "wow" "\n\n"
+ - boolean literal: true false

@@ -1,0 +1,6 @@
+we can sort the elements in a vector using
+
+std::sort(), with two iterators
+std::ranges::sort(), taking the container itself,
+
+or write our code to do so

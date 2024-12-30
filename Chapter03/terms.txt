@@ -1,0 +1,29 @@
+abstraction				the act of hiding implementation details behind a convenient interface
+range-for-statement		a for-statement that allows directly going over elements of a container
+push_back()				puts an element to the back of a container
+for-statement			an iteration statement that specifies an initializer, a condition, an operation that is run after each iteration, and a statement
+function				a named sequence of statements that can be called, has a return type, an identifier, a parenthesized parameter list and a body that is a block
+repetition				iteration
+computation				taking some input and producing some output
+if-statement			a selection statement, that may choose between two alternatives with an else based on a condition
+rvalue					a value that can stand on the right-hand side of an assignment, provides the value
+conditional statement	a selection statement that uses the ?: operator to select between two alternatives
+increment				++, increments an integer or a floating-point value by one, it requires an lvalue: modifies the object
+selection				used to select among alternatives, with the if-statement, switch-statement or a conditional
+declaration				introducing the type and a name of a variable, or the return type, name and parameters of a function
+input					any kinds of data that is passed to our program or parts of program
+size()					container member function that returns the number of elements
+definition				setting aside memory for an object; function definition: the function declaration with a body, can be elsewhere
+iteration				a loop execution
+sort()					a standard library function, that sorts the elements in a container
+divide-and-conquer		separating a large problem into more, smaller pieces
+loop					an iteration-statement: for-loop, range-for-loop, while-loop
+statement				basic unit controlling the execution flow
+else					the statement under an else is executed if the condition in the if-statement evaluates to false
+lvalue					a value that can stand on the left-hand side of an assignment, it provides direct access to the object
+switch-statement		a selection-statement that compares an integer, char or an enumeration to constant values
+while-statement			an iteration-statement that consists of a condition and a body
+member function			functions defined inside a class
+vector					an STL container, that provides fast random access to its elements, grows dynamically and is easy to use
+expression				computes a value from a set of operands and an optional operator
+output					the output from a program, part of a program, that other parts can manage as input

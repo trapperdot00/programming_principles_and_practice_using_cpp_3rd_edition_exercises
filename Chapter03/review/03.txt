@@ -1,0 +1,4 @@
+the three requirements a programmer must keep in mind when expressing computations are:
+ - make the program produce correct values
+ - make it simple
+ - do it efficiently

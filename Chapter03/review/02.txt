@@ -1,0 +1,16 @@
+input is the data that the program receives
+there can be inputs from multiple sources:
+ - from the keyboard
+ - from files
+ - from other input devices
+ - from other programs
+ - from other parts of the program
+
+an output is the calculated value from the inputs
+there can also be outputs to multiple destinations:
+ - to the screen
+ - to files
+ - to external devices
+ - to other programs
+ - to other parts of the program
+

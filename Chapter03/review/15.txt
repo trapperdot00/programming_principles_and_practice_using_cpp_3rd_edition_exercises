@@ -1,0 +1,5 @@
+the most common problems with switch statements:
+ - we can only compare integers, chars and enumerations
+ - we can only compare against constant expressions
+ - we can not use the same value in multiple case labels
+ - forgotting to terminate the case with a break, causing a fall-through

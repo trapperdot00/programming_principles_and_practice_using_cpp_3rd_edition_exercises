@@ -1,0 +1,3 @@
+char foo(int x)
+means that a function with the identifier 'foo' returns a char, and takes an int as parameter
+the int parameter is called x in the function

@@ -1,0 +1,9 @@
+you can do these to ints, but not strings:
+ - increment ++
+ - decrement --
+ - add arithmetically +
+ - subtract -
+ - multiply *
+ - divide /
+ - modulo %
+ - compound assign += -= *= /= %=

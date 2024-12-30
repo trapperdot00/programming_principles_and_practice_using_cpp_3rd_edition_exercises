@@ -1,0 +1,4 @@
+the operators that can be used on integers but not on floating-point values:
+ - modulo %
+ - compound modulo assignment %=
+ - bitwise operators ~ & | ^ << >>

@@ -1,0 +1,10 @@
+a header line in a for-loop has this syntax:
+
+for (initializer; condition; expression)
+	statement
+
+	the initializer is first executed
+loops until condition is false:
+	then the condition is checked
+	then the statement in its body is executed
+	after execution, the expression is evaluated

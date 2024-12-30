@@ -1,0 +1,12 @@
+operators that can be used for strings:
+ - assignment =
+ - concatenation +
+ - compound assignment concatenation +=
+ - output operator <<
+ - input operator >>
+ - equality ==
+ - inequality !=
+ - less than <
+ - less than or equal <=
+ - greater than >
+ - greater than or equal >=

@@ -1,0 +1,5 @@
+we should define a separate function for part of a program, because it
+ - makes the computation logically separate
+ - makes the program text clearer
+ - allows us to reuse that function later
+ - eases testing

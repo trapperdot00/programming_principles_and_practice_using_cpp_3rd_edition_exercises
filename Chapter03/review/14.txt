@@ -1,0 +1,2 @@
+a programmer would prefer a switch statement if they had to compare a value
+of an integer, char or enumeration against various constants

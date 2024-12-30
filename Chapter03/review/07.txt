@@ -1,0 +1,2 @@
+a constant expression is an expression of a literal type whose value is known (evaluated) at compile-time
+its value can not be changed

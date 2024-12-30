@@ -1,0 +1,3 @@
+vector<char> alphabet(26);
+
+this initializes a vector that can hold chars with 26 default-initialized chars

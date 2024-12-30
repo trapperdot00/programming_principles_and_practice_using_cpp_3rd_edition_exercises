@@ -1,0 +1,18 @@
+we can use these operators on both integers and floating-point values:
+ - assignment =
+ - addition +
+ - subtraction -
+ - multiplication *
+ - division /
+ - increment ++
+ - decrement --
+ - compound assignments += -= *= /=
+ - output operator <<
+ - input operator >>
+ - equality ==
+ - inequality !=
+ - greater than >
+ - less than <
+ - greater than or equal >=
+ - less than or equal <=
+ - unary minus -
