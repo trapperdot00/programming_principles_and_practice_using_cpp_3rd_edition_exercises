@@ -1,0 +1,6 @@
+a hexagon consists of six triangles, whose angles are 60° each
+the six triangles are equilateral triangles, every side is 2 cm
+the height of the triangles is the square root of three
+we can calculate (or rather estimate) the hexagon's area by this formula: area = 6 * a * h / 2
+subtituted to: 6 * 2 * sqrt(3) / 2
+is equal to: 10.3623

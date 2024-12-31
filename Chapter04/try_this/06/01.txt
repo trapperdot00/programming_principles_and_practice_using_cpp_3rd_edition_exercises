@@ -1,0 +1,10 @@
+it takes ~1800 miles to get from New York City to Denver
+we can assume that if the maximum speed limit in the US is 85 mph and most of the journey would consist of driving on highways,
+that our average speed would be around 80 mph
+my estimate is 22.5 hours
+a flight would take around 5 hours
+
+from London to Nice is ~900 miles
+if the speed limit is around 80 mph, we can assume an average speed of 70 mph
+thus my estimate is 11.25 hours of non-stop driving
+a flight would take around 3 hours
