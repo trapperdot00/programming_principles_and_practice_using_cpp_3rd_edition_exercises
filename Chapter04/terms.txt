@@ -1,0 +1,24 @@
+argument error			a run-time error produced by checking the arguments provided to a given function
+exception				a mechanism that helps dealing with run-time errors, separates detection and handling
+requirement				requirements on arguments for functions
+assertion				a statement that states/asserts an invariant, such as a precondition or postcondition, also known as a contract
+invariant				conditions that should always hold: be true
+run-time error			an error detected by the computer, library or user code, can produce crasher or invalid output
+catch					a part of a try-block that lists what kinds of exceptions it can handle
+link-time error			an error detected by the linker after compilation, notable errors: multiple definitions, mismatching declarations
+syntax error			a compile-time error that is detected when the program is grammatically incorrect
+compile-time error		an error detected by the compiler, either a syntax or a type error
+logic error				a run-time error that is detected
+testing					the act of checking for errors
+container				collections of data, such as vector
+postcondition			an assertion that checks whether the to-be-returned value is correct in a function
+throw					keyword used to throw exceptions to be handled by catch or terminate the program
+debugging				the act of fixing known errors in the code
+precondition			an assertion that checks whether the received arguments are correct in a function
+type error				a compile-time error that is detected when a mismatch happens between the declared types and the assigned types
+error					bug, something that prevents the program from compiling, crashes the program, or produces wrong output
+range error				a run-time error that happens when trying to access a non-existent element of a container, typically from off-by-one errors
+expect()				a function in the support material that provides a way to pass a condition and a message, that is thrown via an exception. a way of explicitly checking for preconditions and postconditions
+random_int()			a function in the support material that provides a way to get a random number
+seed()					a function in the support material that provides a way to seed the random number generator
+distribution			transforms the output of a random engine into a specified range with a given occurence model, such as an uniform or normal distribution
