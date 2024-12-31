@@ -1,0 +1,18 @@
+precondition: a requirement that a function receives good arguments, often a check
+postcondition: a check on the correctness of the returned value
+
+example:
+	
+	int decrement_n_times(int num, int n) {
+		if (n < 0)	// precondition
+			throw std::runtime_error("can not decrement negative times");
+		
+		int value = num;
+		for (int i = 0; i < n; ++i)
+			--value;
+
+		if (value > num) // postcondition: check for underflow
+			throw std::runtime_error("invalid decrement result");
+
+		return value;
+	}

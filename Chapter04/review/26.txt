@@ -1,0 +1,6 @@
+we use random_int() to get a random number either by
+ - passing a maximum: it will generate a number from 0 to the given max: [0:max]
+ - passing a minimum and a maximum: generates from min to max: [min:max]
+
+we use seed to provide a starting point for the sequence
+we can either provide an int, or call it with no arguments

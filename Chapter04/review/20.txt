@@ -1,0 +1,2 @@
+I would not check preconditions if
+ - it would slow down my code very badly

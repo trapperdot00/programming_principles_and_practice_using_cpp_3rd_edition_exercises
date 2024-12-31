@@ -1,0 +1,12 @@
+a logic error is an error that neither the compiler nor the linker caught, that is detected by checks in the program
+these are errors that produce crashes, or no crash but the wrong results
+these errors can be detected by the computer, library or the user code
+
+examples:
+	int perimeter(int i, int j) {
+		return 2*(i+j);
+	}
+
+	double d = 15.6/0;
+	int i = sqrt(-2);
+	int p = perimeter(-10, 10);

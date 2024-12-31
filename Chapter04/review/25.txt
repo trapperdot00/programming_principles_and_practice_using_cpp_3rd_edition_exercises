@@ -1,0 +1,2 @@
+a random number is a number from a sequence of numbers 
+that is hard or impossible to predict by the previous number

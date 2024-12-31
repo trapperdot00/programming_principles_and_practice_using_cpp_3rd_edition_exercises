@@ -1,0 +1,6 @@
+returning an exception rather than an "error value" is preferable when we
+ - don't have reserved error values (example: reading can read any value)
+ - want to separate the detection and handling of an error
+ - want to ensure that a detected error can't go undetected
+ - want to make error handling easier
+ - want to seperate different types of errors easily with throwing and catching different user-defined types

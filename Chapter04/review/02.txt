@@ -1,0 +1,1 @@
+we can ignore hardware errors and system software errors

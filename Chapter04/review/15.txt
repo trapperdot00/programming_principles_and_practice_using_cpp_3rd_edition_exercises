@@ -1,0 +1,3 @@
+returning an "error value" rather than throwing an exception is preferrable
+ - when we know that checking is done by the callers
+ - we have extra values to represent errors

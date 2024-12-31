@@ -1,0 +1,9 @@
+a syntax error is an error found by the compiler in a single source code file
+these are errors in the program's grammar
+
+such as:
+	int i 9;
+	std::string s = "abc;
+	double = 6.5;
+	std::vector<int vec;
+	int j = 6

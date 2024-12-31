@@ -1,0 +1,7 @@
+the steps of debugging a program:
+ - get the program to compile
+ - get the program to link
+ - examine the output
+ - go through the execution of the program step by step like a computer
+ - insert assertions (statements that check invariants) into suspected code harboring bugs
+ - insert assertions into sections of code not suspected of harboring bugs

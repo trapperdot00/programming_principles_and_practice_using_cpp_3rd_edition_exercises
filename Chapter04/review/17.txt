@@ -1,0 +1,4 @@
+v[v.size()] is always an error, because vectors (and all containers usually)
+are indexed from [0:size()), meaning that the smallest index is 0, and the largest is v.size()-1,
+however we can't index empty vectors
+the result of calling this is an error

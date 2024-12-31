@@ -1,0 +1,3 @@
+when an exception is thrown, the first try-catch block up the call chain handles the exception
+functions are exited until a relevant catch is found, that can handle the thrown exception
+if no catch block can handle the exception, the program terminates

@@ -1,0 +1,2 @@
+every completed project should produce sensible and desired output,
+should give error messages for all illegal inputs

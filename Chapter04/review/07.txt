@@ -1,0 +1,16 @@
+a type error is an error found by the compiler after checking for syntax errors in a single source code file
+
+these errors are found when we
+ - mismatch the types we declared for identifiers
+ - assigning to objects values of conflicting types without conversion from that type to the desired one
+ - providing the bad amount of arguments to functions
+ - providing bad types for functions
+
+examples:
+	int func(int i);
+
+	std::string s1 = func(1);
+	int num1 = func();
+	int num2 = func(1, 2);
+	int num3 = myfunc(1);
+	int num3 = "hello";

@@ -1,0 +1,2 @@
+testing is the act of systematically checking for (unknown) errors
+debugging is the act of fixing known errors

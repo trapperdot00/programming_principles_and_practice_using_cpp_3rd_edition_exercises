@@ -1,0 +1,10 @@
+we can check if an input operation succeeded, by testing an istream-derived object,
+such as std::cin like this:
+
+	int i = 0;
+	std::cin >> i;
+	if (std::cin) { /* ... */ }
+
+or like this:
+	int j = 0;
+	if (std::cin >> j) { /* ... */ }

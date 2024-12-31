@@ -1,0 +1,2 @@
+an assertion is a statement that states an invariant
+usually a precondition or a postcondition in a function, that checks the arguments or the returned value

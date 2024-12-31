@@ -1,0 +1,6 @@
+the three approaches are as follows:
+	organizing software to minimize errors
+	eliminating most of the errors we made through debugging and testing
+	making sure that the remaining errors are not serious
+
+we must use all three!

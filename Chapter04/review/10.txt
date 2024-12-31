@@ -1,0 +1,5 @@
+four potential sources of program errors:
+ - incomplete programs
+ - unexpected arguments
+ - unexpected input
+ - unexpected state

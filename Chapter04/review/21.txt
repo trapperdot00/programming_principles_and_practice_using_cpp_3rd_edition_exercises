@@ -1,0 +1,1 @@
+I would not check my returned value's correctness if it would slow down the code or the function is called repeatedly

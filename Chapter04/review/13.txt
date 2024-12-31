@@ -1,0 +1,10 @@
+we could let the caller of a function handle run-time errors
+or let the called function handle the errors
+
+we would check for errors in the caller function, if the called function was non-modifiable, such as in a library
+aside from this, we should never use this approach, as it makes the code larger, ugly, and more error-prone,
+we have to make sure that we know the inner workings of the called function, or what valid arguments we can pass,
+and we would have to check from every place we call the function
+
+we should check for errors in the called function, or the callee when we can
+we only have to write the checking part only once, in the function

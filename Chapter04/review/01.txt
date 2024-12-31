@@ -1,0 +1,4 @@
+Compile-time errors: errors found by the compiler, such as syntax or type errors
+Link-time errors: errors found by the linker, such as violation of the ODR (One Definition Rule), or undeclared or undefined indentifiers
+Run-time errors: errors detected by the computer, library or user code
+Logic errors: run-time errors, can be undetected that lead to crashes or wrong results

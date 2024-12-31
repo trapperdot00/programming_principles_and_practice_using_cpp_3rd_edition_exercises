@@ -1,0 +1,2 @@
+we hate debugging because for large programs we have to go over the debugging process thousands of times,
+and it is a tedious, time-consuming process, especially if the code is a mess

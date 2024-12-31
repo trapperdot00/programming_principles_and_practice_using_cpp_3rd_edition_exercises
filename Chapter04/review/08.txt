@@ -1,0 +1,17 @@
+a linker error is an error found by the linker during the linking process (turning multiple object files into one executable)
+
+these are errors that occur when we
+ - have a definition for an object multiple times in multiple translation units
+ - use undeclared or undefined identifiers
+ - have conflicting declarations for an identifier
+
+examples:
+	int func(int i);			// declaration
+
+	int num1 = func(1);			// 1: use of undeclared identifier
+	
+	int func(int i) { /* ... */ }
+	int func(int i) { /* ... */ }	// 2: redefinition of identifier
+
+	extern int num2;		// declaration of num2
+	extern double num2;		// 3: declaration of num2 with mismatching type
