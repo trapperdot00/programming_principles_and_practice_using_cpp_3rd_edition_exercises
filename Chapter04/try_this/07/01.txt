@@ -1,0 +1,1 @@
+any values that cause integer overflow when multiplied
