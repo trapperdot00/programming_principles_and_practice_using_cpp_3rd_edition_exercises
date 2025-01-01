@@ -206,7 +206,7 @@ How do we use `random_int()` and `seed()`?
 ## Exercise 1
 If you haven’t already, do the `TRY THIS` exercises from this chapter.
 
-## [Exercise 2](exercise/02/01.cpp)
+## [Exercise 2](exercises/02/01.cpp)
 The following program takes in a temperature value in Celsius and converts it to Kelvin. This code has many errors in it. Find the errors, list them, and correct the code.
 ```
 double ctok(double c)   // converts Celsius to Kelvin
@@ -224,22 +224,22 @@ int main()
 }
 ```
 
-## [Exercise 3](exercise/03/01.cpp)
+## [Exercise 3](exercises/03/01.cpp)
 Absolute zero is the lowest temperature that can be reached; it is -273.15C, or 0K. The above program, even when corrected, will produce erroneous results when given a temperature below this. Place a check in the main program that will produce an error if a temperature is given below -273.15C.
 
-## [Exercise 4](exercise/04/01.cpp)
+## [Exercise 4](exercises/04/01.cpp)
 Do `exercise 3` again, but this time handle the error inside `ctok()`.
 
-## [Exercise 5](exercise/05/01.cpp)
+## [Exercise 5](exercises/05/01.cpp)
 Add to the program so that it can also convert from Kelvin to Celsius.
 
-## [Exercise 6](exercise/06/01.cpp)
+## [Exercise 6](exercises/06/01.cpp)
 Write a program that converts from Celsius to Fahrenheit and from Fahrenheit to Celsius. Use estimation (§4.7.1) to see if your results are plausible.
 
-## [Exercise 7](exercise/07/01.cpp)
+## [Exercise 7](exercises/07/01.cpp)
 Quadratic equations are of the form a*x2 + b*x + c = 0. To solve these, one uses the quadratic formula, There is a problem, though: if b^2- 4ac is less than zero, then it will fail. Write a program that can calculate x for a quadratic equation. Create a function that prints out the roots of a quadratic equation, given a, b, c. When the program detects an equation with no real roots, have it print out a message. How do you know that your results are plausible? Can you check that they are correct?
 
-## [Exercise 8](exercise/08/01.cpp)
+## [Exercise 8](exercises/08/01.cpp)
 Write a program that reads and stores a series of integers and then computes the sum of the first N integers. First ask for N, then read the values into a `vector`, then calculate the sum of the first N values. For example:
 ```
 Please enter the number of values you want to sum: 3
@@ -248,22 +248,22 @@ The sum of the first 3 numbers ( 12 23 13 ) is 48
 ```
 Handle all inputs. For example, make sure to give an error message if the user asks for a sum of more numbers than there are in the vector.
 
-## [Exercise 9](exercise/09/01.cpp)
+## [Exercise 9](exercises/09/01.cpp)
 Modify the program from the previous exercise to write out an error if the result cannot be represented as an `int`.
 
-## [Exercise 10](exercise/10/01.cpp)
+## [Exercise 10](exercises/10/01.cpp)
 Modify the program from the previous exercise to use `double` instead of `int`. Also, make a `vector` of doubles containing the N-1 differences between adjacent values and write out that `vector` of differences.
 
-## [Exercise 11](exercise/11/01.cpp)
+## [Exercise 11](exercises/11/01.cpp)
 Write a program that writes out the first N values of the Fibonacci series, that is, the series that starts with 1 1 2 3 5 8 13 21 34. The next number of the series is the sum of the two previous ones. Find the largest Fibonacci number that fits in an `int`.
 
-## [Exercise 12](exercise/12/01.cpp)
+## [Exercise 12](exercises/12/01.cpp)
 Implement a little guessing game called (for some obscure reason) “Bulls and Cows.” The program has a `vector` of four different integers in the range 0 to 9 (e.g., 1234 but not 1122) and it is the user’s task to discover those numbers by repeated guesses. Say the number to be guessed is 1234 and the user guesses 1359; the response should be “1 bull and 1 cow” because the user got one digit (1) right and in the right position (a bull) and one digit (3) right but in the wrong position (a cow). The guessing continues until the user gets four bulls, that is, has the four digits correct and in the correct order.
 
-## [Exercise 13](exercise/13/01.cpp)
+## [Exercise 13](exercises/13/01.cpp)
 The program is a bit tedious because the answer is hard-coded into the program. Make a version where the user can play repeatedly (without stopping and restarting the program) and each game has a new set of four digits. You can get four random digits by calling the random number generator `random_int(0,9)` from `PPP_support` (and §4.7.5) four times. You will note that if you run that program repeatedly, it will pick the same sequence of four digits each time you start the program. To avoid that, ask the user to enter a number (any number) and call `seed(n)`, also from `PPP_support`, where n is the number the user entered before calling `random_int(0,10)`. Such an n is called a seed, and different seeds give different sequences of random numbers.
 
-## [Exercise 14](exercise/14/01.cpp)
+## [Exercise 14](exercises/14/01.cpp)
 Read (day-of-the-week,value) pairs from standard input. For example:
 ```
 Tuesday 23 Friday 56 Tuesday −3 Thursday 99
