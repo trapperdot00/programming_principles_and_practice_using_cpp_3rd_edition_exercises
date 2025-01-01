@@ -1,11 +1,9 @@
 # 1: Hello, World!
 
-- [Drill](#drill)
-- [Review](#review)
+- [Drill](#drill-1)
+- [Review](#review-1)
 - [Terms](terms.txt)
-- [Exercises](#exercises)
-
-# Drill
+- [Exercises](#exercise-1)
 
 ## Drill 1
 Figure out how to compile and run a program on your machine. This may be a good time to get a bit of help from someone who has done that before.
@@ -38,8 +36,6 @@ Find the problem and fix it! This is a point where asking for help from a more e
 
 ## [Drill 5](drill/05)
 By now, you have probably encountered some errors and had to correct them. Now is the time to get a bit better acquainted with your compiler’s error-detection and error-reporting facilities! Try the eight programs from §1.3 to see how your programming environment reacts. Think of at least five more errors you might have made typing in your program (e.g., leave the Caps Lock key on while typing a word, or type a comma instead of a semicolon) and try each to see what happens when you try to compile and run those versions.
-
-# Review
 
 ## [Review 1](review/01.txt)
 What is the purpose of the “Hello, World!” program?
@@ -88,8 +84,6 @@ What is the purpose of a drill?
 
 ## [Review 16](review/16.txt)
 If you understand everything in the textbook, why is it necessary to practice?
-
-# Exercises
 
 ## [Exercise 1](exercises/01/01.cpp)
 Change the program to output the two lines
