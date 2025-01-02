@@ -1,0 +1,2 @@
+because we read a character that wasn't recognized by our grammar,
+and we want to put the already read but not recognized character back to the input stream to be read elsewhere if necessary

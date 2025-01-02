@@ -1,0 +1,4 @@
+we split a class' members into private and public members to
+ - avoid users messing with the internal workings of our types
+ - provide a convenient interface for users to use
+ - abstract the implementation details

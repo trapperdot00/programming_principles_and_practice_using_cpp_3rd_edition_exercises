@@ -1,0 +1,3 @@
+';' and 'q' were added to the switch statement in the "get()" function of the Token_stream class
+because every grammatical unit's function checks for the corresponding token's kind
+when the kind is ';' or 'q', they execute the code in their default sections, putting back the read value

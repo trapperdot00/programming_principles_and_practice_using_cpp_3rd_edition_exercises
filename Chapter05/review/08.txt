@@ -1,0 +1,2 @@
+the purpose of testing is to find logic errors or bugs that the compiler and the linker didn't detect,
+but produces crashes, logical errors or wrong output

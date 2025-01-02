@@ -1,0 +1,5 @@
+"putback()" puts the currently read character or Token into a buffer to be accessed later,
+inside a function that can actually do something with that value
+
+it is useful when reading a character to determine what type of Token it is, and noticing that we read a number,
+and want to read the numerical value of the whole number, not without one digit

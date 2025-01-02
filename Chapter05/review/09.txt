@@ -1,0 +1,6 @@
+ - Term: multiplication or division: has a higher priority than addition, but less than parenthesized expressions
+ - Expression: lowest priority: addition or subtraction
+ - Number: a floating-point number
+ - Primary: a parenthesized expression or a floating-point number, has the highest priority
+
+these rules enforce the priority of operations

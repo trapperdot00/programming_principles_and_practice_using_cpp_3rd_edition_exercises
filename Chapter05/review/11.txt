@@ -1,0 +1,4 @@
+our program doesn't have a "number()" function, because we can't be certain
+that the next character read is a number
+instead, we use Token_stream::get() to get the next character read, and it return a
+Token, with a member that specifies the kind of value it holds, which can be a number (when kind=='8')

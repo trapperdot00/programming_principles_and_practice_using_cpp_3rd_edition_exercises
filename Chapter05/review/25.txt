@@ -1,0 +1,2 @@
+a user-defined type is a type that programmers can create
+we would want one, when we need to define our own types and operations on those types

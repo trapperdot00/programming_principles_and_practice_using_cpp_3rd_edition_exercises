@@ -1,0 +1,2 @@
+a use case is an example of usage, it comes up in analysis and design
+when discussing how our programs are going to be used

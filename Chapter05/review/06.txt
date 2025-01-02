@@ -1,0 +1,4 @@
+the three main phases of software development:
+ - Analysis: setting requirements for the program to do, specifying its actions
+ - Design: creating a structure, figuring out the parts and the communication between them, and which libraries to use
+ - Implementation: writing the code, debugging and testing until it works correctly, simply, and efficiently

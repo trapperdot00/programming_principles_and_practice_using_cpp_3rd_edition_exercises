@@ -1,0 +1,8 @@
+a calculator program should be able to:
+ - take input from the keyboard (console/terminal)
+ - add floating-point numbers
+ - subtract floating-point numbers
+ - multiply floating-point numbers
+ - divide floating-point numbers
+ - solve problems with respect to the order of evaluation of the operators [() > *,/ > +,-]
+ - print the calculated output to the terminal

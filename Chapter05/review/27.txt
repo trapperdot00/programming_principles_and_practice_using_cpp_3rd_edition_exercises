@@ -1,0 +1,2 @@
+we want to rely on libraries of code, because they usually go through extreme testing
+and should be more reliable than our functions that we write quickly

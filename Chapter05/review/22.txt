@@ -1,0 +1,3 @@
+in Token_stream, when there is a token in the buffer and the "get()" function is called,
+the boolean value that indicates that the buffer is full is switched from true to false
+the buffer's value is returned

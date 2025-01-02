@@ -1,0 +1,3 @@
+we have to understand what we are trying to solve with a program,
+analyse what should the program do, and make a list of requirements
+if we don't know what should be done, we can't program it

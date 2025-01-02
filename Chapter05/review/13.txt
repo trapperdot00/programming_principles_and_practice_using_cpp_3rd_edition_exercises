@@ -1,0 +1,4 @@
+a grammar is the definition of the syntax, that consists of rules and tokens
+in a notation that computers can easily understand
+
+a grammar rule is used to match tokens to a given unit

@@ -1,0 +1,12 @@
+(17+4)/(5-1)
+
+ - '(' is a primary, if it is followed by an expression, and that expression is followed by a ')'
+ - '17' is an expression followed by '+', requires a term on the right-hand side
+ - '4' is a term -> '17+4' is an expression
+ - found terminating ')' -> '(17+4)' is a primary
+ - primary followed by a '/': primary is also a term -> "term "/" primary" rule needs a primary on the right-hand side
+ - '(' is a primary if it is followed by an expression, and that expression is followed by a ')'
+ - '5' is an expression followed by '-', requires a term on the right-hand side
+ - '1' is a term -> '5-1' is an expression
+ - found terminating ')' -> '(5-1)' is a primary
+ - '(17+4)/(5-1)' is a term, which is an expression

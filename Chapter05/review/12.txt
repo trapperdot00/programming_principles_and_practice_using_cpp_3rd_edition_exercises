@@ -1,0 +1,3 @@
+a token is a sequence of characters that represent something we consider a unit
+it is used to find different kinds of parts in an input sequence, it represents the input as data we can evaluate
+it can hold a number, or different kinds of operators

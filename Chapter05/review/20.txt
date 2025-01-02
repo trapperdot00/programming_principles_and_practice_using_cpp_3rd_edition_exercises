@@ -1,0 +1,3 @@
+Token has two data members:
+ - kind: a character that represents the kind of the token ['+', '-', '*', '/', '(' ')', and '8' for numeric values]
+ - value: a double precision floating-point number, that is used when kind is '8', the numeric value is stored here, otherwise it is 0

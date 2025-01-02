@@ -1,0 +1,4 @@
+we can break a problem up to smaller, more managable parts by
+ - using functions
+ - using libraries (such as the STL)
+ - using and implementing user-defined types (parts that we can describe separately)

@@ -1,0 +1,1 @@
+look-ahead is the act of reading the next unit to see the next value to determine what to do with the current unit

@@ -1,0 +1,3 @@
+feature creep is a bad idea, because implementing one "neat thing" tempts us to implement more and more,
+and doing everything at once is harder than doing so in stages
+also it would just burn you out from the fact that your program would take ages to complete

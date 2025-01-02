@@ -1,0 +1,4 @@
+creating a small, limited version of a program, called a "prototype" is a good idea,
+because we can see the problems in our understanding,
+we can see if we need to change some details,
+and we can throw it away and make another one, if we find it hard to work with it

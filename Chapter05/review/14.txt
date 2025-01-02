@@ -1,0 +1,5 @@
+a class is an user-defined type that consists of two parts: the public interface and the implementation
+the interface has all functions that the users can use conveniently
+the implementation is hidden from the users, and consists of code that is necessary to implement the public functions
+
+we use classes to define our own types with data, and operations on them
