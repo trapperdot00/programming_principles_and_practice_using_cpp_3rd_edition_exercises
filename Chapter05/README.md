@@ -1,7 +1,7 @@
-# 5: Writing a Program
+# 4: Errors!
 
 - [Try This](#try-this-1)
-- [Drill](#drill)
+- [Drill](#drill-1)
 - [Review](#review-1)
 - [Terms](terms.txt)
 - [Exercises](#exercise-1)
@@ -10,7 +10,7 @@
 On the other hand, why shouldn’t we be able to find a simple solution to this problem? It doesn’t seem to be all that difficult. If nothing else, trying would give us a better appreciation of the problem and the eventual solution. Consider what you might do right away. For example, look at the input `12.5+2`. We could tokenize that, decide that the expression was simple, and compute the answer. That may be a bit messy, but straightforward, so maybe we could proceed in this direction and find something that’s good enough! Consider what to do if we found both a `+` and a `*` in the line `2+3*4`. That too can be handled by “brute force.” How would we deal with a complicated expression, such as `1+2*3/4%5+(6−7*(8))`? And how would we deal with errors, such as `2+*3` and `2&3`? Consider this for a while, maybe doodling a bit on a piece of paper trying to outline possible solutions and interesting or important input expressions.
 
 ## [Try This 2](try_this/02/01.cpp)
-This first version of the calculator program (including `get_token()`) is available as file `calculator00.cpp`. Get it to run and try it out.
+This first version of the calculator program (including get_token()) is available as file `calculator00.cpp`. Get it to run and try it out.
 
 ## [Try This 3](try_this/03/01.cpp)
 Get the calculator as presented above to run, see what it does, and try to figure out why it works as it does.
@@ -131,3 +131,21 @@ Define a class `Name_value` that holds a string and a value. Rework exercise 20 
 
 ## [Exercise 5](exercises/05/01.cpp)
 Write a grammar for bitwise logical expressions. A bitwise logical expression is much like an arithmetic expression except that the operators are `!` (not), `˜` (complement), `&` (and), `|` (or), and `ˆ` (exclusive or). Each operator does its operation to each bit of its integer operands (see PPP2.§25.5). `!` and `˜` are prefix unary operators. A `ˆ` binds tighter than a `|` (just as `*` binds tighter than `+`) so that `x|yˆz` means `x|(yˆz)` rather than `(x|y)ˆz`. The `&` operator binds tighter than `ˆ` so that `xˆy&z` means `xˆ(y&z)`.
+
+## [Exercise 6](exercises/06/01.cpp)
+Redo the “Bulls and Cows” game from exercise 12 in Chapter 4 to use four letters rather than four digits.
+
+## [Exercise 7](exercises/07/01.cpp)
+Write a program that reads digits and composes them into integers. For
+example, `123` is read as the characters 1, 2, and 3. The program should
+output `123 is 1 hundred and 2 tens and 3 ones`. The number should be output
+as an `int` value. Handle numbers with one, two, three, or four digits.
+Hint: To get the integer value `5` from the character `'5'` subtract `'0'`, that is,
+`'5'−'0'==5`.
+
+## [Exercise 8](exercises/08/01.cpp)
+A permutation is an ordered subset of a set. For example, say you wanted to pick a combination to a vault. There are 60 possible numbers, and you need three different numbers for the combination. There are `P(60, 3)` permutations for the combination, where `P` is defined by the formula `P(a, b) = (a!) / ((a - b)!)` where `!` is used as a suffix factorial operator. For example, `4!` is `4*3*2*1`.
+
+Combinations are similar to permutations, except that the order of the objects doesn’t matter. For example, if you were making a “banana split” sundae and wished to use three different flavors of ice cream out of five that you had, you probably wouldn’t care if you put a scoop of vanilla at the beginning or the end or the serving dish. The formula for combinations is `C(a, b) = (P(a, b)) / (b!)`
+
+Design a program that asks users for two numbers, asks them whether they want to calculate permutations or combinations, and prints out the result. This will have several parts. Do an analysis of the above requirements. Write exactly what the program will have to do. Then, go into the design phase. Write pseudo code for the program and break it into subcomponents. This program should have error checking. Make sure that all erroneous inputs will generate good error messages.
