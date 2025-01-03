@@ -1,0 +1,27 @@
+analysis			first stage of development, specifying what should be done
+grammar				defines the rules of the syntax
+prototype			a small, limited version of the program that solves a key part of our problem,
+					used to highlight errors in our understanding, can be easily thrown away
+class				user-defined types that can hold data members, have member functions,
+					can separate implementation from interface
+implementation		the code that makes the interface of our types convenient to use,
+					and that is inaccessible for users
+pseudo code			code that is only understandable to humans,
+	   				used in the early stages of design, when we are uncertain what our notation means
+class member		either a data member or a member function, parts of a user-defined type
+interface			the functions and data members that are accessible to the users of our types
+public				keyword that specifies parts of a user-defined type that users can use
+data member			an object that our user-defined type holds
+member function		an operation for our user-defined type
+syntax analyzer		a program that reads a stream of tokens according to a grammar
+design				the second stage of development, creating an overall structure for our system,
+					and deciding the parts of the implementation and the communication between them,
+					and deciding which libraries to use
+parser				a program reading a stream of tokens according to a grammar
+token				a sequence of characters that represent something we consider a unit
+divide by zero		a run-time error detected by the computer hardware
+private				keyword that specifies part of the implementation in user-defined types
+use case			definition of what the program should minimally do,
+					discussed during the analysis and design process
+token stream		an input stream that reads tokens and we can put tokens back into for later use
+look-ahead			reading the next unit and deciding whether we can do something with it or not
