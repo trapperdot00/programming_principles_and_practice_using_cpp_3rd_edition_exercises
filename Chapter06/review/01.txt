@@ -1,0 +1,5 @@
+to clean up the code, making it easier to read and maintain,
+to implement good error handling
+to make the user interface understandable and simple
+to add new features
+to fix serious bugs

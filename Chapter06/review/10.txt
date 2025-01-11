@@ -1,0 +1,5 @@
+is_declared() checks that a given name exists in our variable table, and returns true if yes, otherwise false
+it uses a range-for loop with a constant reference object that refers to the given element in the table, from
+first to last.
+on each iteration, there is a check if the current variable has the given name, and if yes, the function returns true
+if we went through each element, the for loop exits, and the function returns false

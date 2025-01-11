@@ -1,0 +1,1 @@
+because if we test after each small change, we can pinpoint the source of bugs and fix it fast

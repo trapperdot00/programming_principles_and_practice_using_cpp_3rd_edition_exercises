@@ -1,0 +1,1 @@
+we consider a program finished when we have it in a state suitable for someone else to take over maintenance

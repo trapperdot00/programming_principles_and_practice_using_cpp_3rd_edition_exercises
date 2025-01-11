@@ -1,0 +1,3 @@
+the new function, calculate(), handles the calculation loop
+we split main() because functions should ideally perform a single logical action,
+previously it did two things: manage the calculation loop and handle errors

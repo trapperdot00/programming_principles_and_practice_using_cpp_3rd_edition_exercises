@@ -1,0 +1,3 @@
+comments should contain ideas that our code can't directly tell, like the grammar in our calculator program
+comments shouldn't describe what our code does, because readers that are familiar
+	with the programming language can easily tell

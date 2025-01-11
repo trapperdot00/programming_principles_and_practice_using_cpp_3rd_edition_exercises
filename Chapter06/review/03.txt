@@ -1,0 +1,3 @@
+because we used '8' as the representation of numbers, and it would be easy to forget that value
+it was a magic constant without any meaning so we changed it to be a symbolic constant, which
+adds meaning through its name: it represents a number

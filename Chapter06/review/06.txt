@@ -1,0 +1,1 @@
+the purpose of commenting is to provide information that code alone cannot state

@@ -1,0 +1,5 @@
+input representations that are more than one characters long are accepted by using a string to hold the read characters
+if the first character read doesn't have any defined meaning, and is alphabetic,
+we concatenate the character to a string, and read until we read a non-alphabetic, non-numeric character
+the last read character, which is a non-numeric, non-alphabetic character is put back into the stream, because someone else
+might use it. the string now holds one word that we can compare to other strings, like "let"

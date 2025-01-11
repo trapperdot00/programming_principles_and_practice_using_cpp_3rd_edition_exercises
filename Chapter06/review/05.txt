@@ -1,0 +1,5 @@
+we split code into multiple functions because we want to
+ - make a computation logically separate
+ - make the program text clearer by using named functions
+ - reuse the code in our functions
+ - ease the testing

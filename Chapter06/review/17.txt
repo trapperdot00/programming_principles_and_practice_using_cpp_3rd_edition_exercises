@@ -1,0 +1,6 @@
+we choose meaningful, understandable names
+we avoid using names that start with underscores, because they might clash with implementation
+we avoid abbreviations because we might forget or others wouldn't know what it stands for
+we avoid using names with only a small difference between them such as "x0" and "X0"
+we avoid using names that contains easily misread and confusing characters like "f00" and "foo"
+we avoid using names that are easily mistyped such as "m13589III168"

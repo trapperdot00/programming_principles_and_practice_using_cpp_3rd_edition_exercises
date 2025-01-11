@@ -1,0 +1,4 @@
+since in calculator08buggy.cpp, the quit keyword is "quit", our program interprets 'q' as a name
+if we hadn't defined q as a variable, it throws an error, which is caught by the try block inside
+calculate()'s while loop, meaning that if it throws an error, it handles it, and proceeds with
+the next iteration of the loop, if cin is still valid, which is

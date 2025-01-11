@@ -33,3 +33,70 @@ Give the user a square root function `sqrt()`, for example, `sqrt(2+6.7)`. Natur
 
 ## [Drill 8](drill/08/01.cpp)
 Catch attempts to take the square root of a negative number and print an appropriate error message.
+
+## [Drill 9](drill/09/01.cpp)
+Allow the user to use `pow(x,i)` to mean “Multiply `x` with itself `i` times”; for example, `pow(2.5,3)` is `2.5*2.5*2.5`. Require `i` to be an integer using the technique we used for `%` (§6.5).
+
+## [Drill 10](drill/10/01.cpp)
+Change the “declaration keyword” from `let` to `#`.
+
+## [Drill 11](drill/11/01.cpp)
+Change the “quit keyword” from `quit` to `exit`. That will involve defining a string for `quit` just as we did for `let` in §6.8.2.
+
+
+## [Review 1](review/01.txt)
+What is the purpose of working on the program after the first version works? Give a list of reasons.
+
+## [Review 2](review/02.txt)
+Why does `1+2; q` typed into the calculator not quit after it receives an error?
+
+## [Review 3](review/03.txt)
+Why did we choose to make a constant character called `number`?
+
+## [Review 4](review/04.txt)
+We split `main()` into two separate functions. What does the new function do and why did we split `main()`?
+
+## [Review 5](review/05.txt)
+Why do we split code into multiple functions? State principles.
+
+## [Review 6](review/06.txt)
+What is the purpose of commenting?
+
+## [Review 7](review/07.txt)
+What is the use of symbolic constants?
+
+## [Review 8](review/08.txt)
+Why do we care about code layout?
+
+## [Review 9](review/09.txt)
+How do we handle `%` (remainder) of floating-point numbers?
+
+## [Review 10](review/10.txt)
+What does `is_declared()` do and how does it work?
+
+## [Review 11](review/11.txt)
+The input representation for `let` is more than one character. How is it accepted as a single token in the modified code?
+
+## [Review 12](review/12.txt)
+What are the rules for what names can and cannot be in a calculator program?
+
+## [Review 13](review/13.txt)
+Why is it a good idea to build a program incrementally?
+
+## [Review 14](review/14.txt)
+When do you start to test?
+
+## [Review 15](review/15.txt)
+When do you retest?
+
+## [Review 16](review/16.txt)
+How do you decide what should be a separate function?
+
+## [Review 17](review/17.txt)
+How do you choose names for variables and functions? List possible reasons.
+
+## [Review 18](review/18.txt)
+What should be in comments and what should not?
+
+## [Review 19](review/19.txt)
+When do we consider a program finished?

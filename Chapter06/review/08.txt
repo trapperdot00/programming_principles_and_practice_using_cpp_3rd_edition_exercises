@@ -1,0 +1,2 @@
+we care about code layout because hardly readable code can introduce more bugs,
+that are less noticable

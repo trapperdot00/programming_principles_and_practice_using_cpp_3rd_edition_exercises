@@ -1,0 +1,4 @@
+the use of symbolic constants is to provide constants with easily recognizable names
+for example 'h' could mean anything without context, but when using it like this:
+	constexpr char helpkey = 'h';
+, we can more easily read code that uses its symbolic name
