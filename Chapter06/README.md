@@ -100,3 +100,13 @@ What should be in comments and what should not?
 
 ## [Review 19](review/19.txt)
 When do we consider a program finished?
+
+
+## [Exercise 1](exercises/01/01.cpp)
+Allow underscores in the calculator’s variable names.
+
+## [Exercise 2](exercises/02/01.cpp)
+Provide an assignment operator, `=`, so that you can change the value of a variable after you have introduced it using `let`. Discuss why that can be useful and how it can be a source of problems.
+
+## [Exercise 3](exercises/03/01.cpp)
+Provide named constants that you really can’t change the value of. Hint: You have to add a member to `Variable` that distinguishes between constants and variables and check for it in `set_value()`. If you want to let the user define constants (rather than just having `pi` and `e` defined as constants), you’ll have to add a notation to let the user express that, for example, `const pi = 3.14;`.
