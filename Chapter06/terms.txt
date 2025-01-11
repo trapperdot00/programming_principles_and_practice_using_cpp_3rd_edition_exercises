@@ -1,0 +1,11 @@
+code layout			the structure of the code, ideally one function should fit on the screen as a whole
+maintenance			the act of managing code
+scaffolding			error handling, starting the program and ending the program, the actions that main() does
+commenting			leaving messages that explain our intents that code cannot explain alone
+recovery			setting up the code into a valid state after an error, ignore() resets the token stream
+symbolic constant	a constant with a meaningful, understandable name
+error handling		providing meaningful error messages and optionally terminating the program in case of an error
+revision history	the history of all revisions in comments with the revisor's name and date and email
+testing				the act of trying to find unknown bugs through entering valid or invalid input
+feature creep		to avoid: adding neat features to a program where even the basics don't work
+magic constant		a seemingly random constant with no meaning, makes the code less readable
