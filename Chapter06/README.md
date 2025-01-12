@@ -110,3 +110,30 @@ Provide an assignment operator, `=`, so that you can change the value of a varia
 
 ## [Exercise 3](exercises/03/01.cpp)
 Provide named constants that you really can’t change the value of. Hint: You have to add a member to `Variable` that distinguishes between constants and variables and check for it in `set_value()`. If you want to let the user define constants (rather than just having `pi` and `e` defined as constants), you’ll have to add a notation to let the user express that, for example, `const pi = 3.14;`.
+
+## [Exercise 4](exercises/04/01.cpp)
+The `get_value()`, `set_value()`, `is_declared()`, and `define_name()` functions all operate on the variable `var_table`. Define a class called `Symbol_table` with a member `var_table` of type `vector<Variable>` and member functions `get()`, `set()`, `is_declared()`, and `declare()`. Rewrite the calculator to use a variable of type `Symbol_table`.
+
+## [Exercise 5](exercises/05/01.cpp)
+Modify `Token_stream::get()` to return `Token(print)` when it sees a newline. This implies looking for whitespace characters and treating newline (`'\n'`) specially. You might find the standard-library function `isspace(ch)`, which returns `true` if `ch` is a whitespace character, useful.
+
+## [Exercise 6](exercises/06/01.cpp)
+Part of what every program should do is to provide some way of helping its user. Have the calculator print out some instructions for how to use the calculator if the user presses the H key (both upper- and lowercase).
+
+## [Exercise 7](exercises/07/01.cpp)
+Change the `q` and `h` commands to be `quit` and `help`, respectively.
+
+## [Exercise 8](exercises/08/01.cpp)
+The grammar in §6.6.4 is incomplete (we did warn you against overreliance on comments); it does not define sequences of statements, such as `4+4;` `5−6;`, and it does not incorporate the grammar changes outlined in §6.8. Fix that grammar. Also add whatever you feel is needed for that comment as the first comment of the calculator program and its overall comment.
+
+## [Exercise 9](exercises/09/01.cpp)
+Suggest three improvements (not mentioned in this chapter) to the calculator. Implement one of them.
+
+## [Exercise 10](exercises/10/01.cpp)
+Modify the calculator to operate on `int`s (only); give errors for overflow and underflow. Hint: Use `narrow` (§6.5).
+
+## [Exercise 11](exercises/11)
+Revisit two programs you wrote for the exercises in §3 or Chapter 4. Clean up that code according to the rules outlined in this chapter. See if you find any bugs in the process.
+
+## [Exercise 12](exercises/12/01.cpp)
+Modify the calculator to accept input from any `istream`.
