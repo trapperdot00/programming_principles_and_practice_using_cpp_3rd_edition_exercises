@@ -6,3 +6,4 @@
 ### [Chapter04](Chapter04/): Errors!
 ### [Chapter05](Chapter05/): Writing a Program
 ### [Chapter06](Chapter06/): Completing a Program
+### [Chapter07](Chapter07/): Technicalities: Functions, etc.
