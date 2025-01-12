@@ -1,7 +1,5 @@
 /*	Basic calculator program, input from any istream, output to cout
  *
- *	Three improvements: floor(), ceiling() and round() function
- *
  *	Grammar for input:
  *
  *	Calculation:
