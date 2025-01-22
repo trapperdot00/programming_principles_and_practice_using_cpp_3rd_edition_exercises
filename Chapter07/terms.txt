@@ -1,0 +1,36 @@
+activation record		the data structure that the language implementation sets aside, containing the copy of all the parameters and local variables and implementation details
+function				a named set of computation that is logically separate, and can be reused
+pass-by-reference		argument passing by reference, the function has access to the referred to object and can modify it
+argument				the inputs for functions that are passed from the call location
+function definition		a function declaration that ends with a curly block (function body), and defines the actions it should take
+pass-by-value			the arguments are copied into the local parameters inside the function
+argument passing		we can pass arguments by value, by reference, by const reference, and through pointers
+global scope			the outermost scope that is present in every program
+recursion				the act of a function calling itself over and over again, for example: fibonacci sequence
+call stack				the data structure that keeps track of called functions in a LIFO container, holds the parameters and local variables
+header file				a file that usually contains only declarations of entities, and are #include-d in source files, meaning that its contents are copied into the source file
+return					the keyword used to return a value in non-void functions, or exit from void functions
+class scope				the scope inside a class that can be accessed through objects, or inside the implementations of member functions
+initializer				a value used to give an initial, starting value for a currently defined object directly inside its definition
+return value			the value that is returned from a function
+const					a keyword that specifies that an object can only be initialized once, its initializer need not be a constant expression known at compile-time, unmodifiable
+local scope				a scope inside a block enclosed by curly braces or inside a function argument list
+scope					a region of program text, declarations inside it are valid until the end of that scope, inner scopes can see declarations in outer scopes but not vice-versa
+constexpr				a keyword used to indicate that an object is initialized by a value known at compile-time, unmodifiable
+namespace				a named part of a program that groups declarations, those names can be accessed through the namespace name, prevents clashing of names
+statement scope			the scope that a for-loop or a while-loop, or an if statement opens
+declaration				introducing a name into the current scope with its type, multiple declarations can exist but they must match
+namespace scope			the scope of a namespace, inside the global scope or nested in another namespace
+technicalities			language-technical features, usually features in programming languages are also in other languages
+definition				a declaration that sets aside memory for an object, only one definition can exist for an entity
+nested block			a block nested into another block, opens another scope, objects defined in that scope are destroyed when that scope ends
+undeclared identifier	use of a name that has not yet been declared, gives a compile-time error
+extern					keyword to only declare an object, not define
+parameter				also called formal arguments, these are the variables that the function takes
+using declaration		language construct to make a member of a namespace visible in the current scope without using the fully-specified name (std::string -> string)
+forward declaration		declaring a name before using it, usually done when there is a cyclic dependency between functions
+pass-by-const-reference	taking a reference parameter that is unmodifiable, prevents copying, but cannot modify the object
+using directive			making all members of a namespace visible in the current scope, clashes can arise from it
+auto					keyword for auto type deduction, or to allow suffix return type notation in functions
+->						keyword for specifying the trailing return type in functions with return types of auto
+suffix return type		can be used to specify the return type of a function after the parameter list's parentheses, used to make names align with each other
