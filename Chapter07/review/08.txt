@@ -1,0 +1,6 @@
+the suffix return type notation is a type of notation for providing
+the function's return type after the parameter list
+you have to use 'auto' on the original return-type location, and have to put an '->' after the parentheses,
+after which you can put the return type
+you might use it to make functions' names align with each other, as they would use auto on the left-hand side
+you can also deduce the returned type from the return statement in the function with omitting the arrow and the type

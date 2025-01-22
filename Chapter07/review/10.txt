@@ -1,0 +1,1 @@
+the scope of a declaration is from the point of the declaration until the end of the scope it was declared in

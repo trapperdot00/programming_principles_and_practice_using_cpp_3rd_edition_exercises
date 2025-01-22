@@ -1,0 +1,2 @@
+a namespace differs from a class by not having data members and functions, it only holds declarations of functions or entities
+we cannot create objects of namespace types, as a namespace is not an user-defined type

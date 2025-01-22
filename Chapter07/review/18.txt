@@ -1,0 +1,4 @@
+undefined order of evaluation:
+	int i = 0;
+	int j = ++i / i++;
+since the order of evaluation of the incrementions are undefined, we can encounter a division-by-zero error

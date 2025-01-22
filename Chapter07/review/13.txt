@@ -1,0 +1,2 @@
+because you can't be certain which code or function modifies the global variables
+and it pollutes the global namespace

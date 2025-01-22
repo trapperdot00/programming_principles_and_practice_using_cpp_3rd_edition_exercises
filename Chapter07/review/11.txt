@@ -1,0 +1,7 @@
+kinds of scopes:
+ - global scope		the scope outside of any scopes, for example outside main()
+ - module scope		the scope within a module
+ - namespace scope	a named scope inside the global scope or in another namespace
+ - class scope		the scope within a class
+ - local scope		the scope between the curly braces of a block or in a function argument list
+ - statement scope	the scope opened by a for-loop, while loop or any statement (like an if with an initializer)

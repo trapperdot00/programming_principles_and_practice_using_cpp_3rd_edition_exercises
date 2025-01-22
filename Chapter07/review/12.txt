@@ -1,0 +1,2 @@
+class members are accessed through some kind of object or static members through the class' name,
+while local objects are accessed directly

@@ -1,0 +1,3 @@
+since the contents of header files are copied and pasted into every source file that #include-s it,
+having a using directive inside a #include-d header file would mean that every source file could use
+the names from a given namespace, essentially polluting the global namespace and perhaps introducing name clashes

@@ -1,0 +1,4 @@
+we distinguish between a function declaration and a function definition
+by looking whether the statement has a semicolon or a curly brace block at its end
+if a semicolon terminates the statement, then it is only a declaration, not a definition
+if a curly brace or a block terminates it, then it is a definition as well as a declaration

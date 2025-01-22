@@ -1,0 +1,1 @@
+a copy of every parameter and local variable for the called function

@@ -1,0 +1,9 @@
+a declaration only introduces a name into a scope, specifying the type for the named entity, and an initializer
+
+kinds of declarations:
+ - variable declaration: with 'extern' keyword
+ - function declaration: with semicolon after parentheses instead of a function body '{}'
+
+a definition specifies what exactly a name refers to, allocates memory or specifies a function body
+multiple declarations can exist but there can only be one definition for a given object
+

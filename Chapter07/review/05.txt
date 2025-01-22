@@ -1,0 +1,4 @@
+	int a;
+is a definition and a declaration
+to make it only a declaration, use this:
+	extern int a;

@@ -1,0 +1,4 @@
+when passing by value, a copy of the argument is given to the function, any modifications to that local parameter
+is only visible inside the function
+when passing by reference, the function gets direct access to the given argument, and any modifications made to that
+object modifies the object's value from the called-from position also

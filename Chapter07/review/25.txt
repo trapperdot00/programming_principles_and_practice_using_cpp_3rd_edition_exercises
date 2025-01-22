@@ -1,0 +1,3 @@
+a using declaration is a way of putting a name from a namespace into the current scope
+instead of having to write std::string, fully qualified by the std prefix name, we can
+use string to refer to std::string

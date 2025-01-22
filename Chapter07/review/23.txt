@@ -1,0 +1,2 @@
+the purpose of a namespace is to group declared names under a common name to avoid name clashing
+by entities of the same name

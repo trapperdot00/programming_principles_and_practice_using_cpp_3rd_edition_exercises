@@ -1,0 +1,3 @@
+we distinguish between a variable declaration and a definition by noticing whether it has the 'extern' keyword
+in its declaration
+if it has the 'extern', then it is only a declaration, else it is also a definition

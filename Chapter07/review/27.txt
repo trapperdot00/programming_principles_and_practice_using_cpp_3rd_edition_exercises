@@ -1,0 +1,1 @@
+the std namespace is the namespace used by the standard library entities and functions

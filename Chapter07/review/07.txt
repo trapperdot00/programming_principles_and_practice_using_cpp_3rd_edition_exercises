@@ -1,0 +1,3 @@
+a function declaration can consist of the function's returned type,
+the function's name, and the types of its parameters enclosed in parentheses
+you can also provide names for the parameters but it is not necessary

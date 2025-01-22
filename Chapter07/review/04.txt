@@ -1,0 +1,2 @@
+because the functions depend on each other, they call each other and form a dependency loop
+to resolve this, we have to forward-declare at least one function, to make its name available for the other functions

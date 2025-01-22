@@ -1,0 +1,4 @@
+ - functions within functions:	illegal, use lambdas instead
+ - functions within classes:	legal, these are called member functions
+ - classes within classes:		legal, but makes the code less readable, these are called nested/member classes
+ - classes within functions:	legal, makes the code less readable, these are local classes and have limited functionality

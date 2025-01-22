@@ -1,0 +1,9 @@
+x && y
+	this expression returns true if x and y is true, else false
+	short circuit evaluation: first x is checked, and only if it is true, then y is checked
+x || y
+	this expression returns true if either x or y is true, or both are true, else false
+	short circuit evaluation: first x is checked, and only if it is false, then y is checked
+
+we can use the short circuit evaluation in conditions where we check the validity of a pointer and
+after that the value pointed by it

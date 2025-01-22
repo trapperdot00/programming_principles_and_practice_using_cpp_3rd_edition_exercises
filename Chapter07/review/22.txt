@@ -1,0 +1,2 @@
+a call stack is a data structure that grows and shrinks at one end (LIFO)
+it holds the data necessary for calling functions, such as local variables and parameters, and implementation details

@@ -1,0 +1,2 @@
+because if we don't initialize them initially, then they will have undefined values,
+which may produce different values on different runs or systems
