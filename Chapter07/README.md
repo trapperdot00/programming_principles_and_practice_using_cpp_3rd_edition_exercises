@@ -1,4 +1,4 @@
-# 6: Completing a Program
+# 7: Technicalities: Functions, etc.
 
 - [Try This](#try-this-1)
 - [Drill](#drill-1)

@@ -7,3 +7,4 @@
 ### [Chapter05](Chapter05/): Writing a Program
 ### [Chapter06](Chapter06/): Completing a Program
 ### [Chapter07](Chapter07/): Technicalities: Functions, etc.
+### [Chapter08](Chapter08/): Technicalities: Classes, etc.
