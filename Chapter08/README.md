@@ -76,3 +76,6 @@ Replace `Name_pair::print()` with a (global) operator `<<` and define `==` and `
 
 ## [Exercise 4](exercises/04)
 Do the previous exercise again but implement `Name_pairs` using a `Name_pair` class.
+
+## [Exercise 5](exercises/05)
+This exercise and the next few require you to design and implement a `Book` class, such as you can imagine as part of software for a library. Class `Book` should have members for the ISBN, title, author, and copyright date. Also store data on whether or not the book is checked out. Create functions for returning those data values. Create functions for checking a book in and out. Do simple validation of data entered into a `Book`; for example, accept ISBNs only of the form `n−n−n−x` where `n` is an integer and `x` is a digit or a letter. Store an ISBN as a `string`.
