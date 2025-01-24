@@ -1,0 +1,15 @@
+operator overloading should be used for operations with their conventional meaning
+
+for example, we could overload the subscript operator [] for container types,
+we could overload << for using the ostream objects to print
+or >> to use istreams to read values into our objects of class types
+
+an overloaded operator must take at least one user-defined type
+
+operators that can be overloaded:
+= += -= *= /= %= &= |= ^= <<= >>=
+++(prefix) (postfix)++ --(prefix) (postfix)--
++(unary) -(unary) + - * / % ~ & | ^ << >> !
+== != < > <= >= <=>
+() [] *(unary) &(unary) ->
+(these shouldn't really be overloaded:) && || ,

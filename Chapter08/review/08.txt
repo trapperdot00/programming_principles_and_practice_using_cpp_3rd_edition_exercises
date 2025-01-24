@@ -1,0 +1,3 @@
+a default member initializer or in-class initializer is an initializer provided
+with the declarations of data members, it is used as a fall-back value when a constructor doesn't
+explicitly initialize that member

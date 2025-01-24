@@ -1,0 +1,5 @@
+the two parts of a class:
+ - public: holds the interface; the members accessible by the users of the class,
+			usually holds member functions and types
+ - private: holds the implementation of the class; only accessible by the class implementers
+ 			usually holds data members and member functions that shouldn't be called by users

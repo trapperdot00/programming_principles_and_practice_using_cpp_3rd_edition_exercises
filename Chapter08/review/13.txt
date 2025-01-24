@@ -1,0 +1,33 @@
+an enum class places its enumerators inside a new scope, nested into the scope it is defined in,
+its enumerators need an explicit cast to its underlying integer types
+example:
+	// on is 0, off is 1; accessed using State:: prefix, enumerators behind State scope
+	enum class State {
+		on, off
+	};
+	State a = State{0};		// OK: a is on
+	State b = State::on;	// OK
+	State c{1};				// OK: c is off
+	State d = off;			// error: needs scope access
+	State e = 0;			// error: no conversion
+	
+	int i = a;				// error: no conversion
+	int j = int{b};			// error: narrowing conversion
+	int k = static_cast<int>(c);	// OK
+
+a plain enum places all of its enumerators inside the current scope, effectively polluting the current scope,
+its enumerators can be assigned or given as initializer to integer types
+example:
+	// on is 10, off is 11; all placed in current scope
+	enum State {
+		on = 10, off
+	};
+	State a = State{11};	// OK: a is off
+	State b = State::off;	// OK
+	State c{10};			// OK: c is on
+	State d = off;			// OK: off is in scope
+	State e = 0;			// error: no conversion
+
+	int i = a;				// OK
+	int j = int{b};			// OK
+	int k = static_cast<int>(c);	// OK

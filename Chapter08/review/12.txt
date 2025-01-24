@@ -1,0 +1,3 @@
+so that we provide access to the representation only for member functions, not helper functions,
+helper functions should use only public, interface members
+it can help when hunting a bug, we only have to check the interface for buggy code

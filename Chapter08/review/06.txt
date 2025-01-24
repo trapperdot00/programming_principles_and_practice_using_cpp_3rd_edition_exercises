@@ -1,0 +1,9 @@
+we should provide a minimal set of member functions that are complete,
+so that when we encounter a bug, we can narrow down the possible functions to check for errors
+
+when we can efficiently, elegantly and simply implement an operation as a helper (non-member) function,
+we should do so, so that we don't corrupt the data in an object
+bugs are significantly more likely to occur in functions that can access the representation of the class, for example member functions
+
+when we need to access the representation of the class, we should use member functions,
+but we should keep their number small, because if the representation changes, we have to rewrite those functions

@@ -1,0 +1,3 @@
+a default constructor is a member function with the same name as the class it is in, and takes no arguments
+we need one when our class has a meaningful default value
+it should provide an initializer for every built-in value so that they aren't in an undefined state

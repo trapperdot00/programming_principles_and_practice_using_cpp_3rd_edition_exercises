@@ -1,0 +1,5 @@
+because a constructor is directly visible for users that check the public declarations, the interface of our class,
+and they could overlook a helper function that is specialized for initialization,
+just plain nonsense, you can still create undefined, uninitialized objects with the lack of a constructor,
+and a constructor directly initializes its members if done correctly, whereas init_day only assigns to the data members,
+we can accidentally use an uninitialized object before calling init_day

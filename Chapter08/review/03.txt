@@ -1,0 +1,5 @@
+users can directly interact with the data members of Date,
+there are no member functions, only plain data, so it can be tiring and error-prone to interact with the type,
+we can input any invalid value into the data members, there is no validity checking for the variables,
+we can accidentally leave a Date object in an undefined state, by not initializing each member: there is no (default) constructor
+users can write any kind of nonsense logic for any operation, for example there is no standard uniform way of validity checking or adding one day

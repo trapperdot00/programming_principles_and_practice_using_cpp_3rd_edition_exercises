@@ -1,0 +1,4 @@
+the public interface should be kept minimal so that the operations are easy to remember,
+and when we encounter bugs, we have to check less of those functions
+
+we should use helper functions (non-member) for operations beyond the minimal and complete set

@@ -1,0 +1,6 @@
+an invariant is a rule specifying the valid values that a type's variables can take
+usually we check if an invariant holds in constructors, assignment operators and functions that change the data members' values
+
+for example:
+ - for Date, we used an invariant that checks whether month is in [1;12] range, that is from Month::jan to Month::dec inclusive
+ - for Date, we used an invariant that checks whether day is in [1;31] range, but it could use some improvement

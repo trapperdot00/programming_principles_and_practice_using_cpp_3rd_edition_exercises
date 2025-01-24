@@ -1,0 +1,4 @@
+the interface is public, should be kept minimal but complete, this is accessible by the users,
+	usually holds types and member functions that can be directly used by the users
+the implementation is private, usually used for hiding data members and member functions
+	that shouldn't be called by users directly, users can't directly interact with private members

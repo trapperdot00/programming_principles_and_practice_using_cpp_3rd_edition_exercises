@@ -1,0 +1,3 @@
+adding a const specifier to a member function enables the calling of that function on const objects
+the compiler prevents the modification of non-mutable data members and throws a compile-time error when trying to do so
+non-const objects can call both const and non-const member functions, whereas const objects can only call const member functions
