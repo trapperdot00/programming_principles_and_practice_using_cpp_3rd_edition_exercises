@@ -1,0 +1,8 @@
+ - computer file		open, close, delete, create, write, read
+ - Web page				load, refresh
+ - toaster				load bread, eject bread, toast
+ - music player			start, stop, pause, seek, search, next track, previous track, change volume, create playlist, add to playlist, remove from playlist
+ - coffee cup			fill, spill out, clean
+ - electric motor		turn on, turn off
+ - cell phone			call, put on speakerphone, hold, end call, type, send text, turn on, turn off
+ - telephone directory	add, remove

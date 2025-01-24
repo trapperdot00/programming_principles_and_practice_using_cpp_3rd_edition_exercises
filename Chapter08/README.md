@@ -63,3 +63,16 @@ Why are “helper functions” best placed outside the class definition?
 
 ## [Review 13](review/13.txt)
 How does an `enum class` differ from a “plain” `enum`?
+
+
+## [Exercise 1](exercises/01/01.txt)
+List plausible operations for the examples of real-world objects in §8.1 (e.g., a toaster).
+
+## [Exercise 2](exercises/02)
+Design and implement a `Name_pairs` class holding (name,age) pairs where name is a `string` and age is a `double`. Represent that as a `vector<string>` (called `name`) and a `vector<double>` (called `age`) member. Provide an input operation `read_names()` that reads a series of names. Provide a `read_ages()` operation that prompts the user for an age for each name. Provide a `print()` operation that prints out the (`name[i],age[i]`) pairs (one per line) in the order determined by the `name` vector. Provide a `sort()` operation that sorts the `name` vector in alphabetical order and reorganizes the `age` vector to match. Implement all “operations” as member functions. Test the class (of course: test early and often).
+
+## [Exercise 3](exercises/03)
+Replace `Name_pair::print()` with a (global) operator `<<` and define `==` and `!=` for `Name_pairs`.
+
+## [Exercise 4](exercises/04)
+Do the previous exercise again but implement `Name_pairs` using a `Name_pair` class.
