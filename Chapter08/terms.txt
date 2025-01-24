@@ -1,0 +1,25 @@
+built-in types				the types which for the compiler knows how to represent objects, and their operations (+-) without having to look at declarations provided by a programmer in code
+enumerator					the values of an enumeration as symbolic constants
+representation				the data used to represent an object, best placed in the implementation so that users can't invalidate their states
+class						the keyword used to define user-defined types with their default member access specifier set to private unless stated otherwise, directly expresses concepts or ideas in code,
+							specifies how objects of its type are represented, can be created, can be used and how they can be destroyed
+helper function				a function that expands the operation set of a user-defined type optimally using only public, interface member functions so that it doesn't invalidate the state of the object
+struct						the keyword used to define user-defined types with their default member access specifier set to public unless stated otherwise, primarily used for data structures where the members can take any value,
+							we can't define any meaningful invariant
+const						specifier used to declare a member function that can be called on const objects, but cannot modify non-mutable data members
+implementation				the part of the class visible only to implementers and members, usually data members are placed here, but we can also define types and member functions, the users access it indirectly using the interface,
+							indentified by the private access specifier
+structure					an user-defined type: specifies data and a set of operations on that data, used to represent ideas and concepts in code
+constructor					a member function with the same name as the class it is part of, used to initalize data members, and check invariants, a constructor with no parameters is called the default constructor
+in-class initializer		initializers next to declarations of data members, used as a fall-back when a constructor fails to initialize that member
+user-defined types			classes or enumerations, a class directly expresses a concept, an enumeration defines a set of values as symbolic constants
+destructor					member function that destroys all of its allocated resources, called when the lifetime of the given object ends, such as at the end of the scope that it is defined in
+inlining					when defining a member function inside the class definition, the function will be inline: the compiler will try to generate code at the point of the call, should be used for rather small functions
+valid state					we strive for objects that only can have a valid state, we do so by keeping implementation details, such as data members private, a rule for what constitutes as a valid value is called an invariant
+enum						unscoped enumeration: places its enumerators in the scope the enumeration is defined in
+interface					the part of a class that users can access directly, usually member functions and types go here, identified by the public access specifier
+enumeration					a user-defined type that defines a set of values as symbolic constants
+invariant					a rule for what constitutes as a valid value
+enum class					an enumeration that places its enumerators inside the enumeration's scope
+operator overloading		defining operators for user-defined types, we can only define existing operators, and cannot extend the syntax, must have at least one user-defined type as operand
+default member initializer	in-class initializer: specifying an initializer next to the data member's declaration, used as a fall-back initial value if a constructor fails to initialize that member
