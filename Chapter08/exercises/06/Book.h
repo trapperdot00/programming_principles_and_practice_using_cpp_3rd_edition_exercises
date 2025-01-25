@@ -5,6 +5,7 @@
 #include <string>
 #include <cctype>
 #include <stdexcept>
+#include <iostream>
 
 class Book {
 public:
@@ -44,5 +45,9 @@ private:
 	std::chrono::year cd;	// Copyright Date
 	bool co;	// Book Checked Out
 };
+
+bool operator==(const Book&, const Book&);
+bool operator!=(const Book&, const Book&);
+std::ostream& operator<<(std::ostream&, const Book&);
 
 #endif
