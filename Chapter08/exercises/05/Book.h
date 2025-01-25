@@ -9,15 +9,12 @@
 class Book {
 public:
 	Book(const std::string& is, const std::string& ti,
-		 const std::string& au, int year, bool ch)
+		 const std::string& au, int year, bool ch = false)
 		: i(is), t(ti), a(au), cd(year), co(ch)
 	{
 		if (!valid_isbn(i))
 			throw std::runtime_error{"Invalid ISBN format"};
 	}
-	Book(const std::string& is, const std::string& ti,
-		 const std::string& au, int year)
-		: Book(is, ti, au, year, false) {}
 
 	std::string isbn() const { return i; }
 	std::string title() const { return t; }

@@ -82,3 +82,6 @@ This exercise and the next few require you to design and implement a `Book` clas
 
 ## [Exercise 6](exercises/06)
 Add operators for the `Book` class. Have the `==` operator check whether the ISBN numbers are the same for two books. Have `!=` also compare the ISBN numbers. Have a `<<` print out the title, author, and ISBN on separate lines.
+
+## [Exercise 7](exercises/07)
+Create an enumerated type for the `Book` class called `Genre`. Have the types be fiction, nonfiction, periodical, biography, and children. Give each book a `Genre` and make appropriate changes to the `Book` constructor and member functions.
