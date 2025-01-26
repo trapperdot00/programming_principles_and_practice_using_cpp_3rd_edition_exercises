@@ -94,3 +94,6 @@ Create a `Library` class. Include vectors of `Book`s and `Patron`s. Include a `s
 
 ## [Exercise 10](exercises/10)
 Implement `leapyear(int)`.
+
+## [Exercise 11](exercises/11)
+Design and implement a set of useful helper functions for the `Date` class with functions such as `next_workday()` (assume that any day that is not a Saturday or a Sunday is a workday) and `week_of_year()` (assume that week 1 is the week with January 1 in it and that the first day of a week is a Sunday).
