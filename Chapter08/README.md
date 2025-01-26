@@ -85,3 +85,12 @@ Add operators for the `Book` class. Have the `==` operator check whether the ISB
 
 ## [Exercise 7](exercises/07)
 Create an enumerated type for the `Book` class called `Genre`. Have the types be fiction, nonfiction, periodical, biography, and children. Give each book a `Genre` and make appropriate changes to the `Book` constructor and member functions.
+
+## [Exercise 8](exercises/08)
+Create a `Patron` class for the library. The class will have a user’s name, library card number, and library fees (if owed). Have functions that access this data, as well as a function to set the fee of the user. Have a helper function that returns a Boolean (`bool`) depending on whether or not the user owes a fee.
+
+## [Exercise 9](exercises/09)
+Create a `Library` class. Include vectors of `Book`s and `Patron`s. Include a `struct` called `Transaction` to record when a book is checked out. Have it include a `Book`, a `Patron`, and a `Date`. Make a vector of `Transaction`s to keep a record of which books are out. Create functions to add books to the library, add patrons to the library, and check out books. Whenever a user checks out a book, have the library make sure that both the user and the book are in the library. If they aren’t, report an error. Then check to make sure that the user owes no fees. If the user does, report an error. If not, create a `Transaction`, and place it in the vector of `Transaction`s. Also write a function that will return a vector that contains the names of all `Patron`s who owe fees.
+
+## [Exercise 10](exercises/10)
+Implement `leapyear(int)`.
