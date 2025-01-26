@@ -208,9 +208,9 @@ Day starting_day_of_the_week(int year) {
 		if (leapyear(curr_year) && !leapyear(curr_year+1))
 			ret += 2;
 		else if (!leapyear(curr_year) && !leapyear(curr_year+1))
-			ret += 1;
+			++ret;
 		else if (!leapyear(curr_year) && leapyear(curr_year+1))
-			ret += 1;
+			++ret;
 		else
 			throw std::runtime_error{"leapyear to leapyear jump in day_of_the_week"};
 		++curr_year;
@@ -219,9 +219,9 @@ Day starting_day_of_the_week(int year) {
 		if (!leapyear(curr_year) && leapyear(curr_year-1))
 			ret -= 2;
 		else if (!leapyear(curr_year) && !leapyear(curr_year-1))
-			ret -= 1;
+			--ret;
 		else if (leapyear(curr_year) && !leapyear(curr_year-1))
-			ret -= 1;
+			--ret;
 		else
 			throw std::runtime_error{"leapyear to leapyear jump in day_of_the_week"};
 		--curr_year;
