@@ -141,24 +141,24 @@ void Date::add_month(int n) {
 
 void Date::add_day(int n) {
 	int days = d + n;
-	int days_in_curr_month = number_of_days(m);
+	int days_in_curr_month = number_of_days(m, leapyear(y.y));
 
 	// Walk month-by-month and adjust days
 	// until it becomes valid to assign it to d
 	// within the current month
 	while (days_in_curr_month < days) {
+		days -= days_in_curr_month;
 		if (m == Month::dec)
 			++y.y;
 		++m;
-		days -= days_in_curr_month;
 		days_in_curr_month = number_of_days(m, leapyear(y.y));
 	}
 	while (days <= 0) {
 		if (m == Month::jan)
 			--y.y;
 		--m;
-		days += days_in_curr_month;
 		days_in_curr_month = number_of_days(m, leapyear(y.y));
+		days += days_in_curr_month;
 	}
 	d = days;
 }
