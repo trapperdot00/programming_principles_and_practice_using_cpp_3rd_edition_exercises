@@ -97,3 +97,6 @@ Implement `leapyear(int)`.
 
 ## [Exercise 11](exercises/11)
 Design and implement a set of useful helper functions for the `Date` class with functions such as `next_workday()` (assume that any day that is not a Saturday or a Sunday is a workday) and `week_of_year()` (assume that week 1 is the week with January 1 in it and that the first day of a week is a Sunday).
+
+## [Exercise 12](exercises/12)
+Change the representation of a `Date` to be the number of days since January 1, 1970 (known as day 0), represented as a `long int` (that is, an `int` that can hold much larger integers than plain `int`), and re-implement the `Date` member functions from §8.4.2. Be sure to reject dates outside the range we can represent that way (feel free to reject days before day 0, i.e., no negative days).
