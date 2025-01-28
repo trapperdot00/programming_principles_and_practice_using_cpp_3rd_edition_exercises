@@ -100,3 +100,6 @@ Design and implement a set of useful helper functions for the `Date` class with 
 
 ## [Exercise 12](exercises/12)
 Change the representation of a `Date` to be the number of days since January 1, 1970 (known as day 0), represented as a `long int` (that is, an `int` that can hold much larger integers than plain `int`), and re-implement the `Date` member functions from §8.4.2. Be sure to reject dates outside the range we can represent that way (feel free to reject days before day 0, i.e., no negative days).
+
+## [Exercise 13](exercises/13)
+Design and implement a rational number class, `Rational`. A rational number has two parts: a numerator and a denominator, for example, 5/6 (five-sixths, also known as approximately .83333). Look up the definition if you need to. Provide assignment, addition, subtraction, multiplication, division, and equality operators. Also, provide a conversion to `double`. Why would people want to use a `Rational` class?
