@@ -1,0 +1,12 @@
+Rational can represent a rational number, meaning that it can represent
+any number that can be calculated by dividing a number by another one
+
+Money allows numbers that only have maximum two digits after the decimal dot
+
+Rational can represent numbers with higher precision than Money
+
+example:
+	11/3:
+		- Rational can store it as a whole with no loss of precision,
+		which can be converted to double as 3.66666666....
+		- Money could store it only in its decimal form, up to 2 digits after the dot: 3.66

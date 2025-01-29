@@ -103,3 +103,18 @@ Change the representation of a `Date` to be the number of days since January 1, 
 
 ## [Exercise 13](exercises/13)
 Design and implement a rational number class, `Rational`. A rational number has two parts: a numerator and a denominator, for example, 5/6 (five-sixths, also known as approximately .83333). Look up the definition if you need to. Provide assignment, addition, subtraction, multiplication, division, and equality operators. Also, provide a conversion to `double`. Why would people want to use a `Rational` class?
+
+## [Exercise 14](exercises/14)
+Design and implement a `Money` class for calculations involving dollars and cents where arithmetic has to be accurate to the last cent using the 4/5 rounding rule (.5 of a cent rounds up; anything less than .5 rounds down). Represent a monetary amount as a number of cents in a `long int`, but input and output as dollars and cents, e.g., $123.45. Do not worry about amounts that don’t fit into a `long int`.
+
+## [Exercise 15](exercises/15)
+Refine the `Money` class by adding a currency (given as a constructor argument). Accept a floating-point initializer as long as it can be exactly represented as a `long int`. Don’t accept illegal operations. For example, `Money*Money` doesn’t make sense, and `USD1.23+DKK5.00` makes sense only if you provide a conversion table defining the conversion factor between U.S. dollars (USD) and Danish kroner (DKK).
+
+## [Exercise 16](exercises/16)
+Define an input operator (`>>`) that reads monetary amounts with currency denominations, such as `USD1.23` and `DKK5.00`, into a `Money` variable. Also define a corresponding output operator (`<<`).
+
+## [Exercise 17](exercises/17.txt)
+Give an example of a calculation where a `Rational` gives a mathematically better result than `Money`.
+
+## [Exercise 18](exercises/18.txt)
+Give an example of a calculation where a `Rational` gives a mathematically better result than `double`.

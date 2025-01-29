@@ -1,0 +1,2 @@
+Rational could give a mathematically better result than double, since double has a limit on how many digits it can store
+Rational stores two numbers that precision by not evaluating the division to make it a double
