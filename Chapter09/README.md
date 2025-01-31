@@ -45,3 +45,9 @@ Run this code with the input
 1234 1234 1234 1234
 ```
 Explain the results.
+
+## [Drill 9](drill/09/01.cpp)
+Write some code to print the number `1234567.89` three times, first using `defaultfloat`, then `fixed`, then `scientific` forms. Which output form presents the user with the most accurate representation? Explain why.
+
+## [Drill 10](drill/10/01.cpp)
+Make a simple table including last name, first name, telephone number, and email address for yourself and at least five of your friends. Use `string`s to hold all values, even for the phone numbers. Experiment with different field widths until you are satisfied that the table is well presented.
