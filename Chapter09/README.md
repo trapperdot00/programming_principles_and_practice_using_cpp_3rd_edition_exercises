@@ -51,3 +51,12 @@ Write some code to print the number `1234567.89` three times, first using `defau
 
 ## [Drill 10](drill/10/01.cpp)
 Make a simple table including last name, first name, telephone number, and email address for yourself and at least five of your friends. Use `string`s to hold all values, even for the phone numbers. Experiment with different field widths until you are satisfied that the table is well presented.
+
+## [Drill 11](drill/11)
+Defining a data type `Point` that has two coordinate members `x` and `y`. Define `<<` and `>>` for `Point` as discussed in §9.3.1.
+
+## [Drill 12](drill/12)
+Using the code and discussion in §9.3.1, prompt the user to input seven (x,y) pairs. As the data is entered, store it in a `vector<Point>` called `original_points`.
+
+## [Drill 13](drill/13)
+Print the data in `original_points` to see what it looks like.
