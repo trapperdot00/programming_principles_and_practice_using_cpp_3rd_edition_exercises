@@ -1,0 +1,2 @@
+when the value is the full line entered, or when we don't yet know how to format our input
+(e.g. song title with spaces needs to go in one string)

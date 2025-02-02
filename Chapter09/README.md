@@ -100,3 +100,71 @@ Which of the following manipulators do not “stick”: `hex`, `scientific`, `se
 
 ## [Review 9](review/09.txt)
 In `format()`, how do you specify where an argument is placed on output?
+
+## [Review 10](review/10.txt)
+Give two examples where a `stringstream` can be useful.
+
+## [Review 11](review/11.txt)
+When would you prefer line-oriented input to type-specific input?
+
+## [Review 12](review/12.txt)
+What does `isalnum(c)` do?
+
+## [Review 13](review/13.txt)
+When dealing with input and output, how is the variety of devices dealt with in most modern computers?
+
+## [Review 14](review/14.txt)
+What, fundamentally, does an `istream` do?
+
+## [Review 15](review/15.txt)
+What, fundamentally, does an `ostream` do?
+
+## [Review 16](review/16.txt)
+What, fundamentally, is a file?
+
+## [Review 17](review/17.txt)
+What is a file format?
+
+## [Review 18](review/18.txt)
+Name four different types of devices that can require I/O for a program.
+
+## [Review 19](review/19.txt)
+What are the four steps for reading a file?
+
+## [Review 20](review/20.txt)
+What are the four steps for writing a file?
+
+## [Review 21](review/21.txt)
+Name and define the four stream states.
+
+## [Review 22](review/22.txt)
+Discuss how the following input problems can be resolved:
+```
+a. The user typing an out-of-range value
+b. Getting no value (end-of-file)
+c. The user typing something of the wrong type
+```
+
+## [Review 23](review/23.txt)
+In what way is input usually harder than output?
+
+## [Review 24](review/24.txt)
+In what way is output usually harder than input?
+
+## [Review 25](review/25.txt)
+Why do we (often) want to separate input and output from computation?
+
+## [Review 26](review/26.txt)
+What are the two most common uses of the `istream` member function `clear()`?
+
+## [Review 27](review/27.txt)
+What are the usual function declarations for `<<` and `>>` for a user-defined type `X`?
+
+## [Review 28](review/28.txt)
+How do you specify where an argument is inserted into a format string in `format()`?
+
+## [Review 29](review/29.txt)
+What is the notation for bases of decimal values in `format()`?
+
+## [Review 30](review/30.txt)
+How do you specify the precision of floating-point values in `format()`?

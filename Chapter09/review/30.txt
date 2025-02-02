@@ -1,0 +1,9 @@
+we specify the precision of floating-point values in std::format using
+the integer value after the dot inside the curly braces
+(there is a : before the formatting directives):
+
+std::format("{:.4}", 1.2345678);		// precision: 4, returns 1.235
+std::format("{:.4f}", 1.2345678);		// precision: 4, returns 1.2346
+
+(fixed and scientific looks at the number of digits after the decimal point for precision,
+defaultfloat looks at every digit regardless of position from the left)

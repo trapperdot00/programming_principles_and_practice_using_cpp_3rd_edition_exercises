@@ -1,0 +1,4 @@
+an ostream deals with streams of output:
+ - it turns values of various types into character sequences
+ - it sends those characters somewhere
+it uses a buffer to store the data read and to communicate with the operating system

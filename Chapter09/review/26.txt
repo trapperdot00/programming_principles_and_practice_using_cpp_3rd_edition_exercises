@@ -1,0 +1,5 @@
+calling the clear member function on an istream:
+ - with no arguments:	clears every erroneous bit
+ - with arguments:		clears every erroneous bit not provided, sets every bits provided
+
+we can apply the bitwise OR between bits to add them

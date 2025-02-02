@@ -1,0 +1,2 @@
+a stringstream can be useful when we need to concatenate strings into a stream, and then use the new string (ostringstream),
+or when reading a formatted string and we need to extract the values from it (istringstream)

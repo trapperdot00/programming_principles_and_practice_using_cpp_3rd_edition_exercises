@@ -1,0 +1,4 @@
+input and output for the variety of devices in most modern computers is dealt with device drivers,
+through an I/O library, which makes it possible for programmers to address any kind input and output device
+with the same operations regardless of the device's details
+the I/O library provides an abstraction of I/O for the devices

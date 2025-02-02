@@ -1,0 +1,4 @@
+video camera: input for the video stream, output for zooming or changing video settings
+peripherals: input for mouse movement, clicks, key presses, output for changing the RGB settings
+mobile phone connection: two-way data transfer
+disks (SSD, HDD...): S.M.A.R.T status, data writing, reading, mounting

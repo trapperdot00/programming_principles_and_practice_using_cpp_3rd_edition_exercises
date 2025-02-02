@@ -1,0 +1,7 @@
+ - we should separate logically distinct computations into their own separate functions
+ - when dealing with files, we should first try to open the file and check if it really opened without errors,
+ 	so that we can proceed with the calculations (it would be unnecessary work if it didn't open)
+ - separating input and output into their own separate functions and relying on the files closing at the end
+ 	of the function scope minimizes the chances of someone trying to use a file stream after it has been closed
+ - directly supplying a constructor with a filename for a file stream object minimizes the chance of users
+ 	using the file stream incorrectly

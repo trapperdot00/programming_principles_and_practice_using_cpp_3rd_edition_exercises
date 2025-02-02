@@ -1,0 +1,4 @@
+an istream deals with streams of input:
+ - it gets characters from somewhere
+ - it turns those character sequences into values of various types
+it uses a buffer to communicate with the operating system

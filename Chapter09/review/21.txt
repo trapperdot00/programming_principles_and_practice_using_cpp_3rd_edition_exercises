@@ -1,0 +1,18 @@
+Stream states:
+ - str.good():
+	The stream is in a valid state (no eof, fail or bad), ready for next operation,
+	last operation succeeded
+	Can be checked by using the stream in a condition (operator bool overload)
+
+ - str.eof():
+	The stream read end-of-file (eof) character,
+	no more data can be read
+
+ - str.fail():
+	The stream encountered an unexpected error,
+	from which we can recover (usually format or type error)
+
+ - str.bad():
+	The stream encountered an unexpected and serious error,
+	from which it cannot recover (disk error)
+	Also sets failbit implicitly

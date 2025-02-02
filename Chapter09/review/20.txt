@@ -1,0 +1,5 @@
+Writing a file:
+ - Specify its name (and path)
+ - Open file with given name for writing or create new file
+ - Write data to file
+ - Close file

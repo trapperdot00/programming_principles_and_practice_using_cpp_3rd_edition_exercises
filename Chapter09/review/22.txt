@@ -1,0 +1,28 @@
+User types an out-of-range value:
+	Since the stream is still in a valid state:
+	 - we can prompt for a new value if input is coming from a keyboard
+	 - files won't respond accordingly so we could set failbit to indicate a format error
+	 	and return the stream, the user could reset the stream if they want to
+	 - throw an exception and let someone else handle the problem
+	 - do nothing and hope for the best (can introduce half-finished assignments in classes)
+
+	 I think setting the failbit is the most fitting
+
+User inputs EOF:
+	The stream has eofbit set, we can assume there is no data to read now:
+	 - we can return from the function without constructing an object from the input
+	 - we can set failbit if we have insufficient input data then return
+	 - we can throw an exception if reading data is important
+	 - if we read a sequence of values where EOF marks the end of values, we can simply return 
+		the sequence or something calculated from the sequence
+	 - do nothing (we can no longer read, but can assign undefined objects to the to-be-returned object),
+		return the unfinished object (disaster!)
+
+User inputs data for wrong type:
+	The stream has failbit set:
+	 - we can return, the user can clear the stream and read something else if they want to
+	 - we can clear it in the reading function and check whether it is a terminator,
+	 	if not, return or throw, else return the read object(s)
+	 - we can throw an exception
+	 - if we were reading a sequence of characters, we can end the reading and go on with the function
+	 - do nothing, subsequent readings will fail

@@ -1,0 +1,4 @@
+files are a sequence of bytes numbered from 0 upward
+they are usually located on larger capacity storage devices than the main memory,
+where the data is persistent: doesn't perish when disconnected from power
+they have a format: a set of rules on what the bytes mean

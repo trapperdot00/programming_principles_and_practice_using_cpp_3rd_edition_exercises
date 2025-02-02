@@ -1,0 +1,20 @@
+the usual function declaration for << and >> for the user-defined type X is as follows:
+ - the input and output operator ought to be helper functions rather than members of the class
+ - the input and output operator should not be friends of the class, to minimize bugs,
+ 	let the class pass data out using well-defined getters from the class interface
+ - the input and output operators should get data using public getters
+
+ - the input operator's first parameter should be a non-const reference to an istream,
+ 	its second parameter should be a non-const reference to X, to be able to modify its value
+ - the input operator should return its first argument, to enable chaining multiple >> operators
+
+ - the output operator's first parameter should be a non-const reference to an ostream,
+ 	its second parameter should be a const reference to X, to avoid modifying it
+	and avoid copying it if it is a large type, and to be able to print const objects of X
+ - the output operator should return its first argument, to enable chaining multiple << operators
+
+istream and ostream objects cannot be copied, we need to pass them by reference
+
+declarations:
+	std::istream& operator>>(std::istream&, X&);
+	std::ostream& operator<<(std::ostream&, const X&);

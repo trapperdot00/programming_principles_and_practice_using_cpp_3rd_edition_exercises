@@ -1,0 +1,5 @@
+Reading a file:
+ - Specify its name (and path)
+ - Open file with given name for reading
+ - Read data from file
+ - Close the file

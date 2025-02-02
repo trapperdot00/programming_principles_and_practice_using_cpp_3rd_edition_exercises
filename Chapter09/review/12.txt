@@ -1,0 +1,2 @@
+std::isalnum(c) checks whether c (a char) is an alphabetic character or a decimal digit
+the same as (std::isalpha(c) || std::isdigit(c))

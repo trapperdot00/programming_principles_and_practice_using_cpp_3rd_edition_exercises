@@ -1,0 +1,3 @@
+output is usually harder than input when we are dealing with types that consist of only a few data members,
+but its character representation isn't standardized, and users could expect many kinds of output from our types,
+and we can only write one for the << operator overload

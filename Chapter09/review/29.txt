@@ -1,0 +1,6 @@
+the notation for bases of decimal values in std::format():
+{}		decimal for integers, general with default precision (6) for floating-points
+{:d}	decimal for integers
+{:e}	scientific for floating-points
+{:f}	fixed for floating-points
+{:g}	general with default precision (6) for floating-points

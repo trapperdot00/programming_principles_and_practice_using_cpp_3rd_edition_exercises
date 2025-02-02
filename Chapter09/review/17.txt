@@ -1,0 +1,1 @@
+a file format is a set of rules that specify what the bytes mean inside the file

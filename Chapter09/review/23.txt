@@ -1,0 +1,3 @@
+input is usually harder than output because if we are reading formatted input,
+we have to check whether the format is correct, only then we can modify the object we're reading into
+the input can be structured, which also increases the code complexity for input validation
