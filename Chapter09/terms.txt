@@ -1,0 +1,87 @@
+binary						the base-2 numeral system, a binary digit consists of either a 0 or a 1,
+							binary representation of integers is only provided by std::format,
+							there is no iostream manipulator for binary
+hexadecimal					the base-16 numeral system, a hexadecimal digit consists of digits 0-9, and letters A-F,
+							there is also a manipulator for iostream that we can use to print and read hexadecimal
+							integers: std::hex; and hexadecimal floats: std::hexfloat
+							for std::format, we can use these formatting directives: {:x} for integers, {:a} for floats
+octal						the base-8 numeral system, an octal digit consists of digits 0-7,
+							there is an iostream manipulator to print octal integers: std::oct,
+							there is an std::format formatting directive for octal integers: {:o}
+getline()					function that reads characters from an input stream until it encounters the delimiter or end-of-file,
+							takes two non-default parameters: 1) an istream 2) the string to put read into
+							takes one default parameter: 3) a delimiter that defaults to '\n', it is discarded when reading
+							returns the first argument, the istream given
+character classification	characters can be classified, a character can be a digit, an alphabetic character, whitespace,
+		  					hexadecimal digit, uppercase, lowercase, alphanumeric, control character, punctuation, printable,
+							graphic character,
+							cctype header contains functions that check a given character's classification
+output formatting			a format that a type uses when printing,
+	   						we can specify a format for our types when using the output operator '<<'
+decimal						the base-10 numeral system, a digit consists of numbers 0-9,
+							the default output format for integers and floats
+line-oriented input			the strategy of reading input line-by-line and parsing or validating it later
+defaultfloat				floating-point iostream manipulator, chooses fixed or scientific representation
+							to most accurately represent the float given,
+							precision is the total number of digits
+manipulator					an object that manipulates istream or ostream objects' states
+scientific					floating-point iostream manipulator that formats floats into scientific notation,
+							precision is the number of digits after the decimal point
+get()						istream member function that takes a reference to a character and reads data into it,
+							returns the istream it is called on, doesn't ignore any whitespace, we have full control
+							over the data we are reading
+setprecision()				iostream manipulator that sets the precision for floating-point values
+fixed						floating-point iostream manipulator that formats floats using fixed-point notation,
+							precision is the number of digits after the decimal point
+<<							operator used for ostream output operations, can be overloaded for user-defined types
+>>							operator used for istream input operations, can be overloaded for used-defined types
+bad()						stream state that indicates that something unexpected and serious happened,
+							prevents from using the stream in this state
+good()						stream state that indicates that there were no errors in the previous operation
+ostream						type that deals with streams of output: std::cout for stdout, std::ofstream for file output,
+							std::ostringstream for in-memory string output
+buffer						a data structure that istream and ostream use to store the data they are operating on,
+							to increase performance of their operations and to communicate with the operating system
+ifstream					istream that reads from a file, needs a filename to open the file for reading,
+							can be used the same way as std::cin, supports the same input operators, functions,
+							implicitly closes the file when the object is destroyed
+output device				a device that we can send data to, the operating system handles it through device drivers,
+	   						the output library provides operations to access each output device through a common interface
+clear()						iostream member function, when given no parameters, every error bit is removed,
+							when given a parameter, it removes every error bit except for the given bit(s bitwise OR-ed)
+input device				a device that can send data into our program, the operating system handles it through device drivers,
+	  						the input library provides operations to access each input device through a common interface
+output operator				'<<', ostreams can handle outputting built-in types, some library types have defined the output operator
+							and we can define our own output operator for our classes with formatting
+close()						member function we can call on behalf of file stream objects to explicitly close them,
+							it is better if we rely on the automatic closing of the file when its scope ends, so that
+							we prevent accessing a closed file stream
+input operator				'>>', istreams can handle reading data into built-in types, some library types, and we can define
+							our own input operators for our own types with format handling
+stream state				stream flags that indicate errors or that there are no errors
+device driver				the program that the operating system uses to handle input and output for devices,
+	   						the input and output library provide abstractions for them so that programmers need not worry about them
+iostream					a stream that can be used both for reading and writing: fstream for reading and writing files,
+							stringstream for reading and writing in-memory strings
+structured file				a file structured according to a file format's rules (e.g. HTML, XML, JSON)
+eof()						iostream member function that checks whether the stream's eof bit is set: when the stream reads end-of-file
+istream						deals with streams of input as characters and turns those characters into values of various types
+terminator					when reading values, we can define a terminator that signals the end of the input stream instead of relying
+							on the user passing EOF which can be hard to recover from
+fail()						iostream member function that checks whether the stream's fail bit is set: when encountering an unexpected error,
+							such as reading a wrong type of input for an object, we can set failbit also to signal format errors in formatted input
+ofstream					ostream that writes data into files, needs a filename to open a file for writing, can be used the same way
+							as std::cout, supports the same operations, functions, implicitly closes the file when goes out of scope and is destroyed
+unget()						istream member function that puts the last read character back into the buffer without specifying what it last read
+file						data usually on persistent storage that is a sequence of bytes numbered from 0 upward
+open()						file stream member function that takes a std::string parameter for filename to open,
+							better to use the file stream's constructor to avoid using uninitialized file streams
+format()					function that takes a format string, and additional arguments to insert into the format string's curly braces,
+							inspired by C's printf function, format is type-safe and extensible for user-defined types
+							produces a string as output
+tolower()					takes a character, returns a character that is either the original character or the lowercase version of that character
+setw()						iostream manipulator that sets the field width for the next output operation
+setfill()					iostream manipulator that sets the character that it will fill the empty space with
+							(when we set a larger width than the value printed)
+isdigit()					function that checks whether a given character classifies as a digit
+isalpha()					function that checks whether a given character classifies as an alphabetic character
