@@ -1,0 +1,4 @@
+a manipulator is an object that changes the state of a stream
+there are sticky and non-sticky manipulators:
+	sticky persists after one read or write
+	non-sticky perishes after one read or write

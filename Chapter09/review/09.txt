@@ -1,0 +1,5 @@
+in std::format(), we can specify where a given argument is placed with the curly braces in the format string:
+	std::format("{} {} {}\n", "Hello!", "What?", "How?");		// returns "Hello! What? How?\n"
+
+we can specify explicitly which arguments we want to print:
+	std::format("{2} {1} {0}\n", "Goodbye.", "How are you?", "Hello!")	// returns "Hello! How are you? Goodbye.\n"

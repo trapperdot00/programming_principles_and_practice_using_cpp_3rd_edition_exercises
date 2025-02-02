@@ -1,0 +1,4 @@
+the default output format for floating-point values is std::defaultfloat:
+chooses either std::fixed or std::scientific, which gives the most accurate representation
+its precision is the total number of digits
+the default precision is 6

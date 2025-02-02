@@ -72,3 +72,31 @@ Print the data elements from both `vector`s.
 
 ## [Drill 17](drill/17)
 Compare the two `vector`s and print “Something’s wrong!” if the number of elements or the values of elements differ.
+
+
+## [Review 1](review/01.txt)
+Why is I/O tricky for a programmer?
+
+## [Review 2](review/02.txt)
+What does the notation `<< hex` do?
+
+## [Review 3](review/03.txt)
+What are hexadecimal numbers used for in computer science? Why?
+
+## [Review 4](review/04.txt)
+Name some of the options you may want to implement for formatting integer output.
+
+## [Review 5](review/05.txt)
+What is a manipulator?
+
+## [Review 6](review/06.txt)
+What is the default output format for floating-point values?
+
+## [Review 7](review/07.txt)
+Explain what `setprecision()` and `setw()` do.
+
+## [Review 8](review/08.txt)
+Which of the following manipulators do not “stick”: `hex`, `scientific`, `setprecision()`, `setw()`?
+
+## [Review 9](review/09.txt)
+In `format()`, how do you specify where an argument is placed on output?

@@ -1,0 +1,12 @@
+'<< hex':
+
+std::hex is an i/o manipulator, changes the given (i/o)stream's state:
+	when given to an istream, the variables read after the manipulator will be read as hexadecimal values
+	when given to an ostream, the data outputted after the manipulator will be printed as hexadecimal values
+the manipulator is 'sticky': needs to be explicitly reset, won't reset to std::dec automatically,
+which is the manipulator for decimal representations
+hex can be applied to integers
+
+in this example, we can see that there is an output operator before the manipulator, so we can assume
+that it is given to an ostream:
+	any data printed after the manipulator will be printed as hexadecimal if the type supports it

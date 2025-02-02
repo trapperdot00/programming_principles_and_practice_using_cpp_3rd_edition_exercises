@@ -1,0 +1,12 @@
+I/O is tricky because we have to make our outputs as close to the expectations of the users as possible
+and we don't always have a standard way of outputting data: there will always be locale issues or formatting issues
+
+overloading the << operator is the first step in providing output for our types, it can provide a generic output format
+that definitely won't fit everyone's expectations but at least we can print our data
+making our own formatter specialization for our own types extends the possibilities as we can manipulate the format,
+but it is harder to do
+
+input handling is harder to do: we have to make sure that the inputted data's format is right, and only when it is can we
+assign a new value to the given object
+we have to think very hard about error handling: the user can type an out-of-range value, input nothing or input the wrong type
+we can handle the errors in the input function, throw an exception to let someone else handle the error, or ignore it

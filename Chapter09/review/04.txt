@@ -1,0 +1,4 @@
+binary representation natively with input, output operators as a manipulator
+a rounding manipulator with a given precision	(e.g 134 -> 130 but 135 -> 140)
+a floor manipulator with a given precision		(e.g 134 -> 130 and 139 -> 130)
+a ceiling operator with a given precision		(e.g 131 -> 140 and 139 -> 140)

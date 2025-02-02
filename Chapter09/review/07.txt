@@ -1,0 +1,13 @@
+std::setprecision():
+	manipulator that sets the precision for floating-point numbers for all subsequent operations (sticky)
+	precision is either the total number of digits in a float (defaultfloat)
+	or the number of digits after the decimal point (fixed, scientific)
+	it can be passed to streams using << or >> operators
+
+	(not manipulator form)
+	can be called as member functions (with name precision) for given streams (e.g. std::cout.precision(6))
+
+std::setw():
+	manipulator that sets the following field's width to a given number of characters of width
+	can be used on ostreams using the << operator
+	non-sticky: only applies to the following print
