@@ -60,3 +60,15 @@ Using the code and discussion in §9.3.1, prompt the user to input seven (x,y) p
 
 ## [Drill 13](drill/13)
 Print the data in `original_points` to see what it looks like.
+
+## [Drill 14](drill/14)
+Open an `ofstream` and output each point to a file named `mydata.txt`. We suggest the `.txt` suffix to make it easier to look at the data with an ordinary text editor if you are using Windows.
+
+## [Drill 15](drill/15)
+Open an `ifstream` for `mydata.txt`. Read the data from `mydata.txt` and store it in a new vector called `processed_points`.
+
+## [Drill 16](drill/16)
+Print the data elements from both `vector`s.
+
+## [Drill 17](drill/17)
+Compare the two `vector`s and print “Something’s wrong!” if the number of elements or the values of elements differ.
