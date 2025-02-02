@@ -168,3 +168,10 @@ What is the notation for bases of decimal values in `format()`?
 
 ## [Review 30](review/30.txt)
 How do you specify the precision of floating-point values in `format()`?
+
+
+## [Exercise 1](exercises/01/01.cpp)
+Write a program that reads a text file and converts its input to all lowercase, producing a new file.
+
+## [Exercise 2](exercises/02/01.cpp)
+Write a program that given a file name and a word will output each line that contains that word together with the line number. Hint: `getline()`.
