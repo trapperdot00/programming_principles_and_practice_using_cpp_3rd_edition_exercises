@@ -175,3 +175,6 @@ Write a program that reads a text file and converts its input to all lowercase, 
 
 ## [Exercise 2](exercises/02/01.cpp)
 Write a program that given a file name and a word will output each line that contains that word together with the line number. Hint: `getline()`.
+
+## [Exercise 3](exercises/03/01.cpp)
+Write a program that removes all vowels from a file ("disemvowels"). For example, `Once upon a time!` becomes `nc pn tm!`. Surprisingly often, the result is still readable; try it on your friends.
