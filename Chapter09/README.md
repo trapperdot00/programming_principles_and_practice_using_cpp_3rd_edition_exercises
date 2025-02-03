@@ -178,3 +178,11 @@ Write a program that given a file name and a word will output each line that con
 
 ## [Exercise 3](exercises/03/01.cpp)
 Write a program that removes all vowels from a file ("disemvowels"). For example, `Once upon a time!` becomes `nc pn tm!`. Surprisingly often, the result is still readable; try it on your friends.
+
+## [Exercise 4](exercises/04/multi_input.cpp)
+Write a program called `multi_input.cpp` that prompts the user to enter several integers in any combination of octal, decimal, or hexadecimal, using the `0` and `0x` base prefixes; interprets the numbers correctly; and converts them to decimal form. Then your program should output the values in properly spaced columns like this:
+```
+0x43    hexadecimal     converts to     67  decimal
+0123    octal           converts to     83  decimal
+65      decimal         converts to     65  decimal
+```
