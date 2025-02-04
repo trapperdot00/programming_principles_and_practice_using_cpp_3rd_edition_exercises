@@ -144,7 +144,6 @@ size_t length(int n, NumBase base = NumBase::dec) {
 		ret << n;
 		break;
 	}
-	std::cout << ret.str() << '\n';
 	return ret.str().size();
 }
 
