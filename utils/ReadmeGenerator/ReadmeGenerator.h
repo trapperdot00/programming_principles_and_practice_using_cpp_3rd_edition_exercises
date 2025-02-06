@@ -36,6 +36,11 @@ private:
 	// Holds the project's utilities directory path
 	std::filesystem::path utils;
 
+	// The structured file that contains the data for the book title,
+	// parts, their numbers, and their titles,
+	// and their chapters, their numbers, and their titles
+	// Must be in the utils path
+	constexpr static std::string_view parsefilename = "BookData.txt";
 	// TODO put this in a file, not directly in the source code
 	constexpr static std::string_view title =
 		"# My answers for the exercises in the book 'Programming: Principles and Practice using C++ (3rd edition)'\n";

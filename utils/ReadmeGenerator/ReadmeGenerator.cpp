@@ -4,7 +4,7 @@ namespace fs = std::filesystem;
 
 std::string ReadmeGenerator::generate_root() const {
 	// TODO get book filename as an argument maybe from the command-line
-	const BookData book{parse(utils / "testdata.txt")};
+	const BookData book{parse(utils / parsefilename)};
 
 	// Hold found chapter directory numbers
 	std::vector<size_t> read_chapters;
@@ -41,6 +41,7 @@ std::string ReadmeGenerator::generate_root() const {
 			prev_part = it->part.part;
 		}
 		// Insert Chapter section into the README
+		// TODO: make this less static format-wise
 		os << "### [Chapter" << std::setw(2) << std::setfill('0') << it->chapter
 			<< "](Chapter" << std::setw(2) << std::setfill('0') << it->chapter << "/): "
 			<< it->title << '\n';		
