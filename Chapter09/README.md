@@ -186,3 +186,9 @@ Write a program called `multi_input.cpp` that prompts the user to enter several 
 0123    octal           converts to     83  decimal
 65      decimal         converts to     65  decimal
 ```
+
+## [Exercise 5](exercises/05/01.cpp)
+Write a program that reads strings and for each string outputs the character classification of each character, as defined by the character classification functions presented in §9.10.3. Note that a character can have several classifications (e.g., `x` is both a letter and an alphanumeric).
+
+## [Exercise 6](exercises/06/01.cpp)
+Write a program that replaces punctuation with whitespace. Consider `.` (dot), `;` (semicolon), `,` (comma), `?` (question mark), `−` (dash), `’` (single quote) punctuation characters. Don’t modify characters within a pair of double quotes (`"`). For example, “`− don’t use the as−if rule.`” becomes “`don t use the as if rule `”.
