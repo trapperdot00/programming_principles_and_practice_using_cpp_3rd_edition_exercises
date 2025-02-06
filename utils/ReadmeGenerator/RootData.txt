@@ -1,0 +1,71 @@
+{ Book "Programming: Principles and Practice using C++ (3rd edition)"
+	{ Part 1 "The Basics"
+		{ Chapter 1
+			{ "Hello, World!" }
+		}
+		{ Chapter 2
+			{ "Objects, Types, and Values" }
+		}
+		{ Chapter 3
+			{ "Computation" }
+		}
+		{ Chapter 4
+			{ "Errors!" }
+		}
+		{ Chapter 5
+			{ "Writing a Program" }
+		}
+		{ Chapter 6
+			{ "Completing a Program" }
+		}
+		{ Chapter 7
+			{ "Technicalities: Functions, etc." }
+		}
+		{ Chapter 8
+			{ "Technicalities: Classes, etc." }
+		}
+	}
+	{ Part 2 "Input and Output"
+		{ Chapter 9
+			{ "Input and Output Streams" }
+		}
+		{ Chapter 10
+			{ "A Display Model" }
+		}
+		{ Chapter 11
+			{ "Graphics Classes" }
+		}
+		{ Chapter 12
+			{ "Class Design" }
+		}
+		{ Chapter 13
+			{ "Graphing Functions and Data" }
+		}
+		{ Chapter 14
+			{ "Graphical User Interfaces" }
+		}
+	}
+	{ Part 3 "Data and Algorithms"
+		{ Chapter 15
+			{ "Vector and Free Store" }
+		}
+		{ Chapter 16
+			{ "Arrays, Pointers, and References" }
+		}
+		{ Chapter 17
+			{ "Essential Operations" }
+		}
+		{ Chapter 18
+			{ "Templates and Exceptions" }
+		}
+		{ Chapter 19
+			{ "Containers and Iterators" }
+		}
+		{ Chapter 20
+			{ "Maps and Sets" }
+		}
+		{ Chapter 21
+			{ "Algorithms" }
+		}
+	}
+}
