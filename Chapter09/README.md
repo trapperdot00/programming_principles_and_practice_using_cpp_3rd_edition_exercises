@@ -198,3 +198,6 @@ Modify the program from the previous exercise so that it replaces `don’t` with
 
 ## [Exercise 8](exercises/08)
 Use the program from the previous exercise to make a sorted list of words. Run the result on a multi-page text file, look at the result, and see if you can improve the program to make a better list.
+
+## [Exercise 9](exercises/09/01.cpp)
+Write a function `vector<string> split(const string& s)` that returns a `vector` of whitespace-separated substrings from the argument `s`.
