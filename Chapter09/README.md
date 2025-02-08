@@ -213,3 +213,6 @@ Reverse the order of words (defined as whitespace-separated strings) in a file. 
 
 ## [Exercise 13](exercises/13/01.cpp)
 Write a program that reads a text file and writes out how many characters of each character classification (§9.10.3) are in the file.
+
+## [Exercise 14](exercises/14/01.cpp)
+Write a program that reads a file of whitespace-separated numbers and outputs a file of numbers using scientific format and precision 8 in four fields of 20 characters per line.
