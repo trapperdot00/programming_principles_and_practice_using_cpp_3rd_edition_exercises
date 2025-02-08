@@ -210,3 +210,6 @@ Reverse the order of characters in a text file. For example, `asdfghjkl` becomes
 
 ## [Exercise 12](exercises/12/01.cpp)
 Reverse the order of words (defined as whitespace-separated strings) in a file. For example, `Norwegian Blue parrot` becomes `parrot Blue Norwegian`. Assume that all the strings from the file will fit into memory at once.
+
+## [Exercise 13](exercises/13/01.cpp)
+Write a program that reads a text file and writes out how many characters of each character classification (§9.10.3) are in the file.
