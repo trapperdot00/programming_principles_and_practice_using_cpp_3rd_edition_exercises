@@ -201,3 +201,6 @@ Use the program from the previous exercise to make a sorted list of words. Run t
 
 ## [Exercise 9](exercises/09/01.cpp)
 Write a function `vector<string> split(const string& s)` that returns a `vector` of whitespace-separated substrings from the argument `s`.
+
+## [Exercise 10](exercises/10/01.cpp)
+Write a function `vector<string> split(const string& s, const string& w)` that returns a `vector` of whitespace-separated substrings from the argument `s`, where whitespace is defined as “ordinary whitespace” plus the characters in `w`.
