@@ -204,3 +204,6 @@ Write a function `vector<string> split(const string& s)` that returns a `vector`
 
 ## [Exercise 10](exercises/10/01.cpp)
 Write a function `vector<string> split(const string& s, const string& w)` that returns a `vector` of whitespace-separated substrings from the argument `s`, where whitespace is defined as “ordinary whitespace” plus the characters in `w`.
+
+## [Exercise 11](exercises/11/01.cpp)
+Reverse the order of characters in a text file. For example, `asdfghjkl` becomes `lkjhgfdsa`. Warning: There is no really good, portable, and efficient way of reading a file backward.
