@@ -207,3 +207,6 @@ Write a function `vector<string> split(const string& s, const string& w)` that r
 
 ## [Exercise 11](exercises/11/01.cpp)
 Reverse the order of characters in a text file. For example, `asdfghjkl` becomes `lkjhgfdsa`. Warning: There is no really good, portable, and efficient way of reading a file backward.
+
+## [Exercise 12](exercises/12/01.cpp)
+Reverse the order of words (defined as whitespace-separated strings) in a file. For example, `Norwegian Blue parrot` becomes `parrot Blue Norwegian`. Assume that all the strings from the file will fit into memory at once.
