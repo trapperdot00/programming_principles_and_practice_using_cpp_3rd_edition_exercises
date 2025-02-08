@@ -195,3 +195,6 @@ Write a program that replaces punctuation with whitespace. Consider `.` (dot), `
 
 ## [Exercise 7](exercises/07/01.cpp)
 Modify the program from the previous exercise so that it replaces `don’t` with `do not`, `can’t` with `cannot`, etc.; leaves hyphens within words intact (so that we get “`do not use the as−if rule `”); and converts all characters to lowercase.
+
+## [Exercise 8](exercises/08)
+Use the program from the previous exercise to make a sorted list of words. Run the result on a multi-page text file, look at the result, and see if you can improve the program to make a better list.
