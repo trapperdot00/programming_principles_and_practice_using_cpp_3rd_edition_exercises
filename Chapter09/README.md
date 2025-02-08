@@ -192,3 +192,6 @@ Write a program that reads strings and for each string outputs the character cla
 
 ## [Exercise 6](exercises/06/01.cpp)
 Write a program that replaces punctuation with whitespace. Consider `.` (dot), `;` (semicolon), `,` (comma), `?` (question mark), `−` (dash), `’` (single quote) punctuation characters. Don’t modify characters within a pair of double quotes (`"`). For example, “`− don’t use the as−if rule.`” becomes “`don t use the as if rule `”.
+
+## [Exercise 7](exercises/07/01.cpp)
+Modify the program from the previous exercise so that it replaces `don’t` with `do not`, `can’t` with `cannot`, etc.; leaves hyphens within words intact (so that we get “`do not use the as−if rule `”); and converts all characters to lowercase.
