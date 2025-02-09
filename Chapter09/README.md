@@ -225,3 +225,6 @@ Write a program to read a file of whitespace-separated numbers and output them i
 7   2
 117
 ```
+
+## [Exercise 16](exercises/16/01.cpp)
+Write a program that produces the sum of all the numbers in a file of whitespace-separated integers.
