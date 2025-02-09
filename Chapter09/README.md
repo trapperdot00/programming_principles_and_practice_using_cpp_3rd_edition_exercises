@@ -228,3 +228,6 @@ Write a program to read a file of whitespace-separated numbers and output them i
 
 ## [Exercise 16](exercises/16/01.cpp)
 Write a program that produces the sum of all the numbers in a file of whitespace-separated integers.
+
+## [Exercise 17](exercises/17)
+Write a program that creates a file of data in the form of the temperature `Reading` type defined in §9.3.2. For testing, fill the file with at least 50 “temperature readings.” Call this program `store_temps.cpp` and the file it creates `raw_temps.txt`.
