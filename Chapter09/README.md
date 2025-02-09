@@ -216,3 +216,12 @@ Write a program that reads a text file and writes out how many characters of eac
 
 ## [Exercise 14](exercises/14/01.cpp)
 Write a program that reads a file of whitespace-separated numbers and outputs a file of numbers using scientific format and precision 8 in four fields of 20 characters per line.
+
+## [Exercise 15](exercises/15/01.cpp)
+Write a program to read a file of whitespace-separated numbers and output them in order (lowest value first), one value per line. Write a value only once, and if it occurs more than once write the count of its occurrences on its line. For example, `75573 117 5` should give
+```
+3
+5   3
+7   2
+117
+```
