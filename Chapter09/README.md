@@ -231,3 +231,6 @@ Write a program that produces the sum of all the numbers in a file of whitespace
 
 ## [Exercise 17](exercises/17)
 Write a program that creates a file of data in the form of the temperature `Reading` type defined in §9.3.2. For testing, fill the file with at least 50 “temperature readings.” Call this program `store_temps.cpp` and the file it creates `raw_temps.txt`.
+
+## [Exercise 18](exercises/18)
+Write a program that reads the data from `raw_temps.txt` created in exercise 2 into a vector and then calculates the mean and median temperatures in your data set. Call this program `temp_stats.cpp`.
