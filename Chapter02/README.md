@@ -1,4 +1,4 @@
-# 1: Hello, World!
+# 2: Objects, Types, and Values
 
 - [Try This](#try-this-1)
 - [Drill](#drill-1)
