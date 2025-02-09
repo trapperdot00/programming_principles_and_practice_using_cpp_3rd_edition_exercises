@@ -237,3 +237,6 @@ Write a program that reads the data from `raw_temps.txt` created in exercise 2 i
 
 ## [Exercise 19](exercises/19)
 Modify the `store_temps.cpp` program from exercise 2 to include a temperature suffix `c` for Celsius or `f` for Fahrenheit temperatures. Then modify the `temp_stats.cpp` program to test each temperature, converting the Celsius readings to Fahrenheit before putting them into the vector.
+
+## [Exercise 20](exercises/20)
+Write the function `print_year()` mentioned in §9.9.2.
