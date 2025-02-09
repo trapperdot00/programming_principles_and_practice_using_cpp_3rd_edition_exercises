@@ -1,18 +1,10 @@
 #include <string>
-#include <iostream>
 #include <fstream>
 #include <stdexcept>
 #include <random>
 #include <chrono>
 
-struct Reading {
-	int hour;
-	double temperature;
-};
-
-std::ostream& operator<<(std::ostream& os, const Reading& rhs) {
-	return os << rhs.hour << ' ' << rhs.temperature;
-}
+#include "Reading.h"
 
 Reading random_reading() {
 	// Seed random engine with current time
