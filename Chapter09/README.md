@@ -243,3 +243,6 @@ Write the function `print_year()` mentioned in §9.9.2.
 
 ## [Exercise 21](exercises/21)
 Define a `Roman_int` class for holding Roman numerals (as `int`s) with a `<<` and `>>`. Provide `Roman_int` with an `as_int()` member that returns the `int` value, so that if `r` is a `Roman_int`, we can write `cout << "Roman" << r << " equals " << r.as_int() << ’\n’;`.
+
+## [Exercise 22](exercises/22)
+Make a version of the calculator from Chapter 6 that accepts Roman numerals rather than the usual Arabic ones, for example, XXI + CIV == CXXV.
