@@ -246,3 +246,9 @@ Define a `Roman_int` class for holding Roman numerals (as `int`s) with a `<<` an
 
 ## [Exercise 22](exercises/22)
 Make a version of the calculator from Chapter 6 that accepts Roman numerals rather than the usual Arabic ones, for example, XXI + CIV == CXXV.
+
+## [Exercise 23](exercises/23/01.cpp)
+Write a program that accepts two file names and produces a new file that is the contents of the first file followed by the contents of the second; that is, the program concatenates the two files.
+
+## [Exercise 24](exercises/24/01.cpp)
+Write a program that takes two files containing sorted whitespace-separated words and merges them, preserving order.
