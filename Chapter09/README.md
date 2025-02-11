@@ -240,3 +240,6 @@ Modify the `store_temps.cpp` program from exercise 2 to include a temperature su
 
 ## [Exercise 20](exercises/20)
 Write the function `print_year()` mentioned in §9.9.2.
+
+## [Exercise 21](exercises/21)
+Define a `Roman_int` class for holding Roman numerals (as `int`s) with a `<<` and `>>`. Provide `Roman_int` with an `as_int()` member that returns the `int` value, so that if `r` is a `Roman_int`, we can write `cout << "Roman" << r << " equals " << r.as_int() << ’\n’;`.
