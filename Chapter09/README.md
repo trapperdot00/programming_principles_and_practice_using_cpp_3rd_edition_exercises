@@ -255,3 +255,6 @@ Write a program that takes two files containing sorted whitespace-separated word
 
 ## [Exercise 25](exercises/25)
 Add a command `from x` to the calculator from Chapter 6 that makes it take input from a file `x`. Add a command `to y` to the calculator that makes it write its output (both standard output and error output) to file `y`. Write a collection of test cases based on ideas from §6.3 and use that to test the calculator. Discuss how you would use these commands for testing.
+
+## [Exercise 26](exercises/26/01.cpp)
+Write a program that produces the sum of all the whitespace-separated integers in a text file. For example, bears: 17 elephants 9 end should output 26.
