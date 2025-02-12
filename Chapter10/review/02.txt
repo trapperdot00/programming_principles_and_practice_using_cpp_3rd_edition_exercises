@@ -1,0 +1,4 @@
+there are programs, such as a text concatenator program, or a program that merges two files,
+we prefer to use exclusively in the terminal, without a graphical interface, as it would
+make our programs unnecesarrily complex
+why would you need graphics for every program?

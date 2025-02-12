@@ -1,0 +1,2 @@
+we need to include "Simple_window.h" to get access to the window library,
+"Graph.h" to get access to the graphics library facilities

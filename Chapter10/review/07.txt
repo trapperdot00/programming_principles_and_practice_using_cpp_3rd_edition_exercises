@@ -1,0 +1,3 @@
+the simplest window to use is Simple_window from Graph_lib,
+it takes a point that signals where on the screen it should initially be,
+two integers for width and height in pixels, and a frame label string

@@ -1,0 +1,2 @@
+the minimal window is a window with no objects attached to it,
+just an empty window with a frame

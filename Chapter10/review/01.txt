@@ -1,0 +1,5 @@
+ - to graph data
+ - to look at pictures and per-pixel graphics that can't be represented using only text
+ - to draw complex 2D-3D shapes
+ - to provide an easier to use interface for users than the terminal
+ - to make games

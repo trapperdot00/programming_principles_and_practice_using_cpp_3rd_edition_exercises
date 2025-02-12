@@ -1,0 +1,4 @@
+because graphics code provides good and interesting code to read for any programmer new to graphics,
+not every programmer knows how graphics work in programs,
+object-oriented programming can be easily demonstrated with graphics classes,
+new design techniques and decisions can be learned

@@ -1,0 +1,2 @@
+we can label a window by providing a string to its constructor,
+or we can change the label by calling the set_label() method on a window

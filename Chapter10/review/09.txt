@@ -1,0 +1,1 @@
+a window label is the text that shows up in the window's frame, and in the process list

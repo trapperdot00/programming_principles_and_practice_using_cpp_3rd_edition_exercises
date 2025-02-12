@@ -1,0 +1,2 @@
+a window is a rectangular region of the screen that is controlled by a program
+it is basically a small, virtual screen on our real screen
