@@ -10,3 +10,6 @@ Get an empty `Simple_window` with the size 600 by 400 and a label `My window` co
 
 ## [Drill 2](drill/02)
 Now add the examples from §10.7 one by one, testing between each added subsection example.
+
+## [Drill 3](drill/03)
+Go through and make one minor change (e.g., in color, in location, or in number of points) to each of the subsection examples.
