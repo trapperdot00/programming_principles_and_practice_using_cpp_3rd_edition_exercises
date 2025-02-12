@@ -252,3 +252,6 @@ Write a program that accepts two file names and produces a new file that is the 
 
 ## [Exercise 24](exercises/24/01.cpp)
 Write a program that takes two files containing sorted whitespace-separated words and merges them, preserving order.
+
+## [Exercise 25](exercises/25)
+Add a command `from x` to the calculator from Chapter 6 that makes it take input from a file `x`. Add a command `to y` to the calculator that makes it write its output (both standard output and error output) to file `y`. Write a collection of test cases based on ideas from §6.3 and use that to test the calculator. Discuss how you would use these commands for testing.

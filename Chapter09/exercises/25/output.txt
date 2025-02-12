@@ -1,0 +1,30 @@
+= 12
+= 120
+= 10
+bad token
+bad token
+= 15
+= 15
+= 12
+= primary expected
+= primary expected
+= trying to read undefined variable i
+= name expected after declaration keyword
+= 1
+= -1
+= 1
+= 1
+= -1
+= 1
+bad token
+bad token
+= 66
+= 66
+= inf
+= trying to read undefined variable funny
+= bad token
+= primary expected
+= primary expected
+= 0.0833333
+= name expected after declaration keyword
+= primary expected
