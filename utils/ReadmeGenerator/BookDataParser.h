@@ -4,30 +4,65 @@
 #include <fstream>
 #include <sstream>
 #include <string>
-#include <set>
+#include <utility>
+#include <vector>
 #include <stdexcept>
 #include <iostream>
-
-// Represents the number of a part of a book
-// and that part's title
-struct Part {
-	size_t part;
-	std::string title;
-};
 
 // Represents the number of a chapter of a book,
 // the part that it is part of, and its title
 struct Chapter {
-	Part part;
-	size_t chapter;
+	size_t number;
 	std::string title;
+};
+
+class Part {
+public:
+	Part(size_t n, const std::string& s)
+		: part_number(n), part_title(s) {}
+
+	void add_chapter(const Chapter&);
+	void add_chapter(Chapter&&);
+
+	size_t number() const { return part_number; }
+	std::string title() const { return part_title; }
+
+	const Chapter& get_chapter(size_t) const;
+
+	size_t size() const { return chapters.size(); }
+	const Chapter& operator[](size_t n) const { return chapters.at(n); }
+	bool chapter_exists(size_t) const;
+private:
+	void throw_if_exists(size_t) const;
+
+	size_t part_number;
+	std::string part_title;
+	std::vector<Chapter> chapters;
 };
 
 // Represents the title of a book
 // and all of its chapters sorted by the chapters' numbers ascending
-struct BookData {
-	std::string title;
-	std::set<Chapter> chapters;
+class BookData {
+public:
+	BookData(const std::string& s)
+		: book_title(s) {}
+
+	void add_part(const Part&);
+	void add_part(Part&&);
+
+	const Part& get_part(size_t) const;
+	const Chapter& get_chapter(size_t) const;
+
+	std::string title() const { return book_title; }
+	size_t size() const { return parts.size(); }
+	const Part& operator[](size_t n) const { return parts.at(n); }
+
+private:
+	bool part_exists(size_t) const;
+	void throw_if_exists(size_t) const;
+
+	std::string book_title;
+	std::vector<Part> parts;
 };
 
 bool operator==(const Chapter&, size_t);
@@ -79,21 +114,15 @@ std::string read_until(std::istream&, char, const std::string&);
 // example format:
 //	{ Book "book title"
 // 		{ Part 1 "part1 title"
-//			{ Chapter 1
-//				{ "chapter1 title" }
-//			}
-//			{ Chapter 2
-//				{ "chapter2 title" }
-//			}
+//			{ Chapter 1 "chapter1 title" }
+//			{ Chapter 2 "chapter2 title" }
 //		}
 //		{ Part 2 "part2 title"
-//			{ Chapter 3
-//				{ "chapter3 title" }
-//			}
+//			{ Chapter 3 "chapter3 title" }
 //		}
 //	}
 // Takes optional section starting and ending characters that default to curlies
 // Returns a BookData with each of the values processed and inserted
-BookData parse(const std::string& filename, char s = '{', char e = '}');
+BookData parse_bookdata(const std::string& filename, char s = '{', char e = '}');
 
 #endif

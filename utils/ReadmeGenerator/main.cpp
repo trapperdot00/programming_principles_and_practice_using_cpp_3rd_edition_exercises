@@ -1,19 +1,23 @@
 #include "ReadmeGenerator.h"
+
 #include <filesystem>
+#include <cstring>
 
 namespace fs = std::filesystem;
 
-int main() {
-	ReadmeGenerator rmg{fs::current_path()};
-	std::cout << rmg.generate_root();
+struct usage_error{};
 
-/*
-	std::cout << "\n----------------\n";
-	const auto cont = parse("testdata.txt");
-	std::cout << cont.title << "\n";
-	for (const auto& e : cont.chapters) {
-		std::cout << e.part.part << '\t' << e.part.title
-			<< '\t' << e.chapter << '\t' << e.title << '\n';
-	}
-*/
+int main(int argc, char* argv[]) try {
+	ReadmeGenerator rmg{fs::current_path()};
+
+	if (argc == 2 && std::strcmp(argv[1], "-r") == 0)
+		std::cout << rmg.generate_root() << '\n';
+	else if (argc == 3 && std::strcmp(argv[1], "-c") == 0)
+		std::cout << rmg.generate_chapter(std::stoi(argv[2])) << '\n';
+	else
+		throw usage_error{};
+} catch (const usage_error& e) {
+	std::cout << "Usage: " + std::string(argv[0]) + " ([-c] [n]) | [-r]\n"
+		"\t[-c]\tGenerate Readme file for a given chapter specified by [n]\n"
+		"\t[-r]\tGenerate Readme file for the root folder\n";
 }

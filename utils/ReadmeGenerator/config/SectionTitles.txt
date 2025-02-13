@@ -1,0 +1,30 @@
+{ "Try This"
+	{ Title "Try This" }
+	{ ExerciseTitle "Try This" }
+	{ FolderName "try_this" }
+	{ FolderContents "Folders" }
+}
+{ "Drill"
+	{ Title "Drill" }
+	{ ExerciseTitle "Drill" }
+	{ FolderName "drill" }
+	{ FolderContents "Folders" }
+}
+{ "Review"
+	{ Title "Review" }
+	{ ExerciseTitle "Review" }
+	{ FolderName "review" }
+	{ FolderContents "Files" }
+	{ FileExtensions ".txt" }
+}
+{ "Terms"
+	{ Title "Terms" }
+	{ ExerciseTitle "Terms" }
+	{ FileName "terms.txt" }
+}
+{ "Exercises"
+	{ Title "Exercises" }
+	{ ExerciseTitle "Exercise" }
+	{ FolderName "exercises" }
+	{ FolderContents "Folders" }
+}

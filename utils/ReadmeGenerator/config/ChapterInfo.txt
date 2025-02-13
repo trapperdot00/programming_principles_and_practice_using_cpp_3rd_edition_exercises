@@ -1,0 +1,142 @@
+{ Chapter 1
+	{ Section "Drill" { 5 } }
+	{ Section "Review" { 16 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 5 } }
+}
+{ Chapter 2
+	{ Section "Try This" { 6 } }
+	{ Section "Drill" { 6 } }
+	{ Section "Review" { 27 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 11 } }
+}
+{ Chapter 3
+	{ Section "Try This" { 6 } }
+	{ Section "Drill" { 11 } }
+	{ Section "Review" { 28 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 20 } }
+}
+{ Chapter 4
+	{ Section "Try This" { 7 } }
+	{ Section "Drill" { 25 } }
+	{ Section "Review" { 26 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 14 } }
+}
+{ Chapter 5
+	{ Section "Try This" { 3 } }
+	{ Section "Drill" { 5 } }
+	{ Section "Review" { 27 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 8 } }
+}
+{ Chapter 6
+	{ Section "Try This" { 1 } }
+	{ Section "Drill" { 11 } }
+	{ Section "Review" { 19 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 12 } }
+}
+{ Chapter 7
+	{ Section "Try This" { 3 } }
+	{ Section "Drill" { 4 } }
+	{ Section "Review" { 27 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 14 } }
+}
+{ Chapter 8
+	{ Section "Try This" { 2 } }
+	{ Section "Drill" { 1 } }
+	{ Section "Review" { 13 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 18 } }
+}
+{ Chapter 9
+	{ Section "Try This" { 2 } }
+	{ Section "Drill" { 17 } }
+	{ Section "Review" { 30 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 26 } }
+}
+{ Chapter 10
+	{ Section "Drill" { 3 } }
+	{ Section "Review" { 18 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 13 } }
+}
+{ Chapter 11
+	{ Section "Try This" { 2 }} 
+	{ Section "Drill" { 5 } }
+	{ Section "Review" { 26 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 18 } }
+}
+{ Chapter 12
+	{ Section "Drill" { 7 } }
+	{ Section "Review" { 24 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 18 } }
+}
+{ Chapter 13
+	{ Section "Drill" { 21 } }
+	{ Section "Review" { 14 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 11 } }
+}
+{ Chapter 14
+	{ Section "Drill" { 4 } }
+	{ Section "Review" { 19 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 10 } }
+}
+{ Chapter 15
+	{ Section "Try This" { 1 } }
+	{ Section "Drill" { 13 } }
+	{ Section "Review" { 20 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 15 } }
+}
+{ Chapter 16
+	{ Section "Try This" { 1 } }
+	{ Section "Drill" { 8 } }
+	{ Section "Review" { 12 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 13 } }
+}
+{ Chapter 17
+	{ Section "Try This" { 3 } }
+	{ Section "Drill" { 1 } }
+	{ Section "Review" { 26 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 4 } }
+}
+{ Chapter 18
+	{ Section "Try This" { 1 } }
+	{ Section "Drill" { 13 } }
+	{ Section "Review" { 15 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 17 } }
+}
+{ Chapter 19
+	{ Section "Try This" { 7 } }
+	{ Section "Drill" { 8 } }
+	{ Section "Review" { 23 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 21 } }
+}
+{ Chapter 20
+	{ Section "Try This" { 3 } }
+	{ Section "Drill" { 11 } }
+	{ Section "Review" { 22 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 12 } }
+}
+{ Chapter 21
+	{ Section "Try This" { 4 } }
+	{ Section "Drill" { 10 } }
+	{ Section "Review" { 15 } }
+	{ Section "Terms" { 1 } }
+	{ Section "Exercises" { 13 } }
+}
