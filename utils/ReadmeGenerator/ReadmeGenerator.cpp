@@ -83,11 +83,13 @@ std::string ReadmeGenerator::generate_chapter(size_t chapter_num) const {
 		const SectionTitles::Titles& titles = sectiontitles.title.at(sec.name);
 		if (titles.pathtype == PathType::File)
 			continue;
-		if (first_run)
-			first_run = false;
-		else
-			os << '\n';
+		os << "\n";
 		for (size_t num = 1; num <= sec.amount; ++num) {
+			if (!first_run)
+				os << "\n\n";
+			else
+				first_run = false;
+
 			fs::path exercise_path{chapter_path / titles.path / (pad_number(num) +
 				(titles.contenttype == ContentType::Files ? titles.extension : ""))};
 			if (fs::exists(exercise_path)) {
@@ -98,7 +100,7 @@ std::string ReadmeGenerator::generate_chapter(size_t chapter_num) const {
 							? '/' + fs::directory_iterator{exercise_path}->path().filename().string()
 							: "")
 					};
-					os << "\n\n## ["
+					os << "## ["
 						<< titles.exercise_title
 						<< ' '
 						<< num
@@ -107,11 +109,11 @@ std::string ReadmeGenerator::generate_chapter(size_t chapter_num) const {
 						<< '/'
 						<< pad_number(num)
 						<< filename
-						<< ")\n";
+						<< ")";
 					break;
 				}
 				case ContentType::Files:
-					os << "\n\n## ["
+					os << "## ["
 						<< titles.exercise_title
 						<< ' '
 						<< num
@@ -120,18 +122,18 @@ std::string ReadmeGenerator::generate_chapter(size_t chapter_num) const {
 						<< '/'
 						<< pad_number(num)
 						<< titles.extension
-						<< ")\n";
+						<< ")";
 					break;
 				default:
 					throw std::runtime_error{"unhandled case for contenttype"};
 				}
 			} else {
-				os << "\n\n## "
+				os << "## "
 					<< titles.exercise_title
 					<< ' '
-					<< num
-					<< '\n';
+					<< num;
 			}
+			os << '\n';
 		}
 	}
 	return os.str();
