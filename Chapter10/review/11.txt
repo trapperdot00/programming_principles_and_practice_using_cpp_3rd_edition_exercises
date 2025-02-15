@@ -1,0 +1,13 @@
+screen coordinates start from the top-left corner of the physical screen,
+the top-left pixel is (0;0)
+the x-coordinate increases to the right,
+the y-coordinate increases downwards
+only 0 and positive numbers are possible in a given coordinate
+
+window coordinates start from the top-left of the window (virtual screen),
+the top-left pixel is (0;0),
+increases using the same logic as with screen coordinates
+
+it differs from mathematical coordinates:
+the mathematical y-coordinates grow upwards, whereas in screens it grows downwards
+mathematical coordinates can be negative, while it can't in screens (in a meaningful way)

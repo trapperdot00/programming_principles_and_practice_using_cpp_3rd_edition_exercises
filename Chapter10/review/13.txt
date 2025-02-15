@@ -1,0 +1,2 @@
+the .attach() method when called on a window object, attaches
+the given shape to the window

@@ -1,0 +1,2 @@
+to draw a hexagon, I would use a Closed_polyline or a Polygon
+with the six points of the shape specified by me, which is error-prone

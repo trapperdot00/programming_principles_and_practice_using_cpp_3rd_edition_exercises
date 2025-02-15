@@ -1,0 +1,4 @@
+we use Qt (and the C++ standard library) to implement our graphics/GUI interface library
+we avoid using the operating system directly, as it would make our code operating system dependent,
+wouldn't be portable for other systems
+Qt deals with portability issues, our programs work on Linux, Windows, Android, Mac, etc.

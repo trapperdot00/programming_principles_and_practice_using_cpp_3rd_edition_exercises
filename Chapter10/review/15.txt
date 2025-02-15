@@ -1,0 +1,3 @@
+to write text to a window, I could use the .label() method for shapes
+to provide a label for that object, or better, I could use a Text
+object to be an independent object

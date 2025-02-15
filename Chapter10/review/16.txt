@@ -1,0 +1,3 @@
+I would create an Image object, specify the path of the image of my friend,
+create a Window or Simple_window object beforehand,
+which I can now attach the image to

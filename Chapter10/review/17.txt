@@ -1,0 +1,5 @@
+ - you didn't create any objects aside from the window
+ - you didn't attach the object to the window
+ - you didn't give control to the display engine or the system,
+ and the window closed before you could see it
+ - you gave incorrect (out of window range) coordinates and the object isn't rendered
