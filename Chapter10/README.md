@@ -44,3 +44,27 @@ What’s a window label?
 
 ## [Review 10](review/10.txt)
 How do you label a window?
+
+## [Review 11](review/11.txt)
+How do screen coordinates work? Window coordinates? Mathematical coordinates?
+
+## [Review 12](review/12.txt)
+What are examples of simple “shapes” that we can display?
+
+## [Review 13](review/13.txt)
+What command attaches a shape to a window?
+
+## [Review 14](review/14.txt)
+Which basic shape would you use to draw a hexagon?
+
+## [Review 15](review/15.txt)
+How do you write text somewhere in a window?
+
+## [Review 16](review/16.txt)
+How would you put a photo of your best friend in a window (using a program you wrote yourself)?
+
+## [Review 17](review/17.txt)
+You made a `Window` object, but nothing appears on your screen. What are some possible reasons for that?
+
+## [Review 18](review/18.txt)
+What library do we use to implement our graphics/GUI interface library? Why don’t we use the operating system directly?
