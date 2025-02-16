@@ -1,0 +1,35 @@
+color			we can color objects: fill the inside of an object or specify its lines' colors;
+				and we can color individual pixels. pixels use the RGB scale to represent colors
+				from values 0 to 255 for each channel: red, green and blue (and optionally alpha)
+				we can enter rgb values using decimal numbers rgb(123,0,255) or hexadecimal numbers
+				(#FFAB01; where FF is the red, AB is the green, and 01 is the red channel)
+graphic			two-dimensional data representation on a screen, or in a window, coordinates specify
+				their pixels, we can create objects of graphical types that the display engine
+				can handle and represent graphically, using individual pixels
+JPEG			file format that can represent pictures using pixel information
+coordinates		windows and screens require coordinates to address their pixels
+				the (0;0) point is on the top-left, x-coordinates increase to the right,
+				y-coordinates increase downwards
+GUI				Graphical User Interface: support for input and output using graphical elements,
+				such as windows, text, images, shapes, buttons and other input fields
+				the communication channel between the user and the program
+line style		we can modify a shape's lines' or a line's style from a plain line to dashed,
+	 			dotted and change their thickness and color
+display			a window or a screen that presents information for its users
+PPP_graphics	our GUI library
+library			a set of useful general-purpose functions, classes that we can use, that are
+				usually well-made, well-tested and well-documented, something that we can't
+				afford to do for our smaller projects
+software layer	a layer of abstraction for code inside our programs
+fill			we can fill shapes with a color
+Shape			a class type that we can use for shapes (Line, Polygon, Rectangle, etc.),
+				Polygon is a Shape
+HTML			layout language: we can express layout notions in plain text, but needs a parser
+				to interpret the notions. we can embed notions of color, two dimensional-positions
+				in a one-dimensional stream of characters
+window			a virtual screen on our physical screen that is managed by some program
+Qt				Graphics / GUI library that provides portable, platform-independent graphics for its users
+image			usually a file that contains per-pixel information for an image
+XML				layout language, similar to HTML
+Simple_window	class in our GUI library that provides an easy-to-use window with a button
+				with the label 'Next' on it
