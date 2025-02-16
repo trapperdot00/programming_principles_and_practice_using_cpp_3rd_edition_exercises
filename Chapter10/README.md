@@ -84,3 +84,6 @@ Draw a 3-by-3 tic-tac-toe board of alternating white and red squares.
 
 ## [Exercise 5](exercises/05)
 Draw a red 1/4-inch frame around a rectangle that is three-quarters the height of your screen and two-thirds the width.
+
+## [Exercise 6](exercises/06)
+What happens when you draw a `Shape` that doesn’t fit inside its window? What happens when you draw a `Window` that doesn’t fit on your screen? Write two programs that illustrate these two phenomena.
