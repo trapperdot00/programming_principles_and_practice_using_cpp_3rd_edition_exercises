@@ -15,6 +15,7 @@ cmake_install.cmake
 *.a
 *.lib
 *.pdb
+*.swp
 
 *.moc
 *.qmake.stash

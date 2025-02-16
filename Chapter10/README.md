@@ -68,3 +68,16 @@ You made a `Window` object, but nothing appears on your screen. What are some po
 
 ## [Review 18](review/18.txt)
 What library do we use to implement our graphics/GUI interface library? Why don’t we use the operating system directly?
+
+
+## [Exercise 1](exercises/01)
+Draw a rectangle as a `Rectangle` and as a `Polygon`. Make the lines of the `Polygon` red and the lines of the `Rectangle` blue.
+
+## [Exercise 2](exercises/02)
+Draw a 100-by-30 `Rectangle` and place the text “Howdy!” inside it.
+
+## [Exercise 3](exercises/03)
+Draw your initials 150 pixels high. Use a thick line. Draw each initial in a different color.
+
+## [Exercise 4](exercises/04)
+Draw a 3-by-3 tic-tac-toe board of alternating white and red squares.
