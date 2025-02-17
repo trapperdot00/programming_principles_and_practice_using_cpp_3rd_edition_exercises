@@ -87,3 +87,6 @@ Draw a red 1/4-inch frame around a rectangle that is three-quarters the height o
 
 ## [Exercise 6](exercises/06)
 What happens when you draw a `Shape` that doesn’t fit inside its window? What happens when you draw a `Window` that doesn’t fit on your screen? Write two programs that illustrate these two phenomena.
+
+## [Exercise 7](exercises/07)
+Draw a two-dimensional house seen from the front, the way a child would: with a door, two windows, and a roof with a chimney. Feel free to add details; maybe have “smoke” come out of the chimney.
