@@ -90,3 +90,6 @@ What happens when you draw a `Shape` that doesn’t fit inside its window? What 
 
 ## [Exercise 7](exercises/07)
 Draw a two-dimensional house seen from the front, the way a child would: with a door, two windows, and a roof with a chimney. Feel free to add details; maybe have “smoke” come out of the chimney.
+
+## [Exercise 8](exercises/08)
+Draw the Olympic five rings. If you can’t remember the colors, look them up.
