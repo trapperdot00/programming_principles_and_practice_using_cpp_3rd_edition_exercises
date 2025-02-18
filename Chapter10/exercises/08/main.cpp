@@ -1,8 +1,6 @@
 #include "PPP/Simple_window.h"
 #include "PPP/Graph.h"
 
-
-
 int main(int /*argc*/, char * /*argv*/[])
 {
     // Make Graph_lib's contents available implicitly without using its scope
@@ -20,7 +18,7 @@ int main(int /*argc*/, char * /*argv*/[])
     constexpr int win_height = 600;
 
     // Create window
-    const std::string label = "Framed rectangle";
+    const std::string label = "Olympic five rings";
     Simple_window win{Point{win_x, win_y}, win_width, win_height, label};
 
     constexpr double scale = 1;
