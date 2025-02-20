@@ -7,7 +7,7 @@
 
 struct Attributes {
     // Window
-    inline static constexpr Point window_pos{600, 400};
+    inline static constexpr Point window_pos{200, 200};
     inline static constexpr int window_width = 800;
     inline static constexpr int window_height = 500;
     inline static const std::string window_label = "Source file diagram";
@@ -88,52 +88,139 @@ public:
     }
 };
 
-struct Line_data {
-    double slope;
-    int y_intercept;
+// -------------------
+
+struct GenericVector {
+    int delta_x;
+    int delta_y;
 };
-
-Line_data line_from_points(const Point& p1, const Point& p2) {
-    int delta_x = p2.x - p1.x;
-    int delta_y = p2.y - p1.y;
-    double slope = double(delta_y) / delta_x;
-    int y_intercept = p1.x * -slope + p1.y;
-    return Line_data{slope, y_intercept};
-}
-
-int get_y(const Line_data& line, double x) {
-    return std::round(x * line.slope + line.y_intercept);
+struct DirectionVector;
+struct NormalVector : public GenericVector {
+    operator DirectionVector() const;
+};
+struct DirectionVector : public GenericVector {
+    operator NormalVector() const {
+        return NormalVector{delta_y, -delta_x};
+    }
+};
+NormalVector::operator DirectionVector() const {
+    return DirectionVector{-delta_y, delta_x};
 }
 
 struct Circle_data {
     Point center;
-    int radius;
+    double radius;
 };
 
-std::optional<Point> line_line_intersect(const Line_data& l1, const Line_data& l2) {
-    if (l1.slope == l2.slope)
-        return std::nullopt;
-    int x_pos = (l2.y_intercept - l1.y_intercept) / (l1.slope - l2.slope);
-    int y_pos = l1.slope * x_pos + l1.y_intercept;
-    return Point{x_pos, y_pos};
-}
-
 std::pair<int, int> quadratic_formula(double a, double b, double c) {
-    double x1 = (-b+std::sqrt(std::pow(b,2)-4*a*c)) / (2*a);
-    double x2 = (-b-std::sqrt(std::pow(b,2)-4*a*c)) / (2*a);
+    int x1 = (-b + std::sqrt(std::pow(b, 2) - 4 * a * c)) / (2 * a);
+    int x2 = (-b - std::sqrt(std::pow(b, 2) - 4 * a * c)) / (2 * a);
     return std::make_pair(x1, x2);
 }
 
-std::pair<Point, Point> circle_line_intersect(const Line_data& line, const Circle_data& circle) {
-    double a = 1 + std::pow(line.slope, 2);
-    double b = 2*line.slope*line.y_intercept - 2*circle.center.x - 2*line.slope*circle.center.y;
-    double c = std::pow(line.y_intercept, 2)+std::pow(circle.center.x, 2)+std::pow(circle.center.y, 2)
-               - std::pow(circle.radius, 2) - 2*line.y_intercept*circle.center.y;
-    auto [x1, x2] = quadratic_formula(a, b, c);
-    auto [y1, y2] = std::pair{get_y(line, x1), get_y(line, x2)};
-
-    return {{x1, y1}, {x2, y2}};
+std::ostream& operator<<(std::ostream& os, const Point& p) {
+    return os << '(' << p.x << ';' << p.y << ')';
 }
+
+double get_slope(const Point& p1, const Point& p2) {
+    if (p1 == p2)
+        throw std::runtime_error{"points don't differ"};
+    int delta_x = p2.x - p1.x;
+    int delta_y = p2.y - p1.y;
+    double slope = delta_y / delta_x;
+    return slope;
+}
+
+double get_slope(const GenericVector& v) {
+    if (v.delta_y == 0) {
+        if (v.delta_x == 0)
+            throw std::runtime_error{"null vector"};
+        return 0;
+    }
+    double slope = v.delta_y / v.delta_x;
+    return slope;
+}
+
+int get_y_intercept(double slope, const Point& p) {
+    double y_intercept = -slope * p.x + p.y;
+    return y_intercept;
+}
+
+double distance(const Point& p1, const Point& p2) {
+    double d = std::sqrt(std::pow(p2.x-p1.x,2)+std::pow(p2.y-p1.y,2));
+    return d;
+}
+
+class Line_data {
+public:
+    Line_data(double s, int y) : s_(s), y_(y) {}
+    Line_data(const Point& p1, const Point& p2)
+        : s_{get_slope(p1, p2)}, y_(get_y_intercept(s_, p1))
+    {}
+    Line_data(double s, const Point& p)
+        : s_{s}, y_{get_y_intercept(s_, p)}
+    {}
+    Line_data(const DirectionVector& v, const Point& p)
+        : s_{get_slope(v)}, y_{get_y_intercept(s_, p)}
+    {}
+    Line_data(const NormalVector& v, const Point& p)
+        : Line_data(static_cast<DirectionVector>(v), p)
+    {}
+
+    // y = mx + b
+    int get_y(int x) const {
+        return slope() * x + y_intercept();
+    }
+    // y = mx + b
+    // y - mx = b
+    // -mx = b - y
+    // x = (b - y) / -m
+    int get_x(int y) const {
+        double x = (y_intercept() - y) / -slope();
+        return x;
+    }
+
+    double slope() const { return s_;  }
+    int y_intercept() const { return y_; }
+private:
+    double s_;
+    int y_;
+};
+
+/*
+    mx + b = nx + c
+    mx = nx + c - b
+    mx - nx = c - b
+    x(m-n) = c - b
+    x = (c - b) / (m - n)
+*/
+
+/*
+    mx + b = nx + c
+    mx - nx = c - b
+    x(m-n) = c - b
+    x = (c - b) / (m - n)
+*/
+Point intersection(const Line_data& l1, const Line_data& l2) {
+    if (l1.slope() == l2.slope())
+        throw 0;
+    int x = (l1.y_intercept() - l2.y_intercept())
+        / (l2.slope() - l1.slope());
+    int y = l1.get_y(x);
+    return Point{ x, y };
+}
+
+std::pair<Point, Point> intersection(const Line_data& line, const Circle_data& circle) {
+    double a = 1 + std::pow(line.slope(), 2);
+    double b = 2 * line.slope() * line.y_intercept() - 2 * circle.center.x - 2 * line.slope() * circle.center.y;
+    double c = std::pow(line.y_intercept(), 2) + std::pow(circle.center.x, 2) + std::pow(circle.center.y, 2)
+        - std::pow(circle.radius, 2) - 2 * line.y_intercept() * circle.center.y;
+    auto [x1, x2] = quadratic_formula(a, b, c);
+    auto [y1, y2] = std::pair{ line.get_y(x1), line.get_y(x2) };
+
+    return std::pair{ Point{x1, y1}, Point{x2, y2} };
+}
+// -------------------
 
 int main(int /*argc*/, char * /*argv*/[])
 {
@@ -351,23 +438,34 @@ int main(int /*argc*/, char * /*argv*/[])
         "int main() { ... }"
     };
 
-    /*// Lines
+    // Lines
     Point graph_top_center{(graph_box_pos.x + graph_box.width()) / 2, graph_box_pos.y};
     Point point_bottom_center{(point_box_pos.x + point_box.width()) / 2, point_box_pos.y + point_box.height()};
     Line graph_to_point{graph_top_center, point_bottom_center};
-    Line_data graph_to_point_data = line_from_points(graph_top_center, point_bottom_center);
+    Line_data graph_to_point_data{graph_top_center, point_bottom_center};
+
     Polygon graph_to_point_head;
     graph_to_point_head.add(point_bottom_center);
-    if (std::isfinite(graph_to_point_data.slope)) {
+    if (std::isfinite(graph_to_point_data.slope())) {
         Circle_data graph_to_point_helper{point_bottom_center, Attributes::arrowhead_height};
-        auto [graph_to_point_arrow_p1, graph_to_point_arrow_p2] = circle_line_intersect(graph_to_point_data, graph_to_point_helper);
-        graph_to_point_head.add(graph_to_point_arrow_p1);
-        graph_to_point_head.add(graph_to_point_arrow_p2);
+        Line_data arrow_line1{
+            graph_to_point_data.slope() + Attributes::arrowhead_angle / 2,
+            point_bottom_center
+        };
+        Line_data arrow_line2{
+            graph_to_point_data.slope() - Attributes::arrowhead_angle / 2,
+            point_bottom_center
+        };
+        std::pair<Point, Point> [p1, p2] = intersection(arrow_line1, graph_to_point_helper);
+        auto [p3, p4] = intersection(arrow_line2, graph_to_point_helper);
+        std::cout << p1.x << '\n';
+        graph_to_point_head.add(p1);
+        graph_to_point_head.add(p3);
     } else {
-
+        std::cout << "lol" << std::endl;
     }
     graph_to_point_head.set_fill_color(Color::black);
-*/
+
     // Pointers to all objects based on their types
     std::vector<Rectangle*> boxes = {
         &point_box, &graph_box, &window_box, &gui_box,
@@ -394,8 +492,7 @@ int main(int /*argc*/, char * /*argv*/[])
     Handler::handle_comments(win, comments);
     Handler::handle_text(win, text);
 
-    //win.attach(graph_to_point);
-   // win.attach(graph_to_point_head);
-
+    win.attach(graph_to_point);
+    win.attach(graph_to_point_head);
     win.wait_for_button();
 }
