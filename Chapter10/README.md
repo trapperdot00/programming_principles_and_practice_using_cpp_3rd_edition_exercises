@@ -93,3 +93,9 @@ Draw a two-dimensional house seen from the front, the way a child would: with a 
 
 ## [Exercise 8](exercises/08)
 Draw the Olympic five rings. If you can’t remember the colors, look them up.
+
+## [Exercise 9](exercises/09)
+Display an image on the screen, e.g., a photo of a friend. Label the image both with a title on the window and with a caption in the window.
+
+## [Exercise 10](exercises/10)
+Draw the source file diagram from §10.8.1.
