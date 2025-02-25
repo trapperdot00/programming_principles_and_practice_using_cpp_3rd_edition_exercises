@@ -99,3 +99,13 @@ Display an image on the screen, e.g., a photo of a friend. Label the image both 
 
 ## [Exercise 10](exercises/10)
 Draw the source file diagram from §10.8.1.
+
+## [Exercise 11](exercises/11)
+Draw a series of regular polygons, one inside the other. The innermost should be an equilateral triangle, enclosed by a square, enclosed by a pentagon, etc. For the mathematically adept only: let all the points of each `N`-polygon touch sides of the `(N+1)`-polygon. Hint: The trigonometric functions are found in `<cmath>` and module `std` (PPP2.§24.8).
+
+## [Exercise 12](exercises/12)
+A superellipse is a two-dimensional shape defined by the equation `|x/a|^m + |y/b|^n = 1;` where m > 0 and n > 0.
+Look up _superellipse_ on the Web to get a better idea of what such shapes look like. Write a program that draws “starlike” patterns by connecting points on a superellipse. Take `a`, `b`, `m`, `n`, and `N` as arguments. Select `N` points on the superellipse defined by `a`, `b`, `m`, and `n`. Make the points equally spaced for some definition of “equal.” Connect each of those `N` points to one or more other points (if you like you can make the number of points to which to connect a point another argument or just use `N–1`, i.e., all the other points).
+
+## [Exercise 13](exercises/13)
+Find a way to add color to the lines from the previous exercise. Make some lines one color and other lines another color or other colors.
