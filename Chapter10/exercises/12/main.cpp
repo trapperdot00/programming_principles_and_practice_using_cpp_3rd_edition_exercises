@@ -56,13 +56,13 @@ int main(int /*argc*/, char * /*argv*/[])
 
     // Create window
     const std::string label = "Superellipse";
-    Simple_window win{Point{win_x, win_y}, x_max()/2, y_max()/2, label};
+    Simple_window win{Point{win_x, win_y}, x_max(), y_max(), label};
 
     std::vector<std::unique_ptr<Open_polyline>> lines;
     double m = 0.1;
     int points = x_max();
     for (size_t i = 0; i < 10; ++i) {
-        lines.push_back(superellipse(x_max()/2/3, y_max()/2/3, m, m, points, x_max()/2/2, y_max()/2/2, 1.3));
+        lines.push_back(superellipse(x_max()/3, y_max()/3, m, m, points, x_max()/2, y_max()/2, 1.3));
         m *= 1.5;
     }
 
