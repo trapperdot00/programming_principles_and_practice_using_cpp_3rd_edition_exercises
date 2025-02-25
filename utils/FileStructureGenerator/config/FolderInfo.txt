@@ -1,0 +1,121 @@
+{ Chapter 1
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 2
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 3 
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 4
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 5
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 6
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 7
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 8
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 9
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 10
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 11
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 12
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 13
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 14
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 15
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 16
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 17
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 18
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 19
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 20
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
+{ Chapter 21
+	{ Folder "try_this" }
+	{ Folder "drill" }
+	{ Folder "review" }
+	{ Folder "exercises" }
+}
