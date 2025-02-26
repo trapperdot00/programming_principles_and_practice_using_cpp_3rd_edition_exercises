@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <stdexcept>
 
 struct ChapterInfo {
 	size_t number;

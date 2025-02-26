@@ -19,7 +19,6 @@ public:
 	{
 		if (info.chapters.empty())
 			throw std::runtime_error{"empty folderinfo"};
-		std::cout << rootpath.string() << '\n';
 	}
 
 	void generate(size_t) const;
