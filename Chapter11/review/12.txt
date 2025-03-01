@@ -1,0 +1,2 @@
+a Closed_polyline defined by five points has five sides,
+as it connects the subsequently added and the last and first added points with a side

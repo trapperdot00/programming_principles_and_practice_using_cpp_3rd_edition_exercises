@@ -1,0 +1,1 @@
+by using Shape::set_label(const std::string&)

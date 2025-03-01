@@ -1,0 +1,2 @@
+the line style (dash, dashdot...)
+the line width

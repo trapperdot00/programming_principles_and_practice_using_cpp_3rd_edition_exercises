@@ -1,0 +1,1 @@
+Polygon, Closed_polyline, Rectangle, Circle and Ellipse classes define closed shapes

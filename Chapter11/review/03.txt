@@ -1,0 +1,1 @@
+we need to include GUI.h and Graph.h to be able to use our graphics interface library

@@ -1,0 +1,3 @@
+Vector_ref is a container based on std::vector that can hold named and unnamed objects
+we use it the same way as we use std::vector, except for unnamed objects, where we have to
+supply rvalues of std::unique_ptr<T>s

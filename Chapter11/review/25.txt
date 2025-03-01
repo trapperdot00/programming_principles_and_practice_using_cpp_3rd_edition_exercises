@@ -1,0 +1,1 @@
+by using Image::set_mask() to crop the image's contents

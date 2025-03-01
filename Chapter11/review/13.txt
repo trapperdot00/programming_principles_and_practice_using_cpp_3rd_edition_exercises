@@ -1,0 +1,1 @@
+if you define a shape but don't attach it to a window, you won't see your shape on the window

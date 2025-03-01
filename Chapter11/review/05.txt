@@ -1,0 +1,7 @@
+because we want
+ - to color the inside of closed shapes'
+ - to create ellipses or circles (curved lines) simply
+ - to display text easily
+ - a maintain logical grouping for a given shape
+ - to draw images
+ - our code to be simple, and express intent

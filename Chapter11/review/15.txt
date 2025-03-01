@@ -1,0 +1,1 @@
+a Polygon is a Closed_polyline, where there is no intersection between lines of its sides

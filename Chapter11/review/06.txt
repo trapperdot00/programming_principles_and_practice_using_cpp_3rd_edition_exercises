@@ -1,0 +1,1 @@
+Point takes two arguments: an x-coordinate and a y-coordinate on a window

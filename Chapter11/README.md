@@ -27,3 +27,82 @@ Find a 200-by-200-pixel image (JPEG or GIF) and place three copies ofit on the g
 
 ## [Drill 5](drill/05)
 Add a 100-by-100 image. Have it move around from square to square when you click the “Next” button. Just put `wait_for_button()` in a loop with some code that picks a new square for your image.
+
+
+## [Review 1](review/01.txt)
+Why don’t we “just” use a commercial or open-source graphics library directly?
+
+## [Review 2](review/02.txt)
+About how many classes from our graphics interface library do you need to do simple graphics output?
+
+## [Review 3](review/03.txt)
+What are the header files needed to use the graphics interface library?
+
+## [Review 4](review/04.txt)
+What classes define closed shapes?
+
+## [Review 5](review/05.txt)
+Why don’t we just use `Line` for every shape?
+
+## [Review 6](review/06.txt)
+What do the arguments to `Point` indicate?
+
+## [Review 7](review/07.txt)
+What are the components of `Line_style`?
+
+## [Review 8](review/08.txt)
+What are the components of `Color`?
+
+## [Review 9](review/09.txt)
+What is RGB?
+
+## [Review 10](review/10.txt)
+What are the differences between two `Line`s and a `Lines` containing two lines?
+
+## [Review 11](review/11.txt)
+What properties can you set for every `Shape`?
+
+## [Review 12](review/12.txt)
+How many sides does a `Closed_polyline` defined by five `Point`s have?
+
+## [Review 13](review/13.txt)
+What do you see if you define a `Shape` but don’t attach it to a `Window`?
+
+## [Review 14](review/14.txt)
+How does a `Rectangle` differ from a `Polygon` with four `Point`s (corners)?
+
+## [Review 15](review/15.txt)
+How does a `Polygon` differ from a `Closed_polyline`?
+
+## [Review 16](review/16.txt)
+What’s on top: fill or outline?
+
+## [Review 17](review/17.txt)
+Why didn’t we bother defining a `Triangle` class (after all, we did define `Rectangle`)?
+
+## [Review 18](review/18.txt)
+How do you move a `Shape` to another place in a `Window`?
+
+## [Review 19](review/19.txt)
+How do you label a `Shape` with a line of text?
+
+## [Review 20](review/20.txt)
+What properties can you set for a text string in a `Text`?
+
+## [Review 21](review/21.txt)
+What is a font and why do we care?
+
+## [Review 22](review/22.txt)
+What is `Vector_ref` for and how do we use it?
+
+## [Review 23](review/23.txt)
+What is the difference between a `Circle` and an `Ellipse`?
+
+## [Review 24](review/24.txt)
+What happens if you try to display an `Image` given a file name that doesn’t refer to a file containing an image?
+
+## [Review 25](review/25.txt)
+How do you display part of an `Image`?
+
+## [Review 26](review/26.txt)
+How do you scale an `Image`?

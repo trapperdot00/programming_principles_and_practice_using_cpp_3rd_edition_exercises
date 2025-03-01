@@ -1,0 +1,2 @@
+15 classes from our graphics library produces graphical output
+Point, Line_style and Color only provides attributes for graphical objects

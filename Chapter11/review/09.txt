@@ -1,0 +1,4 @@
+RGB is a way of storing colors on a screen
+RGB stands for Red-Green-Blue, it holds red, green, and blue values that we can represent a color with on a screen
+each color has 8 bits, we can have 256 (0-255) different brightnesses of each base-color
+we can represent 2^24 = 16,777,216 different colors using RGB

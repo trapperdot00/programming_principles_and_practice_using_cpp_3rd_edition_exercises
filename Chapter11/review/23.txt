@@ -1,0 +1,3 @@
+a Circle is an Ellipse with only one focus point,
+an Ellipse is a shape with two focus points
+there can be an Ellipse that has the same properties as a Circle, but not the other way around

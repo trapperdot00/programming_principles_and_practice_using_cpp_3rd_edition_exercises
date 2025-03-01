@@ -1,0 +1,2 @@
+by using Shape::move(int dx, int dy)
+it takes delta x and delta y for relative movements from its current coordinates

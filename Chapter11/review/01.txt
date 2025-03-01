@@ -1,0 +1,2 @@
+because for beginners the commercial or open-source graphics library's facilities may be overwhelmingly complex
+our graphics library is minimally complex and easy to use

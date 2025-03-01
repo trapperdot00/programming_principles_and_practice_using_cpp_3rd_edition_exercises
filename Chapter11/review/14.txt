@@ -1,0 +1,3 @@
+a Rectangle will always have four points and right angles, whereas Polygons won't
+a Rectangle is such a trivial type that graphics libraries have functions for displaying rectangles
+a computer can easily calculate a rectangle's affected pixels from its size

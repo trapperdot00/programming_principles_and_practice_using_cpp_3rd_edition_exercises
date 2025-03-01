@@ -1,0 +1,6 @@
+we have to seperately manage two "Line"s, for example, if we wanted to set the colors of each line,
+we would have to call Line::set_color(Color) two times
+
+on the other hand, if we have two lines inside a Lines object, we only have to call it once
+
+Lines contains an unspecified number of "Line"s, while Line must and only contain one

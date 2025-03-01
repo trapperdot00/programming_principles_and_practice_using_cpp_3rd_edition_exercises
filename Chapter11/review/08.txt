@@ -1,0 +1,4 @@
+the color as an enum for predefined values,
+the color as indexed by integers in a color palette of 256 popular colors
+the color in RGB values
+the transparency value

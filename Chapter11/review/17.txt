@@ -1,0 +1,5 @@
+it would just unnecessarily pollute our library
+a simple Triangle only assumes that a polygon has three points, nothing else
+three points cannot produce intersecting sides
+it would be better to only define RightAngleTriangle, or something else,
+but it is still unnecessary, as there is Polygon or Closed_polyline for that
