@@ -106,3 +106,7 @@ How do you display part of an `Image`?
 
 ## [Review 26](review/26.txt)
 How do you scale an `Image`?
+
+
+## [Exercise 1](exercises/01)
+Define a class `Arrow`, which draws a line with an arrowhead.
