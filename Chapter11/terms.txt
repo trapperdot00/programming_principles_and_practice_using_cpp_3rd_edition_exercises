@@ -1,0 +1,32 @@
+closed shape	a shape with a well-defined inside and outside
+Image			our graphics library's class that can paint an image onto our window
+Point			a class inside our graphics library that can hold an x-y coordinate pair
+Shape			a class inside our graphics library that is the base type for every shape class,
+				it provides a common interface to derived classes
+Color			a class inside our graphics library that can hold color data and we can use to color shapes
+image encoding	a format which our image data is encoded in, for example JPEG images and GIFs use different methods
+Polygon			a Closed_polyline where there can be no intersecting lines
+Text			class in our graphics library that can hold text data, and use for displaying text with
+				differing styles, fonts and sizes
+Ellipse			a Shape that we can use for displaying ellipses: a shape with two focus points
+invisible		we can define invisible colors that are not drawn to the screen
+polyline		a shape with an unspecified amounts of points, the points are connected with lines
+Open_polyline	a polyline where only subsequent points are connected
+fill			we can fill closed shapes with a given color
+JPEG			file format for holding images
+unnamed object	an object that we can create inside loops or functions on demand without hardcoding
+				their creations, we use smart pointers to create such objects
+Closed_polyline	a polyline where subsequent and the last and first points are connected with lines,
+				it has a well-defined inside and outside
+Font			class inside our graphics library that holds font type data (character display style)
+Line			a class that holds two points and draws the line between them
+Vector_ref		a container that can hold both named and unnamed objects
+Lines			a collection of an unspecified amount of Line-s
+font size		the size of characters
+Line_style		class that holds details about the line's styles (solid or dotted or dashed lines, and the lines' thickness)
+visible			a color can be visible, it is the default and will be drawn to the screen
+Marked_polyline	an Open_polyline with marked points
+GIF				a file format that can hold both animated (sequences of) images and static images
+open shape		a shape without a well-defined inside and outside
+Rectangle		a shape with four points and right angles, which a computer can compute the drawing of fast
+Mark			a Point marked with a character
