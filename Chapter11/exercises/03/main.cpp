@@ -70,7 +70,7 @@ int main(int /*argc*/, char * /*argv*/[])
     constexpr int win_y = 100;
     constexpr int win_width = 800;
     constexpr int win_height = 600;
-    const std::string label = "Rectangle connection points";
+    const std::string label = "Circle and Ellipse connection points";
     Simple_window win{Point{win_x, win_y}, win_width, win_height, label};
 
     constexpr int circle_radius = 150;
