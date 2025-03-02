@@ -110,3 +110,6 @@ How do you scale an `Image`?
 
 ## [Exercise 1](exercises/01)
 Define a class `Arrow`, which draws a line with an arrowhead.
+
+## [Exercise 2](exercises/02)
+Define functions `n()`, `s()`, `e()`, `w()`, `center()`, `ne()`, `se()`, `sw()`, and `nw()`. Each takes a `Rectangle` argument and returns a `Point`. These functions define “connection points” on and in the rectangle. For example, `nw(r)` is the northwest (top left) corner of a `Rectangle` called `r`.
