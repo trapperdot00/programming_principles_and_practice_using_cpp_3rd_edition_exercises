@@ -116,3 +116,6 @@ Define functions `n()`, `s()`, `e()`, `w()`, `center()`, `ne()`, `se()`, `sw()`,
 
 ## [Exercise 3](exercises/03)
 Define the functions from exercise 2 for a `Circle` and an `Ellipse`. Place the connection points on or outside the shape but not outside the bounding rectangle.
+
+## [Exercise 4](exercises/04)
+Write a program that draws a class diagram like the one in §10.6. It will simplify matters if you start by defining a `Box` class that is a rectangle with a text label.
