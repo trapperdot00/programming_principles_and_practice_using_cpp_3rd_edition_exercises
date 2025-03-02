@@ -113,3 +113,6 @@ Define a class `Arrow`, which draws a line with an arrowhead.
 
 ## [Exercise 2](exercises/02)
 Define functions `n()`, `s()`, `e()`, `w()`, `center()`, `ne()`, `se()`, `sw()`, and `nw()`. Each takes a `Rectangle` argument and returns a `Point`. These functions define “connection points” on and in the rectangle. For example, `nw(r)` is the northwest (top left) corner of a `Rectangle` called `r`.
+
+## [Exercise 3](exercises/03)
+Define the functions from exercise 2 for a `Circle` and an `Ellipse`. Place the connection points on or outside the shape but not outside the bounding rectangle.
