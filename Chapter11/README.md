@@ -122,3 +122,6 @@ Write a program that draws a class diagram like the one in §10.6. It will simpl
 
 ## [Exercise 5](exercises/05)
 Make an RGB color chart (e.g., search the Web for “RGB color chart”).
+
+## [Exercise 6](exercises/06)
+Define a class `Regular_hexagon` (a regular hexagon is a six-sided polygon with all sides of equal length). Use the center and the distance from the center to a corner point as constructor arguments.
