@@ -119,3 +119,6 @@ Define the functions from exercise 2 for a `Circle` and an `Ellipse`. Place the 
 
 ## [Exercise 4](exercises/04)
 Write a program that draws a class diagram like the one in §10.6. It will simplify matters if you start by defining a `Box` class that is a rectangle with a text label.
+
+## [Exercise 5](exercises/05)
+Make an RGB color chart (e.g., search the Web for “RGB color chart”).
