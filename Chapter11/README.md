@@ -125,3 +125,6 @@ Make an RGB color chart (e.g., search the Web for “RGB color chart”).
 
 ## [Exercise 6](exercises/06)
 Define a class `Regular_hexagon` (a regular hexagon is a six-sided polygon with all sides of equal length). Use the center and the distance from the center to a corner point as constructor arguments.
+
+## [Exercise 7](exercises/07)
+Tile a part of a window with `Regular_hexagons` (use at least eight hexagons).
