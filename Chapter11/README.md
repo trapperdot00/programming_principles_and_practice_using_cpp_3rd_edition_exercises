@@ -134,3 +134,6 @@ Define a class `Regular_polygon`. Use the center, the number of sides (>2), and 
 
 ## [Exercise 9](exercises/09)
 Draw a 300-by-200-pixel ellipse. Draw a 400-pixel-long x axis and a 300-pixel-long y axis through the center of the ellipse. Mark the foci. Mark a point on the ellipse that is not on one of the axes. Draw the two lines from the foci to the point.
+
+## [Exercise 10](exercises/10)
+Draw a circle. Move a mark around on the circle (let it move a bit each time you hit the “Next” button).
