@@ -128,3 +128,9 @@ Define a class `Regular_hexagon` (a regular hexagon is a six-sided polygon with 
 
 ## [Exercise 7](exercises/07)
 Tile a part of a window with `Regular_hexagons` (use at least eight hexagons).
+
+## [Exercise 8](exercises/08)
+Define a class `Regular_polygon`. Use the center, the number of sides (>2), and the distance from the center to a corner as constructor arguments.
+
+## [Exercise 9](exercises/09)
+Draw a 300-by-200-pixel ellipse. Draw a 400-pixel-long x axis and a 300-pixel-long y axis through the center of the ellipse. Mark the foci. Mark a point on the ellipse that is not on one of the axes. Draw the two lines from the foci to the point.
