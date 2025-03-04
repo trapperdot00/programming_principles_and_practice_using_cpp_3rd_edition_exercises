@@ -137,3 +137,6 @@ Draw a 300-by-200-pixel ellipse. Draw a 400-pixel-long x axis and a 300-pixel-lo
 
 ## [Exercise 10](exercises/10)
 Draw a circle. Move a mark around on the circle (let it move a bit each time you hit the “Next” button).
+
+## [Exercise 11](exercises/11)
+Draw the color matrix from §11.7.3, but without lines around each color.
