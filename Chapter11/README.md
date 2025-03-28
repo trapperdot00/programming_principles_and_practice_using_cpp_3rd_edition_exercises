@@ -152,3 +152,6 @@ Do the previous exercise, but with hexagons.
 
 ## [Exercise 15](exercises/15)
 Do the previous exercise, but using hexagons of a few different colors.
+
+## [Exercise 16](exercises/16)
+Define a class `Poly` that represents a polygon but checks that its points really do make a polygon in its constructor. Hint: You'll have to supply the points to the constructor.
