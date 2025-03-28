@@ -155,3 +155,6 @@ Do the previous exercise, but using hexagons of a few different colors.
 
 ## [Exercise 16](exercises/16)
 Define a class `Poly` that represents a polygon but checks that its points really do make a polygon in its constructor. Hint: You'll have to supply the points to the constructor.
+
+## [Exercise 17](exercises/17)
+Define a class `Star`. One parameter should be the number of points. Draw a few stars with differing numbers of points, differing line colors, and differing fill colors.
