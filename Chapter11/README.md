@@ -140,3 +140,15 @@ Draw a circle. Move a mark around on the circle (let it move a bit each time you
 
 ## [Exercise 11](exercises/11)
 Draw the color matrix from §11.7.3, but without lines around each color.
+
+## [Exercise 12](exercises/12)
+Define a right triangle class. Make an octagonal shape out of eight right triangles of different colors.
+
+## [Exercise 13](exercises/13)
+"Tile" a window with small right triangles.
+
+## [Exercise 14](exercises/14)
+Do the previous exercise, but with hexagons.
+
+## [Exercise 15](exercises/15)
+Do the previous exercise, but using hexagons of a few different colors.
