@@ -1,0 +1,4 @@
+An application domain is a method of presenting a set of fundamental
+application concepts and facitilites to programmers.
+The ideal is for the code to directly represent the concepts of the
+application domain in our program designs.
