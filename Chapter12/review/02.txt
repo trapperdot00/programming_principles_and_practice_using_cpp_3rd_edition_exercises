@@ -1,0 +1,7 @@
+Logically different operations should have different names.
+Data member of property X should have a readout (getter)
+function named X(), and a writer (setter) function
+named set_X().
+The names of private members don't matter that much,
+meaningful naming of the user-facing interface members
+is important.

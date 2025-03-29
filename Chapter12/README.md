@@ -29,3 +29,6 @@ Deﬁne a class `B2` with a pure virtual function `pvf()`. Deﬁne a class `D21`
 
 ## [Review 1](review/01.txt)
 What is an application domain?
+
+## [Review 2](review/02.txt)
+What are ideals for naming?
