@@ -158,3 +158,6 @@ Define a class `Poly` that represents a polygon but checks that its points reall
 
 ## [Exercise 17](exercises/17)
 Define a class `Star`. One parameter should be the number of points. Draw a few stars with differing numbers of points, differing line colors, and differing fill colors.
+
+## [Exercise 18](exercises/18)
+There is an `Arc` class in `Graph.h`. Find it and use it to define a box with rounded corners.
