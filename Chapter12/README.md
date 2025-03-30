@@ -108,3 +108,6 @@ Try to copy a `Shape`. What happens?
 
 ## [Exercise 3](exercises/03)
 Define an abstract class and try to define an object of that type. What happens?
+
+## [Exercise 4](exercises/04)
+Define a class `Immobile_Circle`, which is just like `Circle` but can't be moved.
