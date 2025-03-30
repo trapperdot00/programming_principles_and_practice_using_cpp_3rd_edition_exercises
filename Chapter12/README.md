@@ -111,3 +111,6 @@ Define an abstract class and try to define an object of that type. What happens?
 
 ## [Exercise 4](exercises/04)
 Define a class `Immobile_Circle`, which is just like `Circle` but can't be moved.
+
+## [Exercise 5](exercises/05)
+Define a `Striped_rectangle` where instead of fill, the rectangle is "filled" by drawing one-pixel-wide horizontal lines across the inside of the rectangle (say, draw every second line like that). You may have to play with the width of lines and the line spacing to get a pattern you like.
