@@ -99,3 +99,6 @@ How does interface inheritance differ from implementation inheritance?
 ## [Review 24](review/24.txt)
 What is object-oriented programming?
 
+
+## [Exercise 1](exercises/01)
+Define two classes `Smiley` and `Frowny`, which are both derived from class `Circle` and have two eyes and a mouth. Next, derive classes from `Smiley` and `Frowny` which add an appropriate hat to each.
