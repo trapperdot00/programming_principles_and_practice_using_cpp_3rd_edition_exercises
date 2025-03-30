@@ -102,3 +102,9 @@ What is object-oriented programming?
 
 ## [Exercise 1](exercises/01)
 Define two classes `Smiley` and `Frowny`, which are both derived from class `Circle` and have two eyes and a mouth. Next, derive classes from `Smiley` and `Frowny` which add an appropriate hat to each.
+
+## [Exercise 2](exercises/02)
+Try to copy a `Shape`. What happens?
+
+## [Exercise 3](exercises/03)
+Define an abstract class and try to define an object of that type. What happens?
