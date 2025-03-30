@@ -1,0 +1,45 @@
+abstract class			a class that either has one or more pure virtual functions,
+		 				or has protected constructors, which prevent users from directly
+						creating objects of its types, only allowing using the type as a base class
+mutability				modification of objects, access specifiers prevent users from modifying our
+						implementation of our classes
+public					access specifier that allows accessing a class' member from its own members,
+						its derived classes and other functions
+access control			a specifier that dictates who can access a selected member, where they can
+						access it from:
+							- public: everyone
+							- protected: derived classes and from members
+							- private: only own members
+object layout			the layout of the objects in memory:
+						data members are contiguously placed next to each other,
+						base class members are placed before the derived members,
+						classes with virtual functions have an additional vptr member that points to the vtable
+pure virtual function	a virtual member function with no definition, the class it is defined in is an abstract class
+base class				a class whose members are inherited to a derived class, and the derived class can be used
+						in place of the base class
+object-oriented			encapsulation, inheritance and polymorphism
+subclass				AKA derived class
+derived class			a class that inherits the members of a base class, and can be used as the base class
+						it can also define additional members
+override				a derived class can override any virtual function declared in its base class,
+						when calling the base virtual function, it is determined at run-time, whose function to call
+superclass				AKA base class
+dispatch				AKA dynamic dispatch/run-time dispatch/run-time polymorphism
+						the virtual function called from the base class is actually determined at run-time
+polymorphism			a derived class can be used in place of its base class, through the base class' interfaces
+virtual function		a member function that could be overridden by derived functions
+						a class with virtual functions have an additional member, vptr that points to the vtable,
+						that keeps track of currently defined virtual functions for the current class
+encapsulation			the act of keeping the class implementation hidden from users, preventing them
+						from messing up the state of our objects, providing well-defined interfaces for them to use
+						instead to modify or read the current state
+private					access specifier that permits only the members of the class to access the selected member
+virtual function call	when calling a virtual function, the function that is executed is the one in the vtable
+inheritance				AKA derivation, the act of inheriting from a class to write a new class, inheriting all of its members,
+						letting users to extend that class with their own members alongside the existing ones,
+						and letting them use those classes where the base classes are expected
+protected				access specifier that allows access to a member for derived classes and its own class which it is defined in
+virtual function table	the container that keeps track of the virtual function definitions to use when calling them
+=0						definition of a pure virtual function
+OOP						object-oriented programming: using inheritance, polymorphism and encapsulation
+=delete					definition of a deleted function, the compiler throws an error when trying to use a deleted function
