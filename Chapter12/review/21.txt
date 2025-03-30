@@ -1,0 +1,3 @@
+Overriding means that a derived class provides its own definition for a virtual function
+inherited from its base class, and when calling the function through the base class'
+interface, it will call the derived class' function, which is looked up at run-time.

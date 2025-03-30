@@ -1,0 +1,3 @@
+We can make abstract classes by declaring a pure virtual function
+or by making its constructors protected so as to only allow
+derived classes to call it.

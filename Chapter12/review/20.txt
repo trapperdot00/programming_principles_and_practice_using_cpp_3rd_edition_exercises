@@ -1,0 +1,2 @@
+We would make a virtual member a pure virtual function so as to make an abstract class
+and let derived classes provide their own definitions for the function.

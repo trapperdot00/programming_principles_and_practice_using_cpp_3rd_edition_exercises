@@ -1,0 +1,2 @@
+Interface inheritance allows functions expecting a base class to accept any of its derived classes.
+Implementation inheritance allows derived classes to use the base class' members as well as its own members.

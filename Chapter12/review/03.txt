@@ -1,0 +1,2 @@
+We can name member functions, data members of our classes and our types.
+It is important to give meaningful names for public members of our types.

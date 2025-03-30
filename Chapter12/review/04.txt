@@ -1,0 +1,6 @@
+Shape is an abstract class that provides the general interface of a graphical object,
+along with the common implementation for visible objects, such as color, line style, etc.
+ - It ties our graphical objects to a Window.
+ - It deals with color and style for our lines and fills.
+ - It holds a sequence of points but leaves it up to our classes to interpret them.
+ - It provides a draw_specifics() function that derived classes must define (since it is a pure virtual function).

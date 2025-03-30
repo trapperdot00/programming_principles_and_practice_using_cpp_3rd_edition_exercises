@@ -1,0 +1,14 @@
+Access control dictates who has access to class members:
+There are three access groups:
+ - Public:
+	accessible by:
+		- own members
+		- derived class' members
+		- other code
+ - Protected:
+	accessible by:
+		- own members
+		- derived class' members
+ - Private:
+	accessible by:
+		- own members

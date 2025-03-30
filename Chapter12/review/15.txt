@@ -1,0 +1,3 @@
+The difference between a protected member and a private member is that
+a protected member can be accessed from the class' own members and derived class' members,
+whereas private members can only be accessed from its own members.

@@ -1,0 +1,2 @@
+Specifying the base class to inherit from through inheritance makes a class derived from its base.
+The derived class gets all of the members of its base.

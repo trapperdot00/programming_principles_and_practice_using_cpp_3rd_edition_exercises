@@ -1,0 +1,2 @@
+A base class is a class that a derived class inherits its members from through inheritance.
+A base class is also called a superclass, a derived class is also called a subclass.

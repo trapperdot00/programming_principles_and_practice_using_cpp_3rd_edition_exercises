@@ -1,0 +1,11 @@
+Object-oriented programming consists of
+ - Inheritance
+ 	- we can build a class from another so that it can be used in place of the base class
+ - Run-time polymorphism
+ 	- we can define virtual functions which we can override in derived classes
+	- we can call a virtual function from a base class, and the derived class' function will be executed,
+		which is looked up at run-time from the vtable
+ - Encapsulation
+ 	- we can keep the implementation members private or protected to prevent users from directly accessing
+		and modifying the implementation, invalidating the state of our objects
+	- we can provide a public interface to interact with the implementation in well-defined ways

@@ -32,3 +32,70 @@ What is an application domain?
 
 ## [Review 2](review/02.txt)
 What are ideals for naming?
+
+## [Review 3](review/03.txt)
+What can we name?
+
+## [Review 4](review/04.txt)
+What services does a `Shape` offer?
+
+## [Review 5](review/05.txt)
+How does an abstract class differ from a class that is not abstract?
+
+## [Review 6](review/06.txt)
+How can you make a class abstract?
+
+## [Review 7](review/07.txt)
+What is controlled by access control?
+
+## [Review 8](review/08.txt)
+What good can it do to make a data member `private`?
+
+## [Review 9](review/09.txt)
+What is a virtual function and how does it differ from a non-virtual function?
+
+## [Review 10](review/10.txt)
+What is a base class?
+
+## [Review 11](review/11.txt)
+What makes a class derived?
+
+## [Review 12](review/12.txt)
+What do we mean by object layout?
+
+## [Review 13](review/13.txt)
+What can you do to make a class easier to test?
+
+## [Review 14](review/14.txt)
+What is an inheritance diagram?
+
+## [Review 15](review/15.txt)
+What is the difference between a `protected` member and a `private` one?
+
+## [Review 16](review/16.txt)
+What members of a class can be accessed from a class derived from it?
+
+## [Review 17](review/17.txt)
+How does a pure virtual function differ from other virtual functions?
+
+## [Review 18](review/18.txt)
+Why would you make a member function virtual?
+
+## [Review 19](review/19.txt)
+Why would you not make a member function virtual?
+
+## [Review 20](review/20.txt)
+Why would you make a virtual member pure?
+
+## [Review 21](review/21.txt)
+What does overriding mean?
+
+## [Review 22](review/22.txt)
+Why should you always suppress copy operations for a class in a class hierarchy?
+
+## [Review 23](review/23.txt)
+How does interface inheritance differ from implementation inheritance?
+
+## [Review 24](review/24.txt)
+What is object-oriented programming?
+

@@ -1,0 +1,2 @@
+We can explicitly tell the compiler to override specific functions in derived classes,
+and it will throw an error upon encountering an unmatched override.

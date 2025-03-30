@@ -1,0 +1,2 @@
+An inheritance diagram is a graphical illustration of the class hierarchy.
+It shows the direct base classes and derived classes for each class in the figure.

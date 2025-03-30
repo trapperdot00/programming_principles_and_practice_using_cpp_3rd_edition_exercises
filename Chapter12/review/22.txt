@@ -1,0 +1,8 @@
+We should suppress copy operations for the base class in a class hierarchy
+so as to disallow assignment of derived classes of differing types,
+and preventing object slicing.
+For example, if Shape had defined copy operations, we could assign
+a Rectangle to a Circle, because their bases are common, and due to
+polymorphism, the copy operation that takes a constant reference to
+a Shape is called, and effectively only the Shape part of the object
+is assigned to the other.

@@ -1,0 +1,4 @@
+A pure virtual function is a virtual member function without a definition,
+classes with pure virtual functions are abstract classes, meaning that we can't
+directly create objects of those types, we can only use them as base classes.
+Other virtual functions provide definitions.

@@ -1,0 +1,1 @@
+Only public and protected members can be accessed from a class derived from it.

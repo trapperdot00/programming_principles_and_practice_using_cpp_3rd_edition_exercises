@@ -1,0 +1,2 @@
+We would not make a member function virtual if we didn't want derived classes
+to override the selected function.

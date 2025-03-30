@@ -1,0 +1,6 @@
+We would use virtual member functions so as to allow its usage
+through the interfaces provided by its base.
+The base knows about the virtual functions, and it is determined
+at run-time which function is called, according to the object's dynamic type.
+This allows us to modify the behaviour of our objects while keeping the interfaces
+the same.

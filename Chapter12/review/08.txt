@@ -1,0 +1,5 @@
+By making a data member private, we make sure that the state of the object
+is valid, since users can only use the public interface to change its values,
+which manages the invariant.
+Also we prevent user code from breaking by accessing members through a well-defined
+interface, not directly, when making changes to our classes by encapsulating the representation.

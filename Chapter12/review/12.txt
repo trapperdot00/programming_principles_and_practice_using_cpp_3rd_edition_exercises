@@ -1,0 +1,5 @@
+Object layout is the layout of the objects in memory.
+Data members are stored contiguously, next to each other,
+in derived classes, first the base's members, then the derived's members are stored.
+In classes with virtual functions, there is also another member, a vptr (virtual pointer),
+that points to a vtbl (virtual function table) as the last member.

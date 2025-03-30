@@ -1,0 +1,6 @@
+A virtual function is a member function whose definition can be overridden by derived classes.
+Virtual functions are looked up at run-time, when calling the base class' function by the same name,
+the derived class' function will be called based on its dynamic type.
+Non-virtual functions on the other hand are called at compile-time, based on the static type of the object.
+Classes with virtual functions have an additional, hidden member, a vptr, that points to a vtable,
+a container that keeps track of the available virtual functions' definitions for the current type.
