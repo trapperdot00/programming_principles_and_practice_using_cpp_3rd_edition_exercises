@@ -1,23 +1,14 @@
 #include "PPP/Simple_window.h"
 #include "PPP/Graph.h"
 
-std::pair<int, int> quadratic_formula(double a, double b, double c) {
-    int x1 = (-b - std::sqrt(b*b - 4 * a * c) / 2 * a);
-    int x2 = (-b + std::sqrt(b*b - 4 * a * c) / 2 * a);
-    return std::make_pair(x1, x2);
-}
-
 std::pair<int, int> hline_circle_intersection
 (int y, Point center, int radius) {
-    using std::pow;
     // Produce two values!
     if (y <= center.y - radius || y >= center.y + radius)
         throw std::runtime_error{"y out of range"};
-    constexpr double a = 1;
-    double b = -2 * center.x;
-    double c = pow(y, 2) + pow(center.x, 2) + pow(center.y, 2)
-               - pow(radius, 2) - 2 * y * center.y;
-    return quadratic_formula(a, b, c);
+    int x1 = center.x + std::sqrt(std::pow(radius, 2) - std::pow(y - center.y, 2));
+    int x2 = center.x - std::sqrt(std::pow(radius, 2) - std::pow(y - center.y, 2));
+    return std::make_pair(x1, x2);
 }
 
 struct Striped_circle : public Circle {
@@ -28,9 +19,7 @@ struct Striped_circle : public Circle {
         for (int y_pos = center.y - radius + spacing;
              y_pos < center.y + radius;
              y_pos += spacing) {
-            auto [dx1, dx2] = hline_circle_intersection(y_pos, center, radius);
-            int x1 = dx1 - center.x;
-            int x2 = dx2 - center.x;
+            auto [x1, x2] = hline_circle_intersection(y_pos, center, radius);
             stripes.add(Point{x1, y_pos}, Point{x2, y_pos});
         }
     }
