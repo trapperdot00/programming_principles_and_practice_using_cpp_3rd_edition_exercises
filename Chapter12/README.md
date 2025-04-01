@@ -123,3 +123,6 @@ Define a `Striped_closed_polyline` using the technique from `Striped_rectangle` 
 
 ## [Exercise 8](exercises/08)
 Define a class `Octagon` to be a regular octagon. Write a test that exercises all of its functions (as defined by you or inherited from `Shape`).
+
+## [Exercise 9](exercises/09)
+Define a class `Rounded` that is like a `Rectangle`, except that it has rounded corners. Use class `Arc` that you can find in the `PPP` support code on `www.stroustrup.com/programming.html`. Test it.
