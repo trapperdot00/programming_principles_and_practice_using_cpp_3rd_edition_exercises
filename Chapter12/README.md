@@ -117,3 +117,6 @@ Define a `Striped_rectangle` where instead of fill, the rectangle is "filled" by
 
 ## [Exercise 6](exercises/06)
 Define a `Striped_circle` using the technique from `Striped_rectangle`.
+
+## [Exercise 7](exercises/07)
+Define a `Striped_closed_polyline` using the technique from `Striped_rectangle` (this requires some algorithmic inventiveness).
