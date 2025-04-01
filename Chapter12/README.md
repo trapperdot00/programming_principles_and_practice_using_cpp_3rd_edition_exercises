@@ -120,3 +120,6 @@ Define a `Striped_circle` using the technique from `Striped_rectangle`.
 
 ## [Exercise 7](exercises/07)
 Define a `Striped_closed_polyline` using the technique from `Striped_rectangle` (this requires some algorithmic inventiveness).
+
+## [Exercise 8](exercises/08)
+Define a class `Octagon` to be a regular octagon. Write a test that exercises all of its functions (as defined by you or inherited from `Shape`).
