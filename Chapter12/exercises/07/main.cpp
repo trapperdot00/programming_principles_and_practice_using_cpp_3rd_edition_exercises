@@ -39,6 +39,10 @@ public:
         Closed_polyline::draw_specifics(painter);
         stripes->draw_specifics(painter);
     }
+    void move(int dx, int dy) override {
+        Closed_polyline::move(dx, dy);
+        stripes->move(dx, dy);
+    }
     int spacing() const { return sp; }
     void set_spacing(int i) { sp = i; update_stripes(); }
 private:
