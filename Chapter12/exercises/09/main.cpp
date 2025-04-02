@@ -25,6 +25,11 @@ public:
             p->draw_specifics(painter);
     }
 
+    void move(int dx, int dy) override {
+        Lines::move(dx, dy);
+        for (Arc* p : c)
+            p->move(dx, dy);
+    }
 private:
     std::unique_ptr<Arc> create_corner
     (Point p, int r, double st, double rot) const {
