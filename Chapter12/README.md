@@ -129,3 +129,6 @@ Define a class `Rounded` that is like a `Rectangle`, except that it has rounded 
 
 ## [Exercise 10](exercises/10)
 Define a class `Box` that is a closed shape like a `Rectangle` (so it has fill color), except that it has rounded corners. Use class `Pie` that you can find in the `PPP` support code on `www.stroustrup.com/programming.html`.
+
+## [Exercise 11](exercises/11)
+Define a `Group` to be a container of `Shape`s with suitable operations applied to the various members of the `Group`. Hint: `Vector_ref`. Use a `Group` to define a checkers (draughts) boardwhere pieces can be moved under program control.
