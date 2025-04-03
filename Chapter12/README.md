@@ -132,3 +132,6 @@ Define a class `Box` that is a closed shape like a `Rectangle` (so it has fill c
 
 ## [Exercise 11](exercises/11)
 Define a `Group` to be a container of `Shape`s with suitable operations applied to the various members of the `Group`. Hint: `Vector_ref`. Use a `Group` to define a checkers (draughts) boardwhere pieces can be moved under program control.
+
+## [Exercise 12](exercises/12)
+Define a class `Pseudo_window` that looks as much like a `Window` as you can make it without heroic efforts. It should have rounded corners, a label, and control icons. Maybe you could add some fake "contents", such as an image. It need not actually do anything. It is acceptable (and indeed recommended) to have it appear within a `Simple_window`.
