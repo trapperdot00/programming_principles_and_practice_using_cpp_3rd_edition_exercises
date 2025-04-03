@@ -126,3 +126,6 @@ Define a class `Octagon` to be a regular octagon. Write a test that exercises al
 
 ## [Exercise 9](exercises/09)
 Define a class `Rounded` that is like a `Rectangle`, except that it has rounded corners. Use class `Arc` that you can find in the `PPP` support code on `www.stroustrup.com/programming.html`. Test it.
+
+## [Exercise 10](exercises/10)
+Define a class `Box` that is a closed shape like a `Rectangle` (so it has fill color), except that it has rounded corners. Use class `Pie` that you can find in the `PPP` support code on `www.stroustrup.com/programming.html`.
