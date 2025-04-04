@@ -135,3 +135,6 @@ Define a `Group` to be a container of `Shape`s with suitable operations applied 
 
 ## [Exercise 12](exercises/12)
 Define a class `Pseudo_window` that looks as much like a `Window` as you can make it without heroic efforts. It should have rounded corners, a label, and control icons. Maybe you could add some fake "contents", such as an image. It need not actually do anything. It is acceptable (and indeed recommended) to have it appear within a `Simple_window`.
+
+## [Exercise 13](exercises/13)
+Define a `Binary_tree` class derived from `Shape`. Give the number of levels as a parameter (`levels==0` means no nodes, `levels==1` means one top node with two sub-nodes each with two sub-nodes, etc.). Let a node be represented by a small circle. Connect the nodes by lines (as is conventional). P.S. In computer science, trees conventionally grow downward from a top node (amusingly, but logically, often called the root).
