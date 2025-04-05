@@ -22,6 +22,11 @@ public:
             y += y_step;
         }
     }
+	void move(int dx, int dy) override {
+		l.move(dx, dy);
+		for (Circle* p : n)
+			p->move(dx, dy);
+	}
     void draw_specifics(Painter &painter) const override {
         l.draw_specifics(painter);
         for (Circle* p : n)
