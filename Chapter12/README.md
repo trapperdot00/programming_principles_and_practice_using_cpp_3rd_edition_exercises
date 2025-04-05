@@ -138,3 +138,6 @@ Define a class `Pseudo_window` that looks as much like a `Window` as you can mak
 
 ## [Exercise 13](exercises/13)
 Define a `Binary_tree` class derived from `Shape`. Give the number of levels as a parameter (`levels==0` means no nodes, `levels==1` means one top node with two sub-nodes each with two sub-nodes, etc.). Let a node be represented by a small circle. Connect the nodes by lines (as is conventional). P.S. In computer science, trees conventionally grow downward from a top node (amusingly, but logically, often called the root).
+
+## [Exercise 14](exercises/14)
+Modify `Binary_tree` to draw its nodes using a virtual function. Then, derive a new class from `Binary_tree` that overrides that virtual function to use a different representation for a node (e.g., a triangle).
