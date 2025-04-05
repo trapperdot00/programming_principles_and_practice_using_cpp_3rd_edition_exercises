@@ -141,3 +141,6 @@ Define a `Binary_tree` class derived from `Shape`. Give the number of levels as 
 
 ## [Exercise 14](exercises/14)
 Modify `Binary_tree` to draw its nodes using a virtual function. Then, derive a new class from `Binary_tree` that overrides that virtual function to use a different representation for a node (e.g., a triangle).
+
+## [Exercise 15](exercises/15)
+Modify `Binary_tree` to take a parameter (or parameters) to indicate what kind of line to use to connect the nodes (e.g., an arrow pointing down or a red arrow pointing up). Note how this exercise and the last use two alternative ways of making a class hierarchy more flexible and useful.
