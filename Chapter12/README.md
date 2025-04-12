@@ -144,3 +144,6 @@ Modify `Binary_tree` to draw its nodes using a virtual function. Then, derive a 
 
 ## [Exercise 15](exercises/15)
 Modify `Binary_tree` to take a parameter (or parameters) to indicate what kind of line to use to connect the nodes (e.g., an arrow pointing down or a red arrow pointing up). Note how this exercise and the last use two alternative ways of making a class hierarchy more flexible and useful.
+
+## [Exercise 16](exercises/16)
+Add an operation to `Binary_tree` that adds text to a node. You may have to modify the design of `Binary_tree` to implement this elegantly. Choose a way to identify a node; for example, you might give a string `"lrrlr"` for navigating left, right, right, left, and right down a binary tree (the root node would match both an initial `l` and an initial `r`).
