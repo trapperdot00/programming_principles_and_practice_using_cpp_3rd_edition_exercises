@@ -239,7 +239,7 @@ int main(int /*argc*/, char * /*argv*/[])
     constexpr int win_y = 100;
     constexpr int win_width = 800;
     constexpr int win_height = 600;
-    const std::string label = "Binary_tree lines";
+    const std::string label = "Binary_tree node text";
 
     Simple_window win{Point{win_x, win_y}, win_width, win_height, label};
     Binary_tree bt(Point{400, 100}, 26, 4, Line_style{Line_style::solid, 2},
