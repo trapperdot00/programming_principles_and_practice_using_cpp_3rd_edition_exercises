@@ -147,3 +147,6 @@ Modify `Binary_tree` to take a parameter (or parameters) to indicate what kind o
 
 ## [Exercise 16](exercises/16)
 Add an operation to `Binary_tree` that adds text to a node. You may have to modify the design of `Binary_tree` to implement this elegantly. Choose a way to identify a node; for example, you might give a string `"lrrlr"` for navigating left, right, right, left, and right down a binary tree (the root node would match both an initial `l` and an initial `r`).
+
+## [Exercise 17](exercises/17)
+Define a class `Controller` with four virtual functions `on()`, `off()`, `set_level(int)`, and `show()`. Derive at least two classes from `Controller`. One should be a simple test class where `show()` prints out whether the class is set to on or off and what is the current level. The second derived class should somehow control the line color of a `Shape`; the exact meaning of "level" is up to you. Try to find a third "thing" to control with such a `Controller` class.
