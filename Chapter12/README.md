@@ -150,3 +150,6 @@ Add an operation to `Binary_tree` that adds text to a node. You may have to modi
 
 ## [Exercise 17](exercises/17)
 Define a class `Controller` with four virtual functions `on()`, `off()`, `set_level(int)`, and `show()`. Derive at least two classes from `Controller`. One should be a simple test class where `show()` prints out whether the class is set to on or off and what is the current level. The second derived class should somehow control the line color of a `Shape`; the exact meaning of "level" is up to you. Try to find a third "thing" to control with such a `Controller` class.
+
+## [Exercise 18](exercises/18)
+The exceptions defined in the C++ standard library, such as `exception`, `runtime_error`, and `out_of_range` (§4.6.3), are organized into a class hierarchy (with a virtual function `what()` returning a string supposedly explaining what went wrong). Search your information sources for the C++ standard exception class hierarchy and draw a class hierarchy diagram of it.
