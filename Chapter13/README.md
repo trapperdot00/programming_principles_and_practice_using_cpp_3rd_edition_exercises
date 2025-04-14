@@ -19,3 +19,6 @@ Graph the function `double one(double x) { return 1; }` in the range [-10,11] wi
 
 ## [Drill 5](drill/05)
 Change it to use x scale 20 and y scale 20.
+
+## [Drill 6](drill/06)
+From now on use that range, scale, etc. for all graphs.
