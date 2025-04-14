@@ -15,4 +15,5 @@
 ### [Chapter10](Chapter10/): A Display Model
 ### [Chapter11](Chapter11/): Graphics Classes
 ### [Chapter12](Chapter12/): Class Design
+### [Chapter13](Chapter13/): Graphing Functions and Data
 
