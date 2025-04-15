@@ -46,3 +46,6 @@ Define a `struct Person` containing a `string` name and an `int` age.
 
 ## [Drill 14](drill/14)
 Define a variable of type `Person`, initialize it with "Goofy" and 63, and write it to the screen (`cout`).
+
+## [Drill 15](drill/15)
+Define an input (`>>`) and an output (`<<`) operator for `Person`; read in a `Person` from the keyboard (`cin`) and write it out to the screen (`cout`).
