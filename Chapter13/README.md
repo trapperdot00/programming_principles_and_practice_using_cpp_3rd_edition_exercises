@@ -61,3 +61,6 @@ Modify `>>` and `<<` to work with the redefined `Person`.
 
 ## [Drill 19](drill/19)
 Modify the constructor to check that `age` is [0:150) and that `name` doesn't contain any of the characters `;:"'[]*&^%$#@!`. Use `error()` in case of error. Test.
+
+## [Drill 20](drill/20)
+Read a sequence of `Person`s from input (`cin`) into a `vector<Person>`; write them out again to the screen (`cout`). Test with correct and erroneous input.
