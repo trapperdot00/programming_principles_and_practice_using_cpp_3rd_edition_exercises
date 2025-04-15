@@ -25,3 +25,6 @@ From now on use that range, scale, etc. for all graphs.
 
 ## [Drill 7](drill/07)
 Add `double slope(double x) { return 0.5*x; }` to the window.
+
+## [Drill 8](drill/08)
+Label the slope with a `Text "0.5x"` at a point just above its bottom left end point.
