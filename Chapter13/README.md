@@ -34,3 +34,6 @@ Add `double square(double x) { return x * x; }` to the window.
 
 ## [Drill 10](drill/10)
 Add a cosine to the window (don't write a new function).
+
+## [Drill 11](drill/11)
+Make the cosine blue.
