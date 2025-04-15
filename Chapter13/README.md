@@ -58,3 +58,6 @@ Make the representation of `Person` private, and provide `const` member function
 
 ## [Drill 18](drill/18)
 Modify `>>` and `<<` to work with the redefined `Person`.
+
+## [Drill 19](drill/19)
+Modify the constructor to check that `age` is [0:150) and that `name` doesn't contain any of the characters `;:"'[]*&^%$#@!`. Use `error()` in case of error. Test.
