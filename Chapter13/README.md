@@ -37,3 +37,6 @@ Add a cosine to the window (don't write a new function).
 
 ## [Drill 11](drill/11)
 Make the cosine blue.
+
+## [Drill 12](drill/12)
+Write a function `sloping_cos()` that adds a cosine to `slope()` (as defined above) and add it to the window.
