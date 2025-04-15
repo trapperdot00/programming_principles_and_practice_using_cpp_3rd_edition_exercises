@@ -55,3 +55,6 @@ Give `Person` a constructor initializing `name` and `age`.
 
 ## [Drill 17](drill/17)
 Make the representation of `Person` private, and provide `const` member functions `name()` and `age()` to read the name and age.
+
+## [Drill 18](drill/18)
+Modify `>>` and `<<` to work with the redefined `Person`.
