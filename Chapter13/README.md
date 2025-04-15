@@ -40,3 +40,6 @@ Make the cosine blue.
 
 ## [Drill 12](drill/12)
 Write a function `sloping_cos()` that adds a cosine to `slope()` (as defined above) and add it to the window.
+
+## [Drill 13](drill/13)
+Define a `struct Person` containing a `string` name and an `int` age.
