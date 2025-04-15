@@ -49,3 +49,6 @@ Define a variable of type `Person`, initialize it with "Goofy" and 63, and write
 
 ## [Drill 15](drill/15)
 Define an input (`>>`) and an output (`<<`) operator for `Person`; read in a `Person` from the keyboard (`cin`) and write it out to the screen (`cout`).
+
+## [Drill 16](drill/16)
+Give `Person` a constructor initializing `name` and `age`.
