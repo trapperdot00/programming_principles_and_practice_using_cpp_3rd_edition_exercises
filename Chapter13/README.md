@@ -52,3 +52,6 @@ Define an input (`>>`) and an output (`<<`) operator for `Person`; read in a `Pe
 
 ## [Drill 16](drill/16)
 Give `Person` a constructor initializing `name` and `age`.
+
+## [Drill 17](drill/17)
+Make the representation of `Person` private, and provide `const` member functions `name()` and `age()` to read the name and age.
