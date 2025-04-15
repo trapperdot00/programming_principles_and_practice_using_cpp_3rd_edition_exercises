@@ -64,3 +64,6 @@ Modify the constructor to check that `age` is [0:150) and that `name` doesn't co
 
 ## [Drill 20](drill/20)
 Read a sequence of `Person`s from input (`cin`) into a `vector<Person>`; write them out again to the screen (`cout`). Test with correct and erroneous input.
+
+## [Drill 21](drill/21)
+Change the representation of `Person` to have `first_name` and `second_name` instead of `name`. Make it an error not to supply both a first and a second name. Be sure to fix `>>` and `<<` also. Test.
