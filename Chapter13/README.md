@@ -31,3 +31,6 @@ Label the slope with a `Text "0.5x"` at a point just above its bottom left end p
 
 ## [Drill 9](drill/09)
 Add `double square(double x) { return x * x; }` to the window.
+
+## [Drill 10](drill/10)
+Add a cosine to the window (don't write a new function).
