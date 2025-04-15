@@ -28,3 +28,6 @@ Add `double slope(double x) { return 0.5*x; }` to the window.
 
 ## [Drill 8](drill/08)
 Label the slope with a `Text "0.5x"` at a point just above its bottom left end point.
+
+## [Drill 9](drill/09)
+Add `double square(double x) { return x * x; }` to the window.
