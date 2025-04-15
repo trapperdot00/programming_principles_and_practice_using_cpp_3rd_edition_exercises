@@ -43,3 +43,6 @@ Write a function `sloping_cos()` that adds a cosine to `slope()` (as defined abo
 
 ## [Drill 13](drill/13)
 Define a `struct Person` containing a `string` name and an `int` age.
+
+## [Drill 14](drill/14)
+Define a variable of type `Person`, initialize it with "Goofy" and 63, and write it to the screen (`cout`).
