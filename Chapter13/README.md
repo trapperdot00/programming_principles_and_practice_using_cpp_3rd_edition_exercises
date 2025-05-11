@@ -89,3 +89,6 @@ What is a default argument and when would you use one?
 
 ## [Review 7](review/07.txt)
 How do you add functions together?
+ 
+## [Review 8](review/08.txt)
+How do you color and label a graphed function?

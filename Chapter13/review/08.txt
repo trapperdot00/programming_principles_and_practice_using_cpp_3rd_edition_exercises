@@ -1,0 +1,2 @@
+We can color a graphed function by using its member function, void set_color(Color),
+and we can label it using a separate Text object, placed wherever we would like.
