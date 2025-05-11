@@ -120,3 +120,6 @@ It will do `fac(4)` by first deciding that since `4>1` it must be `4*fac(3)`, an
 
 ## [Exercise 2](exercises/02)
 Define a class `Fct` that is just like `Function` except that it stores its constructor arguments. Provide `Fct` with "reset" operations, so that you can use it repeatedly for different ranges, different functions, etc.
+
+## [Exercise 3](exercises/03)
+Modify `Fct` from the previous exercise to take an extra argument to control precision or whatever. Make the type of that argument a template parameter for extra flexibility.
