@@ -123,3 +123,6 @@ Define a class `Fct` that is just like `Function` except that it stores its cons
 
 ## [Exercise 3](exercises/03)
 Modify `Fct` from the previous exercise to take an extra argument to control precision or whatever. Make the type of that argument a template parameter for extra flexibility.
+
+## [Exercise 4](exercises/04)
+Graph a sine (`sin()`), a cosine (`cos()`), the sum of those (`sin(x)+cos(x)`), and the sum of the squares of those (`sin(x)*sin(x)+cos(x)*cos(x)`) on a single graph. Do provide axes and labels.
