@@ -67,3 +67,25 @@ Read a sequence of `Person`s from input (`cin`) into a `vector<Person>`; write t
 
 ## [Drill 21](drill/21)
 Change the representation of `Person` to have `first_name` and `second_name` instead of `name`. Make it an error not to supply both a first and a second name. Be sure to fix `>>` and `<<` also. Test.
+
+
+## [Review 1](review/01.txt)
+What is a function of one argument?
+
+## [Review 2](review/02.txt)
+When would you use a (continuous) line to represent data? When do you use (discrete) points?
+
+## [Review 3](review/03.txt)
+What function (mathematical formula) defines a slope?
+
+## [Review 4](review/04.txt)
+What is a parabola?
+
+## [Review 5](review/05.txt)
+How do you make an x axis? A y axis?
+
+## [Review 6](review/06.txt)
+What is a default argument and when would you use one?
+
+## [Review 7](review/07.txt)
+How do you add functions together?

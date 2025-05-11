@@ -1,0 +1,1 @@
+We add functions together by executing each function (with the same arguments) and adding their returned values.
