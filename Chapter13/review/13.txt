@@ -1,0 +1,4 @@
+So that it is easier for humans to read, and to provide context for their values,
+when a given data starts is indicated by a '{', and when it ends by '}'.
+The year is separated by the data by a colon.
+Simple but effective sanity checks that prevent users from giving garbage values.

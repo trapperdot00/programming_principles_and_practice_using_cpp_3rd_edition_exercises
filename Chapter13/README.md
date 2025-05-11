@@ -104,3 +104,6 @@ How would you scale your graph so that the input will fit?
 
 ## [Review 12](review/12.txt)
 How would you scale the input without trial and error?
+
+## [Review 13](review/13.txt)
+Why would you format your input rather than just having the file contain "the numbers"?
