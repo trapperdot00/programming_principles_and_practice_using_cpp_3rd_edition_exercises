@@ -1,0 +1,12 @@
+We plan the general layout of our graphs by first asking ourselves
+what would we want to see in our window.
+We need to consider the position and the size of our rectangle space
+that will hold the graph and its values.
+We also need to consider whether there would be any captions, and where to put them.
+Also the colors of the lines, whether there will even be lines, or simply just marks.
+
+We can easily reflect these ideas in code:
+we can put the offsets and spacings and coordinates in symbolic constants,
+and we can represent captions as Text objects.
+We can even assign colors and line styles for our polylines or marks,
+that would represent our data.

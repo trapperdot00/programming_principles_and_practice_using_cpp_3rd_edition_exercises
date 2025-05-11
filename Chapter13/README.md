@@ -107,3 +107,6 @@ How would you scale the input without trial and error?
 
 ## [Review 13](review/13.txt)
 Why would you format your input rather than just having the file contain "the numbers"?
+
+## [Review 14](review/14.txt)
+How do you plan the general layout of a graph? How do you reflect that layout in your code?
