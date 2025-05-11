@@ -126,3 +126,6 @@ Modify `Fct` from the previous exercise to take an extra argument to control pre
 
 ## [Exercise 4](exercises/04)
 Graph a sine (`sin()`), a cosine (`cos()`), the sum of those (`sin(x)+cos(x)`), and the sum of the squares of those (`sin(x)*sin(x)+cos(x)*cos(x)`) on a single graph. Do provide axes and labels.
+
+## [Exercise 5](exercises/05)
+"Animate" (as in §13.5) the series `1-1/3+1/5-1/7+1/9-1/11+ ...`. It is known as Leibniz's series and converges to pi/4.
