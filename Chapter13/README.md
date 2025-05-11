@@ -95,3 +95,6 @@ How do you color and label a graphed function?
 
 ## [Review 9](review/09.txt)
 What do we mean when we say that a series approximates a function?
+
+## [Review 10](review/10.txt)
+Why would you sketch out the layout of a graph before writing the code to draw it?

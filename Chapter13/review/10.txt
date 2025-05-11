@@ -1,0 +1,6 @@
+So that we can get a schematic view of the overall look of our graph,
+and we can store offsets and spacings in symbolic constants that makes
+it easier to calculate exact coordinates inside our graphing area.
+
+And afterall, it would be hard to code something,
+that we don't even understand the design of.
