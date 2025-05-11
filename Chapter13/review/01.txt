@@ -1,0 +1,10 @@
+A function of one argument is a function that takes one parameter.
+Whether it does something with that argument is up to the function.
+
+For example, the horizontal line function discards the given argument,
+by not even naming the variable, only the type of it, and returns one for every value given;
+however the sloping line returns the argument multiplied by 0.5.
+
+The graphics type, Function, takes a function that takes one argument of type double, and returns double.
+
+We use continuous lines for visualizing functions of one argument.

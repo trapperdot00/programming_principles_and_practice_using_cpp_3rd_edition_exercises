@@ -1,0 +1,4 @@
+A parabola is a graph of the quadratic formula: y=ax^2+bx+c.
+It is approximately U shaped, symmetrical to the y-axis, and can also point downwards.
+It has a minimum or maximum point, from which in each direction, its value grows or lessens.
+Its curve's slope is increasing or decreasing as we get further from its min/max point.

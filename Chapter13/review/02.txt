@@ -1,0 +1,3 @@
+We would use a continuous line for representing data when one value was somehow a function of an other.
+
+We would use discrete points if the values were not functions of each other.
