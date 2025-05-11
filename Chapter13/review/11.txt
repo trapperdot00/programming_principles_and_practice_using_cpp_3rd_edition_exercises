@@ -1,0 +1,5 @@
+For two-dimensional graphs, we need to scale the x and y axes to make our inputs fit.
+We can get a scaling factor by dividing the size of the given axis
+with the range of the corresponding dataset.
+Then we can align the input data to a coordinate by subtracting the minimal value from it,
+multiplying that with the scale, and adding it to the given axis' starting coordinate.
