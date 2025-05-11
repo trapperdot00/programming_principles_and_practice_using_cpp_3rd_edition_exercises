@@ -1,0 +1,5 @@
+We can make an x axis by using an Axis object,
+and supplying an Axis::x as its first argument, along with the usual arguments:
+starting point, length, notch count, and label text.
+
+We can make a y axis by supplying Axis::y as the first argument.
