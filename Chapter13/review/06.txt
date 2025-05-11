@@ -1,0 +1,9 @@
+A default argument is the default value for a function's parameter.
+
+It allows us to leave out the value for a default argument in calls to that function,
+using the default one for that instead.
+
+It is an alternative for providing several overloaded functions.
+
+Default arguments can only be defined for trailing parameters,
+non-default argumented parameters can not be after a default argumented parameter.
