@@ -1,0 +1,43 @@
+approximation		calculating a mathematical formula that returns a real value,
+					to a given precision, for example, the exponential function's series
+					gives back a better approximation of the value the more terms we
+					calculate and add together
+					floating point values can only store values in a specific number of bits,
+					so really they just approximate real values
+Function			a type inside our graphics library that can graph functions on a given range
+					it accepts functions that return a double, and take a double argument
+scaling				fitting data to fill the space defined by the axes, the data should not
+					extend beyond the axes maximum value and beyond the minimum
+default argument	initializers to parameters inside function declarations
+					it allows us to call the function without supplying values to the already
+					initialized arguments without the need of overloaded functions for each
+					combination of default arguments
+					default arguments can only be specified for trailing parameters
+lambda expression	an unnamed (anonymous) function that can be defined exactly where it is needed
+					a lambda expression consists of a lambda introducer: [], where we can define
+					the variables inside the current, local scope to catch either by reference,
+					or by value (copying); a parameter list: (), where we can declare parameters
+					that callers will need to supply; an optional trailing return type: -> ;
+					and the function body enclosed by curly braces: {}
+					lambdas should be used when we need a function only once for a really specific problem,
+					and their function bodies should not exceed a few lines, as that means that
+					that computation should be in its own, named function
+					the return type is optional, as most of the time the compiler can deduce it
+					from the return statement
+					lambda functions can be stored inside std::function objects or by using auto
+					to define a variable
+					lambdas act as function objects (functors), storing the caught objects as data members,
+					and defining an overloaded function call operator (operator()) with our parameters
+					and our return type
+screen layout		the general layout of our window, where we will display our graphs
+					designing the layout before writing code is essential for understanding it,
+					defining symbolic constants also help to use the names of offsets and spacings
+Axis				a type in our graphics library that allows us to place lines that represent axes,
+					either inside the x or y direction, horizontal or vertical
+					it also draws notches with the given distance from each other
+overflow			computers store numbers inside a fixed number of bits, for example, integers are
+					usually stored inside 32 bits, or 4 bytes
+					when an integer holds the maximum value that it can hold (full of ones in binary),
+					and we add one to it, it overflows, and resets to full zeroes in binary
+					overflows are sneaky errors, without explicit checks for them, errors are not reported,
+					which can mess up our computations
