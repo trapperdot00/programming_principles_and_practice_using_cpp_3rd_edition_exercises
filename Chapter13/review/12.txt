@@ -1,0 +1,3 @@
+We could scale the input without trial and error by making a separate class,
+that handles the conversion from the input value to a position for us,
+such as the Scale class.

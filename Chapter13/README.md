@@ -101,3 +101,6 @@ Why would you sketch out the layout of a graph before writing the code to draw i
 
 ## [Review 11](review/11.txt)
 How would you scale your graph so that the input will fit?
+
+## [Review 12](review/12.txt)
+How would you scale the input without trial and error?
