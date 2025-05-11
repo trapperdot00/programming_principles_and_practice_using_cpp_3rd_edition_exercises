@@ -1,0 +1,2 @@
+A series approximates a function if the more terms we calculate,
+the more mathematically correct our function will be.

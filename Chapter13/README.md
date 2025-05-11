@@ -92,3 +92,6 @@ How do you add functions together?
  
 ## [Review 8](review/08.txt)
 How do you color and label a graphed function?
+
+## [Review 9](review/09.txt)
+What do we mean when we say that a series approximates a function?
