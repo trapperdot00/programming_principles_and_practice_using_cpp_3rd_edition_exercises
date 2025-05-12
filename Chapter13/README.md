@@ -138,3 +138,6 @@ Elaborate the bar graph class to allow labeling of the graph itself and its indi
 
 ## [Exercise 8](exercises/08)
 Here is a collection of heights in centimeters together with the number of people in a group of that height (rounded to the nearest 5cm): (170,7, (175,9), (180,23), (185,17), (190,6), 195,1). How would you graph that data? If you can't think of anything better, do a bar graph. Remember to provide axes and labels. Place the data in a file and read it from that file.
+
+## [Exercise 9](exercises/09)
+Find another data set of heights (an inch is 2.54cm) and graph them with your program from the previous exercise. For example, search the Web for "height distribution" or "height of people in the United States" and ignore a lot of rubbish or ask your friends for their heights. Ideally, you don't have to change anything for the new data set. Calculating the scaling from the data is a key idea. Reading in labels from input also helps minimize changes when you want to reuse code.
