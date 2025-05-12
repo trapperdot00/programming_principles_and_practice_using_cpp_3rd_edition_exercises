@@ -135,3 +135,6 @@ Design and implement a bar graph class. Its basic data is a `vector<double>` hol
 
 ## [Exercise 7](exercises/07)
 Elaborate the bar graph class to allow labeling of the graph itself and its individual bars. Allow the use of color.
+
+## [Exercise 8](exercises/08)
+Here is a collection of heights in centimeters together with the number of people in a group of that height (rounded to the nearest 5cm): (170,7, (175,9), (180,23), (185,17), (190,6), 195,1). How would you graph that data? If you can't think of anything better, do a bar graph. Remember to provide axes and labels. Place the data in a file and read it from that file.
