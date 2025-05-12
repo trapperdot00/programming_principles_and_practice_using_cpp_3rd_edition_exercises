@@ -129,3 +129,6 @@ Graph a sine (`sin()`), a cosine (`cos()`), the sum of those (`sin(x)+cos(x)`), 
 
 ## [Exercise 5](exercises/05)
 "Animate" (as in §13.5) the series `1-1/3+1/5-1/7+1/9-1/11+ ...`. It is known as Leibniz's series and converges to pi/4.
+
+## [Exercise 6](exercises/06)
+Design and implement a bar graph class. Its basic data is a `vector<double>` holding N values, and each value should be represented by a "bar" that is a rectangle where the height represents the value.
