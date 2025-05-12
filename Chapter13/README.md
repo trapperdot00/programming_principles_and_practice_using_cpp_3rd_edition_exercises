@@ -132,3 +132,6 @@ Graph a sine (`sin()`), a cosine (`cos()`), the sum of those (`sin(x)+cos(x)`), 
 
 ## [Exercise 6](exercises/06)
 Design and implement a bar graph class. Its basic data is a `vector<double>` holding N values, and each value should be represented by a "bar" that is a rectangle where the height represents the value.
+
+## [Exercise 7](exercises/07)
+Elaborate the bar graph class to allow labeling of the graph itself and its individual bars. Allow the use of color.
