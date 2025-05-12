@@ -141,3 +141,6 @@ Here is a collection of heights in centimeters together with the number of peopl
 
 ## [Exercise 9](exercises/09)
 Find another data set of heights (an inch is 2.54cm) and graph them with your program from the previous exercise. For example, search the Web for "height distribution" or "height of people in the United States" and ignore a lot of rubbish or ask your friends for their heights. Ideally, you don't have to change anything for the new data set. Calculating the scaling from the data is a key idea. Reading in labels from input also helps minimize changes when you want to reuse code.
+
+## [Exercise 10](exercises/10)
+What kind of data is unsuitable for a line graph or a bar graph? Find an example and find a way of displaying it (e.g., as a collection of labeled points).
