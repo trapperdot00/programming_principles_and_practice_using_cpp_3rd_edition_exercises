@@ -144,3 +144,6 @@ Find another data set of heights (an inch is 2.54cm) and graph them with your pr
 
 ## [Exercise 10](exercises/10)
 What kind of data is unsuitable for a line graph or a bar graph? Find an example and find a way of displaying it (e.g., as a collection of labeled points).
+
+## [Exercise 11](exercises/11)
+Find the average maximum temperatures for each month of the year for two or more locations (e.g., Cambridge, England, and Cambridge, Massachusetts; there are lots of towns called "Cambridge") and graph them together. As ever, be careful with axes, labels, use of color, etc.
