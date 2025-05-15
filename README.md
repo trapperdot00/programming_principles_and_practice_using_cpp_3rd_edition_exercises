@@ -16,4 +16,5 @@
 ### [Chapter11](Chapter11/): Graphics Classes
 ### [Chapter12](Chapter12/): Class Design
 ### [Chapter13](Chapter13/): Graphing Functions and Data
+### [Chapter14](Chapter14/): Graphical User Interfaces
 
