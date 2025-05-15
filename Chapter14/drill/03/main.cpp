@@ -57,7 +57,7 @@ struct Color_window : Lines_window {
     Color_window(Application& app, Point p, int w, int h, const std::string& title)
     :   Lines_window{app, p, w, h, title},
         menu_button{Point{w - 80, 30}, 80, 20, "color menu", [this]{ show_menu(); }},
-        color_menu{Point{w - 70, 40}, 70, 20, Menu::vertical, "color"}
+        color_menu{Point{w - 70, 40}, 70, 3*20, Menu::vertical, "color"}
     {
         attach(menu_button);
         color_menu.attach(std::make_unique<Button>
