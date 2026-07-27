@@ -1,0 +1,23 @@
+Button             A Button is a widget that executes a callback upon pressing it.
+dialog box         A dialog box is a window that communicates with the user, prompting them for an input.
+visible/hidden     A widget can be visible or hidden.
+callback           A function that executes upon interesting events for a Widget.
+GUI                Graphical User Interface.
+waiting for input  Waiting for user input / blocking.
+console I/O        Console I/O in C++ is done using streams, which are blocking.
+GUI I/O            GUI I/O is done via Widgets using callbacks.
+menu               A list of buttons controlling related actions.
+wait loop          A loop that waits for user input on each go.
+control            Synonym for widget.
+software           Program that is run on hardware.
+layer              A subpart of a software that hides the complexity of a lower layer.
+widget             Visual object that provides the interface between the program and the user.
+control inversion  GUI frameworks utilize this principle, programming using widgets with callbacks.
+user interface     The interactivity of the program, and its design.
+browser I/O        Interface that can be accessed through a browser.
+Application        Class that manages the GUI loop and widgets.
+Qt                 A GUI framework for C++.
+In_box             A widget that users can enter text into.
+Out_box            A widget that the program can put text into and show it.
+animation          Movement of widgets over time.
+timer_wait()       Used to wait for a specified amount of milliseconds and optionally execute a callback.
