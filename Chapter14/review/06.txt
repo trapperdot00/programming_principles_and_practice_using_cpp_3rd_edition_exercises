@@ -1,0 +1,5 @@
+A widget defines a form of interaction with the
+user through the GUI.
+
+A widget occupies space in a window, and can be
+interacted with.

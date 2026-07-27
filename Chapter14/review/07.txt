@@ -1,0 +1,7 @@
+According to Wikipedia, Qt is called Qt because
+one of the original developers, Haavard Nord found
+the letter Q appealing in his Emacs typeface,
+and the letter 't' was inspired by Xt, the X
+toolkit.
+
+So it is kind of an acronym, t could mean toolkit.

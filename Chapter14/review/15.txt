@@ -1,0 +1,4 @@
+We use a menu to provide a selection of related
+actions to the user, via individual buttons.
+
+For example, controlling the color of a shape.

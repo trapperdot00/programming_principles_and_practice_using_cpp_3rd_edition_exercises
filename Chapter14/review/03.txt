@@ -1,0 +1,2 @@
+A software layer is an abstraction that hides the
+complexity of some harder-to-use underlying system.

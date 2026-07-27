@@ -1,0 +1,10 @@
+A callback is a function that is set and stored
+inside an object waiting to be called later.
+
+In GUI programs, we use callback functions to
+supply the actions that our visual objects need to
+do when something interesting happens to them.
+
+For example: button widgets store a callback
+function that specifies what it needs to do when
+it is clicked by the user.

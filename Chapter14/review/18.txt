@@ -1,0 +1,5 @@
+Debugging a GUI program is harder than a program
+using streams for I/O, because the requests for
+callbacks can arrive in any order, the widget
+callbacks' codes can be in different places,
+and multithreading can make it all worse.

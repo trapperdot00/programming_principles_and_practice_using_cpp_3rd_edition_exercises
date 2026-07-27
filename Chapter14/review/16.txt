@@ -1,0 +1,14 @@
+Control inversion is the principle that GUI
+frameworks use.
+
+GUI frameworks have a dedicated event-loop that
+manages the events that the application receives
+and delegates these requests into their respective
+widgets to handle.
+
+Control inversion means that the users of the
+framework don't write loops to manage the events
+(as the framework handles it for them), instead
+they write callback functions that will be
+executed upon receiving a request for the
+specified widgets.

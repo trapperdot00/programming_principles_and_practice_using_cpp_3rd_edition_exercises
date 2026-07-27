@@ -1,0 +1,7 @@
+For example, because we want the user interaction
+to consist of interacting with visual objects, and
+to have a more mouse-oriented workflow.
+
+It is also easier for users to work with GUI
+applications, your average office worker doesn't
+even know how to use the terminal.

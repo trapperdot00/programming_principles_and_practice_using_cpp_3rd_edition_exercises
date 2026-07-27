@@ -1,0 +1,13 @@
+When the input for the program is textual and
+doesn't require graphing.
+
+Console applications also have the advantage of
+being able to use their outputs as input for other
+console applications directly using shell
+features.
+
+You can also schedule the running of console
+applications more easily, as you don't need to
+wait for the GUI to start up (you don't even need
+a display), and can hardwire the input as
+a simple shell redirection.

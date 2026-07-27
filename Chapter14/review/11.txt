@@ -1,0 +1,5 @@
+Widgets could be buttons, menus, textboxes,
+sliders, radio buttons, checkboxes.
+
+Basically anything that can be interacted with
+visually.

@@ -1,0 +1,2 @@
+When we need to acquire textual data from the user
+in a GUI program.

@@ -1,0 +1,6 @@
+Explain the program to a friend.
+Compare the program to a working one.
+Use well-tried functions and classes.
+Simplify the new code by writing it from its
+simplest version.
+Check the linker settings.

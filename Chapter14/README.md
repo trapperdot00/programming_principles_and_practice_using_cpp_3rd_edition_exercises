@@ -16,3 +16,61 @@ Modify the program to use a pop-up menu as described in §14.5.2 and get it to r
 
 ## [Drill 4](drill/04)
 Modify the program to have a second menu for choosing line styles and get it to run.
+
+
+## [Review 1](review/01.txt)
+Why would you want a graphical user interface?
+
+## [Review 2](review/02.txt)
+When would you want a non-graphical user interface?
+
+## [Review 3](review/03.txt)
+What is a software layer?
+
+## [Review 4](review/04.txt)
+Why would you want to layer software?
+
+## [Review 5](review/05.txt)
+What is a callback?
+
+## [Review 6](review/06.txt)
+What is a widget?
+
+## [Review 7](review/07.txt)
+Is Qt an acronym?
+
+## [Review 8](review/08.txt)
+How do you pronounce Qt?
+
+## [Review 9](review/09.txt)
+What other GUI toolkits have you heard of?
+
+## [Review 10](review/10.txt)
+Which systems use the term _widget_ and which prefer _control_?
+
+## [Review 11](review/11.txt)
+What are examples of widgets?
+
+## [Review 12](review/12.txt)
+When would you use an inbox?
+
+## [Review 13](review/13.txt)
+What is the type of the value stored in an inbox?
+
+## [Review 14](review/14.txt)
+When would you use a button?
+
+## [Review 15](review/15.txt)
+When would you use a menu?
+
+## [Review 16](review/16.txt)
+What is control inversion?
+
+## [Review 17](review/17.txt)
+What is the basic strategy for debugging a GUI program?
+
+## [Review 18](review/18.txt)
+Why is debugging a GUI program harder than debugging an "ordinary program using streams for I/O"?
+
+## [Review 19](review/19.txt)
+How do you animate a widget?

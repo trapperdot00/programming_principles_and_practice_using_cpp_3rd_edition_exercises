@@ -1,0 +1,2 @@
+In_box stores an instance of ResultData that keeps
+track of the entered text.

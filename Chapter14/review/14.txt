@@ -1,0 +1,4 @@
+We use a button for executing some kind of action.
+
+For example, for clearing a textbox, or sending
+data.

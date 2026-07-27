@@ -1,0 +1,3 @@
+Programmers layer software to hide the complexity
+of some underlying system, and to separate
+the system's responsibilities into different areas.
