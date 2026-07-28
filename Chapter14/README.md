@@ -78,3 +78,7 @@ How do you animate a widget?
 
 ## [Exercise 1](exercises/01/main.cpp)
 Make a `My_window` that's a bit like `Simple_window` except that it has two buttons, `next` and `quit`.
+
+## [Exercise 2](exercises/02/main.cpp)
+Make a window (based on `My_window`) with a 4-by-4 checkerboard of square buttons.
+When pressed, a button performs a simple action, such as printing its coordinates in an output box, or turns a slightly different color (until another button is pressed).
