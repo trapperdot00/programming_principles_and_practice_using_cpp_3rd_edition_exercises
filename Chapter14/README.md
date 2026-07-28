@@ -82,3 +82,14 @@ Make a `My_window` that's a bit like `Simple_window` except that it has two butt
 ## [Exercise 2](exercises/02/main.cpp)
 Make a window (based on `My_window`) with a 4-by-4 checkerboard of square buttons.
 When pressed, a button performs a simple action, such as printing its coordinates in an output box, or turns a slightly different color (until another button is pressed).
+
+## [Exercise 3](exercises/03/main.cpp)
+Place an `Image` on top of a `Button`; move both when the button is pushed.
+Use this random number generator from `PPP_support` to pick a new location for the "image button":
+```
+inline int rand_int(int min, int max)
+{
+    static default random engine ran;
+    return uniform_int_distribution<>{min, max}(ran);
+}
+```
