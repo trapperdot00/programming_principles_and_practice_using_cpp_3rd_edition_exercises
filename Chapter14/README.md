@@ -74,3 +74,7 @@ Why is debugging a GUI program harder than debugging an "ordinary program using 
 
 ## [Review 19](review/19.txt)
 How do you animate a widget?
+
+
+## [Exercise 1](exercises/01/main.cpp)
+Make a `My_window` that's a bit like `Simple_window` except that it has two buttons, `next` and `quit`.
