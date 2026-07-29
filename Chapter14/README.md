@@ -102,3 +102,8 @@ Sorry, no drag and drop.
 ## [Exercise 5](exercises/05/main.cpp)
 Write a program that draws a shape of your choice and moves it to a new point each time you click "Next."
 The new point should be determined by a coordinate pair read from an input stream.
+
+## [Exercise 6](exercises/06/main.cpp)
+Make an "analog clock," that is, a clock with hands that move.
+You get the time of day from the operating system through a library call.
+Hint: `chrono::now()`, `sleep()`.
