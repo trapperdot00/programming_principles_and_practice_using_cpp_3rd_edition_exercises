@@ -98,3 +98,7 @@ inline int rand_int(int min, int max)
 Make a menu with items that make a circle, a square, and equilateral triangle, and a hexagon, respectively.
 Make an input box (or two) for giving a coordinate pair, and place the shape made by pressing a menu item at that coordinate.
 Sorry, no drag and drop.
+
+## [Exercise 5](exercises/05/main.cpp)
+Write a program that draws a shape of your choice and moves it to a new point each time you click "Next."
+The new point should be determined by a coordinate pair read from an input stream.
