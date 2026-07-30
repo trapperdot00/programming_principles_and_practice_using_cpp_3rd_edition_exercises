@@ -107,3 +107,7 @@ The new point should be determined by a coordinate pair read from an input strea
 Make an "analog clock," that is, a clock with hands that move.
 You get the time of day from the operating system through a library call.
 Hint: `chrono::now()`, `sleep()`.
+
+## [Exercise 7](exercises/07/main.cpp)
+Using the techniques developed in the previous exercises, make an image of an airplane "fly around" in a window.
+Have a "Start" and a "Stop" button.
