@@ -111,3 +111,8 @@ Hint: `chrono::now()`, `sleep()`.
 ## [Exercise 7](exercises/07/main.cpp)
 Using the techniques developed in the previous exercises, make an image of an airplane "fly around" in a window.
 Have a "Start" and a "Stop" button.
+
+## [Exercise 8](exercises/08/main.cpp)
+Provide a currency converter.
+Read conversion rates from a file on startup.
+Enter an amount in an input window and provide a way of selecting currencies to convert to and from (e.g., a pair of menus).
