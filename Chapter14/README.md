@@ -116,3 +116,6 @@ Have a "Start" and a "Stop" button.
 Provide a currency converter.
 Read conversion rates from a file on startup.
 Enter an amount in an input window and provide a way of selecting currencies to convert to and from (e.g., a pair of menus).
+
+## [Exercise 9](exercises/09/main.cpp)
+Modify the calculator from Chapter 6 to get its input from an input box and return its results in an output box.
