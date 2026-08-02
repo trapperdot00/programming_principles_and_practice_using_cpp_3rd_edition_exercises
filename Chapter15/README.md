@@ -38,3 +38,6 @@ Allocate an array of 20 `int`s on the free store; initialize it with the values 
 
 ## Drill 1.8
 Did you remember to delete the arrays? (If not, do it.)
+
+## [Drill 1.9](drill/1/09/main.cpp)
+Do 5, 6, and 7 using a `vector` instead of an array and a `print_vector()` instead of `print_array()`.
