@@ -68,3 +68,6 @@ Print out the values of `p1` and `p2` and of what they point to.
 
 ## [Drill 2.9](drill/2/09)
 Deallocate all the memory you allocated from the free store.
+
+## [Drill 2.10](drill/2/10)
+Allocate an array of ten `int`s; initialize it to 1, 2, 4, 8, etc.; and assign its address to `p1`.
