@@ -47,3 +47,6 @@ Allocate an `int`, initialize it to 7, and assign its address to a variable `p1`
 
 ## [Drill 2.2](drill/2/02)
 Print out the value of `p1` and of the `int` it points to.
+
+## [Drill 2.3](drill/2/03)
+Allocate an array of seven `int`s; initialize it to 1, 2, 4, 8, etc.; and assign its address to a variable `p2`.
