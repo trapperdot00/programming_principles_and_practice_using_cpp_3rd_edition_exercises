@@ -17,3 +17,6 @@ Then, create a few objects and see how their constructors and destructors are ca
 
 ## [Drill 1.1](drill/1/01/main.cpp)
 Allocate an array of ten `int`s on the free store using `new`.
+
+## [Drill 1.2](drill/1/02/main.cpp)
+Print the values of the ten `int`s to `cout`.
