@@ -65,3 +65,6 @@ Assign `p3` to `p2`.
 
 ## [Drill 2.8](drill/2/08)
 Print out the values of `p1` and `p2` and of what they point to.
+
+## [Drill 2.9](drill/2/09)
+Deallocate all the memory you allocated from the free store.
