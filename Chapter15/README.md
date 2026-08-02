@@ -71,3 +71,6 @@ Deallocate all the memory you allocated from the free store.
 
 ## [Drill 2.10](drill/2/10)
 Allocate an array of ten `int`s; initialize it to 1, 2, 4, 8, etc.; and assign its address to `p1`.
+
+## [Drill 2.11](drill/2/11)
+Allocate an array of ten `int`s; and assign its address to a variable `p2`.
