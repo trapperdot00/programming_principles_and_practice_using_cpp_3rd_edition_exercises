@@ -119,3 +119,6 @@ Enter an amount in an input window and provide a way of selecting currencies to 
 
 ## [Exercise 9](exercises/09/main.cpp)
 Modify the calculator from Chapter 6 to get its input from an input box and return its results in an output box.
+
+## [Exercise 10](exercises/10/main.cpp)
+Provide a program where you can choose among a set of functions (e.g., `sin()` and `log()`), provide parameters for those functions, and then graph them.
