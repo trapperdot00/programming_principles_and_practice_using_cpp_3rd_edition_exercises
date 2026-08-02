@@ -74,3 +74,6 @@ Allocate an array of ten `int`s; initialize it to 1, 2, 4, 8, etc.; and assign i
 
 ## [Drill 2.11](drill/2/11)
 Allocate an array of ten `int`s; and assign its address to a variable `p2`.
+
+## [Drill 2.12](drill/2/12)
+Copy the values from the array pointed to by `p1` into the array pointed to by `p2`.
