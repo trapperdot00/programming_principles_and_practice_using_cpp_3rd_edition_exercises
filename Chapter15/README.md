@@ -59,3 +59,6 @@ Declare an `int*` called `p3` and initialize it with `p2`.
 
 ## [Drill 2.6](drill/2/06)
 Assign `p1` to `p2`.
+
+## [Drill 2.7](drill/2/07)
+Assign `p3` to `p2`.
