@@ -44,3 +44,6 @@ Do 5, 6, and 7 using a `vector` instead of an array and a `print_vector()` inste
 
 ## [Drill 2.1](drill/2/01)
 Allocate an `int`, initialize it to 7, and assign its address to a variable `p1`.
+
+## [Drill 2.2](drill/2/02)
+Print out the value of `p1` and of the `int` it points to.
