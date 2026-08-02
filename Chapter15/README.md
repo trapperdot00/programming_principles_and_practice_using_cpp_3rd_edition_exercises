@@ -53,3 +53,6 @@ Allocate an array of seven `int`s; initialize it to 1, 2, 4, 8, etc.; and assign
 
 ## [Drill 2.4](drill/2/04)
 Print out the value of `p2` and of the array it points to.
+
+## [Drill 2.5](drill/2/05)
+Declare an `int*` called `p3` and initialize it with `p2`.
