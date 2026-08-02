@@ -1,7 +1,7 @@
 # 15: Vector and Free Store
 
 - [Try This](#try-this-1)
-- [Drill](#drill-1.1)
+- [Drill](#drill-11)
 - [Review](#review-1)
 - [Terms](terms.txt)
 - [Exercises](#exercise-1)
