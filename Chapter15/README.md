@@ -23,3 +23,6 @@ Print the values of the ten `int`s to `cout`.
 
 ## [Drill 1.3](drill/1/03/main.cpp)
 Deallocate the array (using `delete[]`).
+
+## [Drill 1.4](drill/1/04/main.cpp)
+Write a function `print_array(ostream& os, int* a, int n)` that prints out the values of `a` (assumed to have `n` elements) to `os`.
