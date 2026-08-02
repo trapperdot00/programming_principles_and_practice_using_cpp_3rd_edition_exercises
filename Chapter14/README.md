@@ -8,13 +8,13 @@
 ## [Drill 1](drill/01)
 Make a completely new project with linker settings for Qt (`www.stroustrup.com/programming.html`).
 
-## [Drill 2](drill/02)
+## [Drill 2](drill/02/main.cpp)
 Using the facilities of `Graph_lib`, type in the line-drawing program from §14.5 and get it to run.
 
-## [Drill 3](drill/03)
+## [Drill 3](drill/03/main.cpp)
 Modify the program to use a pop-up menu as described in §14.5.2 and get it to run.
 
-## [Drill 4](drill/04)
+## [Drill 4](drill/04/main.cpp)
 Modify the program to have a second menu for choosing line styles and get it to run.
 
 
