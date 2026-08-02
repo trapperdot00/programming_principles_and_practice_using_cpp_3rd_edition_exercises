@@ -29,3 +29,6 @@ Write a function `print_array(ostream& os, int* a, int n)` that prints out the v
 
 ## [Drill 1.5](drill/1/05/main.cpp)
 Allocate an array of ten `int`s on the free store; initialize it with the values 100, 101, 102, etc.; and print out its values.
+
+## [Drill 1.6](drill/1/06/main.cpp)
+Allocate an array of 11 `int`s on the free store; initialize it with the values 100, 101, 102, etc.; and print out its values.
