@@ -62,3 +62,6 @@ Assign `p1` to `p2`.
 
 ## [Drill 2.7](drill/2/07)
 Assign `p3` to `p2`.
+
+## [Drill 2.8](drill/2/08)
+Print out the values of `p1` and `p2` and of what they point to.
