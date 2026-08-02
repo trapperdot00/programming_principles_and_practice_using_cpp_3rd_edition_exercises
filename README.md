@@ -18,3 +18,5 @@
 ### [Chapter13](Chapter13/): Graphing Functions and Data
 ### [Chapter14](Chapter14/): Graphical User Interfaces
 
+## Part III: Data and Algorithms
+### [Chapter15](Chapter15/): Vector and Free Store
