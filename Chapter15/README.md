@@ -20,3 +20,6 @@ Allocate an array of ten `int`s on the free store using `new`.
 
 ## [Drill 1.2](drill/1/02/main.cpp)
 Print the values of the ten `int`s to `cout`.
+
+## [Drill 1.3](drill/1/03/main.cpp)
+Deallocate the array (using `delete[]`).
