@@ -32,3 +32,9 @@ Allocate an array of ten `int`s on the free store; initialize it with the values
 
 ## [Drill 1.6](drill/1/06/main.cpp)
 Allocate an array of 11 `int`s on the free store; initialize it with the values 100, 101, 102, etc.; and print out its values.
+
+## [Drill 1.7](drill/1/07/main.cpp)
+Allocate an array of 20 `int`s on the free store; initialize it with the values 100, 101, 102, etc.; and print out its values.
+
+## Drill 1.8
+Did you remember to delete the arrays? (If not, do it.)
