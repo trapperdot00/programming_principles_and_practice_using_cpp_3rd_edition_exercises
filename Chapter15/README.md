@@ -41,3 +41,6 @@ Did you remember to delete the arrays? (If not, do it.)
 
 ## [Drill 1.9](drill/1/09/main.cpp)
 Do 5, 6, and 7 using a `vector` instead of an array and a `print_vector()` instead of `print_array()`.
+
+## [Drill 2.1](drill/2/01)
+Allocate an `int`, initialize it to 7, and assign its address to a variable `p1`.
