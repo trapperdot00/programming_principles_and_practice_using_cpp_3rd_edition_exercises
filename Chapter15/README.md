@@ -26,3 +26,6 @@ Deallocate the array (using `delete[]`).
 
 ## [Drill 1.4](drill/1/04/main.cpp)
 Write a function `print_array(ostream& os, int* a, int n)` that prints out the values of `a` (assumed to have `n` elements) to `os`.
+
+## [Drill 1.5](drill/1/05/main.cpp)
+Allocate an array of ten `int`s on the free store; initialize it with the values 100, 101, 102, etc.; and print out its values.
