@@ -77,3 +77,6 @@ Allocate an array of ten `int`s; and assign its address to a variable `p2`.
 
 ## [Drill 2.12](drill/2/12)
 Copy the values from the array pointed to by `p1` into the array pointed to by `p2`.
+
+## [Drill 2.13](drill/2/13)
+Repeat 10-12 using a `vector` rather than an array.
