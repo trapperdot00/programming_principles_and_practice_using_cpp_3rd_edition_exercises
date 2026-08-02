@@ -56,3 +56,6 @@ Print out the value of `p2` and of the array it points to.
 
 ## [Drill 2.5](drill/2/05)
 Declare an `int*` called `p3` and initialize it with `p2`.
+
+## [Drill 2.6](drill/2/06)
+Assign `p1` to `p2`.
