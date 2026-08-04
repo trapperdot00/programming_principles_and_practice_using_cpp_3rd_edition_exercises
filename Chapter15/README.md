@@ -115,3 +115,6 @@ Write a program that reads characters from `cin` into an array that you allocate
 Read individual characters until an exclamation mark (!) is entered.
 Do not use a `std::string`.
 Do not worry about memory exhaustion.
+
+## [Exercise 7](exercises/07/main.cpp)
+Do the previous exercise again, but this time read into a `std::string` rather than to memory you put on the free store (`string` knows to use the free store for you).
