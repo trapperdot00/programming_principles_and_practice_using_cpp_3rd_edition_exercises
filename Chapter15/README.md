@@ -95,3 +95,9 @@ Do not use `sizeof` except to verify your answer.
 ## [Exercise 3](exercises/03/main.cpp)
 List two ways that a pointer can be misused in potentially disastrous ways.
 Give examples.
+
+## [Exercise 4](exercises/04/main.cpp)
+Consider the memory layout in §15.4.
+Write a program that tells the order in which static storage, the stack, and the free store are laid out in memory.
+In which direction does the stack grow: upward toward higher addresses or downward toward lower addresses?
+In an array on the free store, are elements with higher indices allocated at higher or lower addresses?
