@@ -91,3 +91,7 @@ How many bytes are there in an `int`?
 In a `double`?
 In a `bool`?
 Do not use `sizeof` except to verify your answer.
+
+## [Exercise 3](exercises/03/main.cpp)
+List two ways that a pointer can be misused in potentially disastrous ways.
+Give examples.
