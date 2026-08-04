@@ -85,3 +85,9 @@ Repeat 10-12 using a `vector` rather than an array.
 ## [Exercise 1](exercises/01/main.cpp)
 What is the output format of pointer values on your implementation?
 Hint: Don't read the documentation.
+
+## [Exercise 2](exercises/02/main.cpp)
+How many bytes are there in an `int`?
+In a `double`?
+In a `bool`?
+Do not use `sizeof` except to verify your answer.
