@@ -109,3 +109,9 @@ Find out what happens.
 You have two obvious alternatives: look for documentation, or write a program with an infinite loop that allocates but never deallocates.
 Try both.
 Approximately how much memory did you manage to allocate before failing?
+
+## [Exercise 6](exercises/06/main.cpp)
+Write a program that reads characters from `cin` into an array that you allocate on the free store.
+Read individual characters until an exclamation mark (!) is entered.
+Do not use a `std::string`.
+Do not worry about memory exhaustion.
