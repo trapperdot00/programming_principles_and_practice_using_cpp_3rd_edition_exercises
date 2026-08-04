@@ -80,3 +80,8 @@ Copy the values from the array pointed to by `p1` into the array pointed to by `
 
 ## [Drill 2.13](drill/2/13)
 Repeat 10-12 using a `vector` rather than an array.
+
+
+## [Exercise 1](exercises/01/main.cpp)
+What is the output format of pointer values on your implementation?
+Hint: Don't read the documentation.
