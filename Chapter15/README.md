@@ -101,3 +101,11 @@ Consider the memory layout in §15.4.
 Write a program that tells the order in which static storage, the stack, and the free store are laid out in memory.
 In which direction does the stack grow: upward toward higher addresses or downward toward lower addresses?
 In an array on the free store, are elements with higher indices allocated at higher or lower addresses?
+
+## [Exercise 5](exercises/05/main.cpp)
+We have not said what happens when you run out of memory using `new`.
+That's called _memory exhaustion_.
+Find out what happens.
+You have two obvious alternatives: look for documentation, or write a program with an infinite loop that allocates but never deallocates.
+Try both.
+Approximately how much memory did you manage to allocate before failing?
