@@ -118,3 +118,8 @@ Do not worry about memory exhaustion.
 
 ## [Exercise 7](exercises/07/main.cpp)
 Do the previous exercise again, but this time read into a `std::string` rather than to memory you put on the free store (`string` knows to use the free store for you).
+
+## [Exercise 8](exercises/08/main.cpp)
+Which way does the stack grow: up (toward higher addresses) or down (toward lower addresses)?
+Which way does the free store initially grow (that is, before you use `delete`)?
+Write a program to determine the answers.
