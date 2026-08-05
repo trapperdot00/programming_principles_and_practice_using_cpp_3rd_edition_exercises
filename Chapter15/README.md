@@ -142,3 +142,6 @@ For example, `God{"Zeus", "Greek", "", "lightning"}` and `God{"Odin", "Norse", "
 Write a `print_all()` function that lists gods with their attributes one per line.
 Add a member function `add_ordered()` that places its new element in its correct lexicographical position.
 Using the `Link`s with the values of type `God`, make a list of three lexicographically ordered lists - one for each mythology.
+
+## [Exercise 13](exercises/13/main.cpp)
+Modify the "list of gods" example from §15.7 not to leak memory.
