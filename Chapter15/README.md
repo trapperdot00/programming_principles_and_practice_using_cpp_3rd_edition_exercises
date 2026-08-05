@@ -131,3 +131,6 @@ Does anything reasonable happen if you try to enter more characters than you all
 
 ## [Exercise 10](exercises/10/main.cpp)
 Complete the "list of gods" example from §15.7 and run it.
+
+## [Exercise 11](exercises/11/text.txt)
+Why did we define two versions of `find()` in §15.8?

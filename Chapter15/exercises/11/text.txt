@@ -1,0 +1,10 @@
+We defined two versions of Link::find(), one for non-const
+objects, and one for const objects.
+
+The const-overload returns a const Link*, that we can't
+modify the Link through.
+The non-const version however returns a Link* that we can
+modify the Link through.
+
+This is needed for functions that accept const Link
+instances, so that they can also use find().
