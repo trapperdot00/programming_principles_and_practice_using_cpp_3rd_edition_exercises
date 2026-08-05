@@ -134,3 +134,11 @@ Complete the "list of gods" example from §15.7 and run it.
 
 ## [Exercise 11](exercises/11/text.txt)
 Why did we define two versions of `find()` in §15.8?
+
+## [Exercise 12](exercises/12/main.cpp)
+Modify the `Link` class from §15.7 to hold a value of a `struct God`.
+`struct God` should have members of type `string`: name, mythology, vehicle, and weapon.
+For example, `God{"Zeus", "Greek", "", "lightning"}` and `God{"Odin", "Norse", "Eight-legged flying horse called Sleipner", "Spear called Gungnir"}`.
+Write a `print_all()` function that lists gods with their attributes one per line.
+Add a member function `add_ordered()` that places its new element in its correct lexicographical position.
+Using the `Link`s with the values of type `God`, make a list of three lexicographically ordered lists - one for each mythology.
