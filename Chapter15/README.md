@@ -145,3 +145,9 @@ Using the `Link`s with the values of type `God`, make a list of three lexicograp
 
 ## [Exercise 13](exercises/13/main.cpp)
 Modify the "list of gods" example from §15.7 not to leak memory.
+
+## [Exercise 14](exercises/14/main.cpp)
+Could the "list of gods" example from §15.7 have been written using a singly-linked list, that is, could we have left the `prev` member out of `Link`?
+Why might we want to do that?
+For what kind of examples would it make sense to use a singly-linked list?
+Re-implement that example using only a singly-linked list.
