@@ -128,3 +128,6 @@ Write a program to determine the answers.
 Look at your solution of exercise 6.
 Is there any way that input could get the array to overflow; that is, is there any way you could enter more characters than you allocated space for (a serious error)?
 Does anything reasonable happen if you try to enter more characters than you allocated?
+
+## [Exercise 10](exercises/10/main.cpp)
+Complete the "list of gods" example from §15.7 and run it.
