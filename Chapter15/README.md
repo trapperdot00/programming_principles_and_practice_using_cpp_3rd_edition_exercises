@@ -123,3 +123,8 @@ Do the previous exercise again, but this time read into a `std::string` rather t
 Which way does the stack grow: up (toward higher addresses) or down (toward lower addresses)?
 Which way does the free store initially grow (that is, before you use `delete`)?
 Write a program to determine the answers.
+
+## [Exercise 9](exercises/09/text.txt)
+Look at your solution of exercise 6.
+Is there any way that input could get the array to overflow; that is, is there any way you could enter more characters than you allocated space for (a serious error)?
+Does anything reasonable happen if you try to enter more characters than you allocated?

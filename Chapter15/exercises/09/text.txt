@@ -1,0 +1,7 @@
+In my solution for exercise 6, my array can't overflow as I
+implemented it to reallocate its storage as soon as its
+size reaches its capacity.
+
+If an user enters more characters than allocated, new space
+is allocated with twice of its previous size, and the old
+data is copied over, then the new character(s) are inserted.
